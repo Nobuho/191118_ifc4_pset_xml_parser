@@ -16,11 +16,6 @@ for f in glob("psd/*.xml"):
     note_en = tree.xpath(
         '//PropertySetDef/PropertyDefs/PropertyDef/Definition')
 
-    # names_jp = tree.xpath(
-    #     '//PropertySetDef/PropertyDefs/PropertyDef/NameAliases/NameAlias[@lang="ja-JP"]')
-    # note_jp = tree.xpath(
-    #     '//PropertySetDef/PropertyDefs/PropertyDef/DefinitionAliases/DefinitionAlias[@lang="ja-JP"]')
-
     list_names_prop = []
 
     pset_list = []
