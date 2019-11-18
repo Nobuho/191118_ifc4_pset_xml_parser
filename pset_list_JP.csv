@@ -1,0 +1,2089 @@
+Pset_ActionRequest	要請ソースタイプ	要請がなされる源のあらかじめ定義されたタイプの識別子。
+Pset_ActionRequest	要請ソースラベル	要請源の識別を確認するための特定の名称またはラベル。電子メールの場合、電子メールアドレスに相当する。
+Pset_ActionRequest	要請ソース名	要請を作成する人物の名称。
+Pset_ActorCommon	関与者数	母集団において取り扱われる関与者の数。
+Pset_ActorCommon	部門	母集団の中の関与者のカテゴリー（部門・分野）の指定。
+Pset_ActorCommon	技能段階	関与者が示すスキルレベル（技能・技量段階）、および実行されるアクションへの能力を示すもの。
+Pset_ActuatorPHistory	位置	アクチュエータの時間ごとの位置を示す値。0.0が完全に閉じられた状態で、1.0が完全に開いた状態。
+Pset_ActuatorPHistory	品質	計測の品質を示す値。
+Pset_ActuatorPHistory	状態	エラーコードまたはIDを示す。例：'ConfigurationError', 'NotConnected', 'DeviceFailure', 'SensorFailure', 'LastKnown, 'CommunicationsFailure', 'OutOfService'.
+Pset_ActuatorTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_ActuatorTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_ActuatorTypeCommon	フェールセーフタイプ	要求されたアクチュエータのフェールセーフタイプを示す。
+Pset_ActuatorTypeCommon	オーバーライド機能の有無	オーバーライド機能として手動操作が提供されるか (= TRUE) 、否か （= FALSE)を識別する。手動で操作するアクチュエータの場合は、この値をデフォルトとしてFALSEに設定する必要があるので注意すること。
+Pset_ActuatorTypeElectricActuator	入力電力	最大入力電力。
+Pset_ActuatorTypeElectricActuator	電気式アクチュエータタイプ	作動原理によって定義された電気式アクチュエータを識別する一覧。
+Pset_ActuatorTypeHydraulicActuator	入力圧力	アクチュエータへの最大設計圧力。
+Pset_ActuatorTypeHydraulicActuator	入力流量	最大流量。
+Pset_ActuatorTypeLinearActuation	最大推力	アクチュエータの最大締め切り力を示す。
+Pset_ActuatorTypeLinearActuation	ストローク	アクチュエータが動く最大距離を示す。
+Pset_ActuatorTypePneumaticActuator	入力圧力	最大制御空気圧。
+Pset_ActuatorTypePneumaticActuator	入力流量	最大制御空気流量。
+Pset_ActuatorTypeRotationalActuation	最大トルク	アクチュエータの最大締め切りトルクを示す。
+Pset_ActuatorTypeRotationalActuation	最大回転角	アクチュエータが動く最大回転角を示す。
+Pset_AirSideSystemInformation	名前	空調方式の名称。
+Pset_AirSideSystemInformation	説明	空調方式の説明。
+Pset_AirSideSystemInformation	搬送方式	基本的な空調方式（単一ダクト、二重ダクト、マルチゾーン等）。
+Pset_AirSideSystemInformation	給気量	暖房、冷房の条件の、いずれか大きい条件で要求される設計給気量。
+Pset_AirSideSystemInformation	総熱取得	居室の最大冷房負荷と空調システム（機器等）の再熱負荷による最大熱負荷。
+Pset_AirSideSystemInformation	顕熱空調給気量	最大潜熱負荷に対応する給気量。
+Pset_AirSideSystemInformation	顕熱空調負荷	ピーク時各居室の最大冷房負荷と空調システムの顕熱負荷による最大顕熱負荷。
+Pset_AirSideSystemInformation	熱（エネルギー）ロス	ピーク時空調システム最大暖房負荷を提供する際の熱ロス。
+Pset_AirSideSystemInformation	照明負荷係数	照明負荷係数。
+Pset_AirSideSystemInformation	夏期すき間換気率	夏期すき間換気率。
+Pset_AirSideSystemInformation	冬期すき間換気率	冬期すき間換気率。
+Pset_AirSideSystemInformation	機器の負荷率	機器の負荷率。
+Pset_AirSideSystemInformation	負荷の安全率	空調負荷計算用の安全率（割増係数）。
+Pset_AirSideSystemInformation	暖房時送風温度差	空調送風量計算用の暖房給気温度差。
+Pset_AirSideSystemInformation	冷房時送風温度差	空調送風量計算用の冷房給気温度差。
+Pset_AirSideSystemInformation	外気量	要求された外気量。
+Pset_AirSideSystemInformation	送風機電力消費量	送風機モーターからの熱取得。
+Pset_AirTerminalBoxPHistory	ダンパ開度	制御ダンパの開度（０～１）
+Pset_AirTerminalBoxPHistory	大気圧	周囲大気圧
+Pset_AirTerminalBoxPHistory	騒音	騒音性能
+Pset_AirTerminalBoxPHistory	流量曲線	ダンパ開度と風量の関係　　風量＝f(開度)
+Pset_AirTerminalBoxTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_AirTerminalBoxTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_AirTerminalBoxTypeCommon	風量範囲	送風できる風量の範囲
+Pset_AirTerminalBoxTypeCommon	空気圧範囲	ターミナル入り口での許容静圧範囲
+Pset_AirTerminalBoxTypeCommon	設計風量範囲	設計風量範囲
+Pset_AirTerminalBoxTypeCommon	ターミナル形式	"ターミナルボックスの形式。
+単一ダクト：単一のダクトから、温風または冷風を受け取る
+デュアルダクト：温風、冷風を分離されたダクトから受け取る"
+Pset_AirTerminalBoxTypeCommon	再熱形式	"ターミナルの再熱方式
+（電気、水コイル、蒸気コイル、ガス加熱．．．）"
+Pset_AirTerminalBoxTypeCommon	消音有無	ターミナルに消音があるか否か　（あればTRUE)
+Pset_AirTerminalBoxTypeCommon	還気有無	ターミナルで還気を混合しているか否か（していればTRUE)
+Pset_AirTerminalBoxTypeCommon	送風機有無	内部に送風機を持つ時にTRUE
+Pset_AirTerminalBoxTypeCommon	設計入口空気圧	入口静圧の設計値
+Pset_AirTerminalBoxTypeCommon	設計ダンパ直径	ダンパ直径の設計値
+Pset_AirTerminalBoxTypeCommon	ハウジング板厚	ターミナルのハウジング材の板厚
+Pset_AirTerminalBoxTypeCommon	動作温度範囲	許容周囲温度範囲
+Pset_AirTerminalBoxTypeCommon	還気風量比	送風量の一部としての許容還気風量
+Pset_AirTerminalOccurrence	エアフロータイプ	ターミナルを通過する気流の機能タイプ（給気、還気、排気他）
+Pset_AirTerminalOccurrence	位置	制気口の取り付け位置（壁面高所・低部、天井ぺり、天井中央、床、床下他）
+Pset_AirTerminalPHistory	風量	送風量
+Pset_AirTerminalPHistory	ネック風速	ネックの風速
+Pset_AirTerminalPHistory	暖房給気温度	暖房時の給気温度
+Pset_AirTerminalPHistory	冷房給気温度	冷房時の給気温度
+Pset_AirTerminalPHistory	圧力降下	設定風量での入口/出口間の全圧降下
+Pset_AirTerminalPHistory	誘引率	"制気口からの距離とその排出方向に対する誘引比、
+誘導比（または同調比）は、エアターミナルでの体積流量に対する噴流の体積流量の比である。"
+Pset_AirTerminalPHistory	中心空気速度	"吹出口かからの距離と温度差に対する中心速度、
+給気と室内空気の間の吹出口かからの距離と温度差の関数"
+Pset_AirTerminalTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_AirTerminalTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_AirTerminalTypeCommon	形状	ターミナルの形状（円状、四角形、正方形、スロット他）。　スロット（溝状）は一般的にアスペクト比１０以上が典型的である。
+Pset_AirTerminalTypeCommon	表面タイプ	ターミナル表面の形式定義
+Pset_AirTerminalTypeCommon	スロット巾	スロット巾
+Pset_AirTerminalTypeCommon	スロット長	スロット長
+Pset_AirTerminalTypeCommon	スロット数	スロット数
+Pset_AirTerminalTypeCommon	流れ種類	流れ種類（単一直線、腹式直線、４方向、放射状、SWIRL、DISPLACEMENT、COMPACT他）
+Pset_AirTerminalTypeCommon	流量範囲	操作されるターミナル内の空気流の範囲
+Pset_AirTerminalTypeCommon	温度範囲	操作されるターミナルの温度範囲
+Pset_AirTerminalTypeCommon	吐き出し方向	"ターミナルの吐き出し方向
+水平：取り付け面と水平に吐き出し
+垂直：取り付け面から離れた方向に吐き出し
+調節可能：水平・垂直方向両方に調整"
+Pset_AirTerminalTypeCommon	到達距離	"ターミナルからの水平または垂直の到達距離
+流量範囲の最大値での吐き出し速度が設定された流速に減速するまでの上限値"
+Pset_AirTerminalTypeCommon	空気拡散性能指標	"空気拡散性能指標（ADPI)は冷房時に使用される。
+空気速度および気温のいくつかの測定が空間の居住域の隅々でなされる場合、ADPIは有効な草案の温度および空気速度のための仕様に遭遇する測定が得られた位置の割合である。"
+Pset_AirTerminalTypeCommon	仕上げ形式	ターミナルの仕上げの形式（ANNODIZED,塗装他）
+Pset_AirTerminalTypeCommon	仕上げ色	ターミナルの仕上げ色
+Pset_AirTerminalTypeCommon	取り付け形式	"ターミナルが天井や壁などに取り付けられる方法。
+表面、水平、LAYIN他
+表面：何か（壁・ダクト等）の表面に取り付け
+FLATFLUSH：表面に水平・Flushni取り付け
+LAYIN：天井にlay-in形式での取り付け（下がり天井格子など）"
+Pset_AirTerminalTypeCommon	コア形式	取り付けられたターミナルのコアの定義方法（SHUTTERBLADE, CURVEDBLADE, REMOVABLE, REVERSIBLEなど）
+Pset_AirTerminalTypeCommon	水平羽根角度	水平翼の中心線からの水平（ローカル座標のＸ軸）面の羽根角度
+Pset_AirTerminalTypeCommon	垂直羽根角度	垂直翼の中心線からの垂直（ローカル座標のＹ軸）方向の羽根角度
+Pset_AirTerminalTypeCommon	自己制御有無	もし真なら、ターミナルに自身による温度制御が含まれる
+Pset_AirTerminalTypeCommon	流量制御形式	"ターミナルの構成の一部として含まれる流量制御の形式
+（ダンパー、ベローズ、無し…）"
+Pset_AirTerminalTypeCommon	消音有無	ターミナルに消音が付いている場合に真
+Pset_AirTerminalTypeCommon	断熱有無	ターミナルに断熱がある場合に真
+Pset_AirTerminalTypeCommon	ネック面積	ターミナルのネック面積
+Pset_AirTerminalTypeCommon	有効面積	ターミナルの有効吹き出し範囲
+Pset_AirTerminalTypeCommon	流量制御特性	標準の圧力低下における流量制御装置の位置に対する流量
+Pset_AirToAirHeatRecoveryPHistory	顕熱効率	"顕熱効率
+効率は、最大可能熱交換に対する熱交換の比率で定義される"
+Pset_AirToAirHeatRecoveryPHistory	全熱効率	"全熱効率
+最大可能熱交換に対する熱交換の比率"
+Pset_AirToAirHeatRecoveryPHistory	温度効率	"温度熱交換効率：
+最大可能温度変化に対する一次側温度変化の比"
+Pset_AirToAirHeatRecoveryPHistory	デフロスト温度効率	デフロスト作動時の温度熱交換効率
+Pset_AirToAirHeatRecoveryPHistory	湿度効率	"湿度熱交換効率：
+最大可能絶対湿度変化に対する一次側絶対湿度変化の比"
+Pset_AirToAirHeatRecoveryPHistory	顕熱交換量	顕熱交換量
+Pset_AirToAirHeatRecoveryPHistory	潜熱交換量	潜熱交換量
+Pset_AirToAirHeatRecoveryPHistory	全熱交換量	全熱交換量
+Pset_AirToAirHeatRecoveryPHistory	顕熱効率テーブル	一次と二次空気量の関数としての顕熱交換効率曲線
+Pset_AirToAirHeatRecoveryPHistory	全熱効率テーブル	一次と二次空気量の関数としての全熱交換効率曲線
+Pset_AirToAirHeatRecoveryPHistory	空気圧力降下曲線	風量の関数としての空気圧力降下
+Pset_AirToAirHeatRecoveryTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_AirToAirHeatRecoveryTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_AirToAirHeatRecoveryTypeCommon	熱交換種類	空気間の熱交換の種類（顕熱、潜熱…）
+Pset_AirToAirHeatRecoveryTypeCommon	デフロスト有無	熱交換器のデフロスト機能有無
+Pset_AirToAirHeatRecoveryTypeCommon	動作温度範囲	動作を許容する周囲温度の範囲
+Pset_AirToAirHeatRecoveryTypeCommon	一次側風量範囲	一次側の送風可能範囲
+Pset_AirToAirHeatRecoveryTypeCommon	二次側風量範囲	二次側の送風可能範囲
+Pset_AlarmTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_AlarmTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_AlarmTypeCommon	条件	Pset_AlarmPHistory.Conditionで使用される、警報条件の識別子とラベル情報のマッピングを行う。
+Pset_AnnotationContourLine	等高線値	参照平面に対する等高線の高さ値。
+Pset_AnnotationLineOfSight	後退距離	副要素の軸に沿った主要素の接続点からの後退距離（例えば、可視線が測定される公道からの距離）。
+Pset_AnnotationLineOfSight	左側可視角度	左側の経路に可視出来る角度。
+Pset_AnnotationLineOfSight	右側可視角度	右側の経路に可視出来る角度。
+Pset_AnnotationLineOfSight	左側道路可視距離	左側の経路に可視出来る距離。
+Pset_AnnotationLineOfSight	右側道路可視距離	右側の経路に可視出来る距離。
+Pset_Asset	資産会計種別	会計の定義済み種別。
+Pset_Asset	資産税種別	税の定義済み種別。
+Pset_Asset	資産保険種別	保険の定義済み種別。
+Pset_AudioVisualAppliancePHistory	電源状態	機器の電源オンオフの時間ごとの状態を示す。
+Pset_AudioVisualApplianceTypeAmplifier	アンプ形式	アンプの形式を示す。
+Pset_AudioVisualApplianceTypeAmplifier	オーディオアンプ	再生周波数帯域を示す。
+Pset_AudioVisualApplianceTypeAmplifier	オーディオモード	オーディオサウンドモードの設定。
+Pset_AudioVisualApplianceTypeCamera	カメラ形式	カメラの形式を示す。
+Pset_AudioVisualApplianceTypeCamera	屋外対応の可否	屋外利用が可能かどうかを示す。
+Pset_AudioVisualApplianceTypeCamera	水平解像度	水平方向のピクセル数。
+Pset_AudioVisualApplianceTypeCamera	垂直解像度	垂直方向のピクセル数。
+Pset_AudioVisualApplianceTypeCamera	ビデオ解像度モード	ビデオ解像度モードを示す。
+Pset_AudioVisualApplianceTypeCamera	撮影間隔	撮影間隔を示す。
+Pset_AudioVisualApplianceTypeCamera	パン・チルト・ズーム初期設定	パン・チルト・ズーム機能の初期設定。
+Pset_AudioVisualApplianceTypeCamera	パン水平方向可動範囲	水平方向の可動範囲を示す。
+Pset_AudioVisualApplianceTypeCamera	パン垂直方向可動範囲	垂直方向の可動範囲を示す。
+Pset_AudioVisualApplianceTypeCamera	チルト水平方向可動角度	チルト水平の可動角度を示す。
+Pset_AudioVisualApplianceTypeCamera	チルト垂直方向可動角度	チルト垂直の可動角度を示す。
+Pset_AudioVisualApplianceTypeCamera	ズーム	ズーム可能範囲（倍率）を示す。
+Pset_AudioVisualApplianceTypeCommon	参照	当該プロジェクトで定義する形式の参照ID（例：A-1)、承認された分類に存在しないときに使用される。
+Pset_AudioVisualApplianceTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_AudioVisualApplianceTypeCommon	メディアソース	メディアソースと定義済みタイプ(IfcDistributionPort with FlowDirection=SINK and PredefinedType=AUDIOVISUAL)及びaudio/videoを構成する集合に対応する名前。
+Pset_AudioVisualApplianceTypeDisplay	画面種類	画面の種類を示す。
+Pset_AudioVisualApplianceTypeDisplay	画面公称サイズ	画面の対角線サイズを示す。
+Pset_AudioVisualApplianceTypeDisplay	画面幅	画面の幅を示す。
+Pset_AudioVisualApplianceTypeDisplay	画面高さ	画面の高さを示す。
+Pset_AudioVisualApplianceTypeDisplay	明るさ	明るさ示す。
+Pset_AudioVisualApplianceTypeDisplay	コントラスト比	コントラスト比を示す。
+Pset_AudioVisualApplianceTypeDisplay	リフレッシュレート	リフレッシュレート周波数範囲を示す。
+Pset_AudioVisualApplianceTypeDisplay	タッチスクリーン	タッチスクリーンのサポートを示す。
+Pset_AudioVisualApplianceTypeDisplay	水平解像度	水平方向のピクセル数を示す。
+Pset_AudioVisualApplianceTypeDisplay	垂直解像度	垂直方向のピクセル数を示す。
+Pset_AudioVisualApplianceTypeDisplay	解像度モード	解像度モードを示す。
+Pset_AudioVisualApplianceTypeDisplay	ビデオスケールモード	ビデオスケーリングモードを示す。
+Pset_AudioVisualApplianceTypeDisplay	ビデオキャプションモード	クローズドキャプションモードを示す。(字幕機能）
+Pset_AudioVisualApplianceTypeDisplay	オーディオモード	オーディオサウンドモードの設定。
+Pset_AudioVisualApplianceTypePlayer	プレイヤー形式	再生可能な形式を示す。
+Pset_AudioVisualApplianceTypePlayer	メディア取り出し可否	メディアを取り出すことができるかどうかを示す。
+Pset_AudioVisualApplianceTypePlayer	メディアフォーマット	サポートされているメディアのフォーマットを示す。
+Pset_AudioVisualApplianceTypeProjector	プロジェクター形式	プロジェクタの形式を示す。
+Pset_AudioVisualApplianceTypeProjector	水平解像度	水平方向のピクセル数を示す。
+Pset_AudioVisualApplianceTypeProjector	垂直解像度	垂直方向のピクセル数を示す。
+Pset_AudioVisualApplianceTypeProjector	解像度モード	解像度モードを示す。
+Pset_AudioVisualApplianceTypeProjector	ビデオスケールモード	ビデオスケーリングモードを示す。
+Pset_AudioVisualApplianceTypeProjector	ビデオキャプションモード	クローズドキャプションモードを示す。(字幕機能）
+Pset_AudioVisualApplianceTypeReceiver	受信機形式	受信機の形式を示す。
+Pset_AudioVisualApplianceTypeReceiver	オーディオアンプ	再生周波数帯域を示す。
+Pset_AudioVisualApplianceTypeReceiver	オーディオモード	オーディオサウンドモードの設定。
+Pset_AudioVisualApplianceTypeSpeaker	スピーカータイプ	スピーカーのタイプを示す。
+Pset_AudioVisualApplianceTypeSpeaker	取付可能方法	取付可能な方法を示す。
+Pset_AudioVisualApplianceTypeSpeaker	スピーカードライバサイズ	ドライバユニットと数を示す。
+Pset_AudioVisualApplianceTypeSpeaker	周波数応答	周波数範囲での出力を示す。
+Pset_AudioVisualApplianceTypeSpeaker	インピーダンス値	インピーダンス値を示す。
+Pset_AudioVisualApplianceTypeTuner	チューナータイプ	チューナータイプを示す。
+Pset_AudioVisualApplianceTypeTuner	チューナーモード	受信可能な放送モードを示す。
+Pset_AudioVisualApplianceTypeTuner	チューナーチャンネル	設定可能なチャンネルを示す。
+Pset_AudioVisualApplianceTypeTuner	周波数	対応周波数帯を示す。
+Pset_BeamCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_BeamCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_BeamCommon	全長	"このオブジェクトの全長。
+
+その形状（オブジェクトの全長）情報は、表示のための形状に内部で使用される幾何学的パラメータを加えて提供される。形状情報と内部の幾何学的パラメータに矛盾が生じた場合は、幾何学的パラメータが優先される。幾何学的パラメ－タ編集アプリケーションでは、CADと同様に、この値は書き込み専用とする。"
+Pset_BeamCommon	傾斜	"傾斜角度。水平を0度とする。
+
+その形状（傾斜梁）情報は、表示のための形状に内部で使用される幾何学的パラメータを加えて提供される。形状情報と内部の幾何学的パラメータに矛盾が生じた場合は、幾何学的パラメータが優先される。幾何学的パラメ－タ編集アプリケーションでは、CADと同様に、この値は書き込み専用とする。"
+Pset_BeamCommon	回転	"梁の材軸に対する回転。
+-この材軸はグローバル座標系で非垂直な全ての梁に対してグローバルZ方向へ相対する。（表示方向は、グローバルZの回転方向を0とする。）
+
+その形状（梁の回転）情報は、表示のための形状に内部で使用される幾何学的パラメータを加えて提供される。形状情報と内部の幾何学的パラメータに矛盾が生じた場合は、幾何学的パラメータが優先される。幾何学的パラメ－タ編集アプリケーションでは、CADと同様に、この値は書き込み専用とする。
+
+注：IFC2x4の新しいプロパティ"
+Pset_BeamCommon	外部区分	外部の部材かどうかを示すブーリアン値。もしTRUEの場合、外部の部材で建物の外側に面している。
+Pset_BeamCommon	熱貫流率	"熱貫流率U値。
+ここでは（すべての材料を含む）梁を通した熱移動の方向における全体の熱還流率を示す。
+注：IFC2x4の新しいプロパティ"
+Pset_BeamCommon	耐力部材	荷重に関係している部材かどうかを示すブーリアン値。
+Pset_BeamCommon	耐火等級	主要な耐火等級。関連する建築基準法、消防法などの国家基準を参照。
+Pset_BoilerPHistory	エネルギ消費量	エネルギ消費量
+Pset_BoilerPHistory	運転効率	"運転効率：
+全入力エネルギ（電力または燃料）でボイラ出力を割る"
+Pset_BoilerPHistory	燃焼効率	設計条件での燃焼効率
+Pset_BoilerPHistory	作動圧力	ボイラ運転圧力
+Pset_BoilerPHistory	燃焼温度	燃焼室平均温度
+Pset_BoilerPHistory	部分負荷比	設計容量との比
+Pset_BoilerPHistory	負荷	ボイラ実負荷
+Pset_BoilerPHistory	一次エネルギ消費量	ボイラ一次エネルギ消費量（つまり流体の熱力学状態変更のために消費された燃料）
+Pset_BoilerPHistory	補助エネルギ消費量	ボイラ補助エネルギ消費量（つまりファンおよびポンプのような電気装置によって消費される電気）
+Pset_BoilerTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_BoilerTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_BoilerTypeCommon	常用圧力	管轄組織により設定されたボイラの常用圧力
+Pset_BoilerTypeCommon	動作モード	ボイラの動作モードのID　（固定、２段階、比例．．．）
+Pset_BoilerTypeCommon	伝熱面積	容器の伝熱部面積の合計
+Pset_BoilerTypeCommon	設計部分負荷比率	許容部分負荷比範囲
+Pset_BoilerTypeCommon	入口水温範囲	入口水温範囲
+Pset_BoilerTypeCommon	缶内水量	缶内水量
+Pset_BoilerTypeCommon	給湯タンク有無	給湯用の缶体があればTRUE、（瞬間湯沸かし器のように）ボイラにタンクがなければFALSE
+Pset_BoilerTypeCommon	部分負荷効率曲線	部分負荷係数の関数としてのボイラ効率　　E=f(部分負荷率）
+Pset_BoilerTypeCommon	出口温度範囲	水または蒸気のどちらかの許容出口温度
+Pset_BoilerTypeCommon	設計エネルギー消費量	ボイラ最大能力時の設計燃料消費量
+Pset_BoilerTypeCommon	エネルギ種別	加熱に使用する燃料のエネルギ種類　（石炭、石炭粉末、電気、ガス、油、プロパン、木材、木材チップ、木材ペレット、木粉、他）
+Pset_BoilerTypeSteam	最大出口圧力	最大出口蒸気圧力
+Pset_BuildingCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_BuildingCommon	建物記号	建物に付与されるユニークな識別子。計画要請の際に使用される初期の一時的な識別子。この一時的な識別子は、建物が正式に登録された際に恒久的な識別子へと変更される。
+Pset_BuildingCommon	永久ID区分	建物IDが恒久的なIDかどうかのブーリアン値。
+Pset_BuildingCommon	工事種別	工事におけるタイプ。例：新築・リノベーション・改装等。
+Pset_BuildingCommon	耐火等級	主要な防火等級。関連する建築基準法、消防法などの国家基準を参照。
+Pset_BuildingCommon	スプリンクラー防御	スプリンクラー設備の有無を示すブーリアン値。
+Pset_BuildingCommon	スプリンクラー防御自動区分	スプリンクラー設備が自動かどうか示すブーリアン値。
+Pset_BuildingCommon	占有者タイプ	占有者のタイプ。建築基準法に準拠。
+Pset_BuildingCommon	計画グロス面積	計画されたグロス面積。建物計画に際に使用。
+Pset_BuildingCommon	計画ネット面積	計画されたネット面積。建物計画に際に使用。（通常は、柱型等を抜いた面積となる）
+Pset_BuildingCommon	階数	建物階の数。IfcBuildingStoreyの数とは関係なく扱う。
+Pset_BuildingCommon	施工年	施工の年。竣工の予想年も含む。
+Pset_BuildingCommon	ランドマーク区分	この建物は歴史的な建物かどうかを示すブーリアン値。
+Pset_BuildingElementProxyCommon	参照記号	認識された分類体系で参照する分類がない場合にこのプロジェクト固有の参照記号（例：タイプ'A-1'）が与えられる。
+Pset_BuildingElementProxyCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_BuildingElementProxyCommon	外部区分	外部の部材かどうかを示すブーリアン値。もしTRUEの場合、外部の部材で建物の外側に面している。
+Pset_BuildingElementProxyCommon	熱貫流率	熱貫流率U値。ここではオブジェクトを通した熱移動の方向における全体の熱還流率を示す。
+Pset_BuildingElementProxyCommon	耐力部材	荷重に関係している部材かどうかを示すブーリアン値。
+Pset_BuildingElementProxyCommon	耐火等級	主要な耐火等級。関連する建築基準法、消防法などの国家基準を参照。
+Pset_BuildingElementProxyProvisionForVoid	形状	空間の形状を定義します。少なくとも「四角形」、「円」、「未定義」の値を含みます。
+Pset_BuildingElementProxyProvisionForVoid	幅	空間の幅（高さにおける水平方向の拡張）を求める定義です。「四角形」の形状プロパティのみ提示されます。
+Pset_BuildingElementProxyProvisionForVoid	高さ	空間の高さ（高さにおける垂直方向の拡張）を求める定義です。「四角形」の形状プロパティのみ提示されます。
+Pset_BuildingElementProxyProvisionForVoid	直径	空間における直径（高さにおける）を求める定義です。「円」形状プロパティのみに提示されます。
+Pset_BuildingElementProxyProvisionForVoid	深さ	空間の厚さに対しての深さが提示されます。
+Pset_BuildingElementProxyProvisionForVoid	システム	空間に提示される建物サービスシステムです。例えば「空調」「配管」「電気」です。
+Pset_BuildingStoreyCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_BuildingStoreyCommon	エントランスレベル	エントランスレベルかどうかを示すブーリアン値。
+Pset_BuildingStoreyCommon	地上判別	この建物階が地上(TRUE)、地下(FALSE)、一部が地下部分(UNKOWN)かどうかを示すロジカル値。
+Pset_BuildingStoreyCommon	スプリンクラー防御	スプリンクラー設備の有無を示すブーリアン値。
+Pset_BuildingStoreyCommon	スプリンクラー防御自動区分	スプリンクラー設備が自動かどうか示すブーリアン値。
+Pset_BuildingStoreyCommon	計画グロス面積	計画された建物階のグロス面積。建物計画に際に使用。
+Pset_BuildingStoreyCommon	計画ネット面積	計画された建物階のネット面積。建物計画の際に使用。
+Pset_BuildingSystemCommon	参照記号	このプロジェクトにおける建物システムの指定されたインスタンスの参照記号
+Pset_BurnerTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_BurnerTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_BurnerTypeCommon	エネルギ源	加熱に使用する燃料のエネルギ種類　（石炭、石炭粉末、電気、ガス、油、プロパン、木材、木材チップ、木材ペレット、木粉、他）
+Pset_CableCarrierFittingTypeCommon	参照	当該プロジェクトで定義する形式の参照ID（例：A-1)、承認された分類に存在しないときに使用される。
+Pset_CableCarrierFittingTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_CableCarrierSegmentTypeCableLadderSegment	公称幅	呼び幅寸法。
+Pset_CableCarrierSegmentTypeCableLadderSegment	公称高	呼び高寸法。
+Pset_CableCarrierSegmentTypeCableLadderSegment	梯子設定	使用されるはしご構造の概要説明。
+Pset_CableCarrierSegmentTypeCableTraySegment	公称幅	呼び幅寸法。
+Pset_CableCarrierSegmentTypeCableTraySegment	公称高	呼び高寸法。
+Pset_CableCarrierSegmentTypeCableTraySegment	カバー	カバー付かどうか。
+Pset_CableCarrierSegmentTypeCableTrunkingSegment	公称幅	呼び幅寸法。
+Pset_CableCarrierSegmentTypeCableTrunkingSegment	公称高	呼び高寸法。
+Pset_CableCarrierSegmentTypeCableTrunkingSegment	区画数	管の区別される内部区画の個数。
+Pset_CableCarrierSegmentTypeCommon	参照	当該プロジェクトで定義する形式の参照ID（例：A-1)、承認された分類に存在しないときに使用される。
+Pset_CableCarrierSegmentTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_CableCarrierSegmentTypeConduitSegment	公称幅	呼び幅寸法。
+Pset_CableCarrierSegmentTypeConduitSegment	公称高	呼び高寸法。
+Pset_CableCarrierSegmentTypeConduitSegment	電線管のタイプ	"電線管の形状タイプ。
+（円筒形,卵形,その他,不明,なし）"
+Pset_CableCarrierSegmentTypeConduitSegment	鋼管	鋼管か否か。
+Pset_CableFittingTypeCommon	参照	当該プロジェクトで定義する形式の参照ID（例：A-1)、承認された分類に存在しないときに使用される。
+Pset_CableFittingTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_CableSegmentTypeBusBarSegment	水平母線	母線は、水平方向にルーティングされるかどうかを示す（= TRUE）または垂直方向に（= FALSE）を返します。
+Pset_CableSegmentTypeCableSegment	標準	使用されるケーブル、busbarの定義のために使用される標準仕様。
+Pset_CableSegmentTypeCableSegment	芯数	ケーブルや母線の芯数を示す。
+Pset_CableSegmentTypeCableSegment	直径	ケーブルや母線の外形寸法（直径）を示す。
+Pset_CableSegmentTypeCableSegment	定格電圧	使用できることが許可されている許容電圧。
+Pset_CableSegmentTypeCableSegment	定格温度	使用できることが許可されている許容温度。
+Pset_CableSegmentTypeCableSegment	スクリーン径	遮へい層の径、厚さ。
+Pset_CableSegmentTypeCableSegment	保護用接地の有無	各ケーブルは黄色や緑で塗色された絶縁体をもっている。
+Pset_CableSegmentTypeCableSegment	許容最高温度	ケーブルや母線の最大動作温度を示す。
+Pset_CableSegmentTypeCableSegment	短絡許容最高温度	ケーブルや母線の最大短絡温度を示す。
+Pset_CableSegmentTypeCableSegment	特別な施工方法	"特殊な構造を備えた性能－たとえば、平型フレキシブルケーブルあるいは硬い平型母線ケーブル、あるいは母線で内部に鉄製、繊維、同心導体で構成されているサポートを持っている。
+注記）使用する材料は、使用前に交流参加者間で合意すること。"
+Pset_CableSegmentTypeCableSegment	重量	ケーブルの重量。
+Pset_CableSegmentTypeCableSegment	自己消火ケーブル	IEC 60332.1.に規定されている自己消火ケーブル。
+Pset_CableSegmentTypeCableSegment	自己消火ケーブル	IEC 60332.3.に規定されている自己消火ケーブル。
+Pset_CableSegmentTypeCableSegment	エコケーブル	煙や刺激臭のあるガスの発生が少ないケーブル。
+Pset_CableSegmentTypeCableSegment	信頼性のある機能	ケーブルや母線が与えられた時間と条件の中で規定される機能、性質を維持すること。これはIEC基準による。
+Pset_CableSegmentTypeCommon	参照	当該プロジェクトで定義する形式の参照ID（例：A-1)、承認された分類に存在しないときに使用される。
+Pset_CableSegmentTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_CableSegmentTypeConductorSegment	断面積	位相、リードの断面積。
+Pset_CableSegmentTypeConductorSegment	機能	導体の機能のタイプ。
+Pset_CableSegmentTypeConductorSegment	材料	導体を構成する材料のタイプ。
+Pset_CableSegmentTypeConductorSegment	構造	導体の構成（より線か単線）の定義。すなわち単線（IEV 461-01-06）、より線（IEV 461-01-07）、フレキシブル導体（IEV 461-01-11）（フレキシブルか否か）で定義。
+Pset_CableSegmentTypeConductorSegment	形状	導体の形状を表示。
+Pset_CableSegmentTypeCoreSegment	全径	全体の直径（最大スペース）。
+Pset_CableSegmentTypeCoreSegment	定格電圧	機器を使用できる保障された電圧。上限値は最大値。
+Pset_CableSegmentTypeCoreSegment	定格温度	機器を使用できる保障された温度。上限値は最大値。
+Pset_CableSegmentTypeCoreSegment	シールド径	コア部分（存在する場合）の面の直径。
+Pset_CableSegmentTypeCoreSegment	コア識別子	コアの識別は、色（ブラック、ブラウン、グレー）又は番号（1、2、3）又はIECの位相基準（L1、L2、L3）などを使用。
+Pset_CableSegmentTypeCoreSegment	シース色	コア色（IEC60757による）。緑と黄色の混合色の保護接地（PE）の導体は、IEC60446の要件に応じて注意して使用。
+Pset_CableSegmentTypeCoreSegment	重量	コアkg/kmの重量。
+Pset_CableSegmentTypeCoreSegment	自動消火60332_1	自動消火ケーブル/コアはIEC 60332.1に準じる。
+Pset_CableSegmentTypeCoreSegment	自動消火60332_3	自己消化ケーブル/コアはIEC 60332.3.に準じる。
+Pset_CableSegmentTypeCoreSegment	ハロゲン証明	少量の煙および刺激する脱気/ガスを生成。
+Pset_CableSegmentTypeCoreSegment	機能信頼性	コアの維持は特定（テスト）の時間と条件でプロパティ/関数を指定する。標準会議（IEC）規格に準拠。
+Pset_CableSegmentTypeCoreSegment	基準	使用するコアの定義に適用される基準の指定。
+Pset_ChillerTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_ChillerTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_ChimneyCommon	参照記号	認識された分類体系で参照する分類がない場合にこのプロジェクト固有の参照記号（例：タイプ'A-1'）が与えられる。
+Pset_ChimneyCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_ChimneyCommon	穴の数	一つの煙突で、煙突の筒（chimney draft）、空気が流れる連続した穴の数。
+Pset_ChimneyCommon	外部	この要素が外部に用いられるか（TRUE）、否か（FALSE）を示す。（TRUE)の場合、これは外部要素で、建物の外部に面している。
+Pset_ChimneyCommon	熱貫流率	材料の熱貫流率（U値）。ここでは、煙突全体の熱の流れる方向の熱貫流率（全ての材料を含む）。
+Pset_ChimneyCommon	耐力部材	オブジェクトが荷重を保持するか（TRUE）、保持しないか（FALSE）を示す。
+Pset_ChimneyCommon	耐火等級	当該オブジェクトの耐火等級。国で定めた耐火安全等級分類による。
+Pset_CoilTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_CoilTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_ColumnCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_ColumnCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_ColumnCommon	傾斜	傾斜角度。水平を0度とする。
+Pset_ColumnCommon	回転	柱の長軸に対する回転。
+Pset_ColumnCommon	外部区分	外部の部材かどうかを示すブーリアン値。もしTRUEの場合、外部の部材で建物の外側に面している。
+Pset_ColumnCommon	熱貫流率	熱貫流率U値。ここでは柱を通した熱移動の方向における全体の熱還流率を示す。
+Pset_ColumnCommon	耐力部材	荷重に関係している部材かどうかを示すブーリアン値。
+Pset_ColumnCommon	耐火等級	主要な耐火等級。関連する建築基準法、消防法などの国家基準を参照。
+Pset_CommunicationsApplianceTypeCommon	参照	当該プロジェクトで定義する形式の参照ID（例：A-1)、承認された分類に存在しないときに使用される。
+Pset_CommunicationsApplianceTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_CompressorTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_CompressorTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_ConcreteElementGeneral	構造クラス	構造クラスはコンクリート構造を定義した。（例えば「１」）
+Pset_ConcreteElementGeneral	寸法精度クラス	国の基準が求める寸法精度の分類指定。
+Pset_ConcreteElementGeneral	製造許容クラス	国の基準が求める現場での製造許容の分類指定。
+Pset_ConcreteElementGeneral	主筋のコンクリート被り	国の建築基準に従い、主鉄筋をコンクリートの被りで保護する。
+Pset_ConcreteElementGeneral	補強筋のコンクリート被り	国の建築基準に従い、補強筋をコンクリートの被りで保護する。
+Pset_CondenserTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_Condition	評価日	全体状況を評価した日。
+Pset_Condition	評価状態	様々な基準を用いた評価による製品に関する全体的な状態。評価された状態値の意味は、ローカル協定によって同意され、文書化されなければならない。例えば、状態を1から10の値で計測したり、Good, Ok, Poor等で表す。
+Pset_Condition	評価記述	状態に関する定性的な記述。
+Pset_ConstructionResource	予定作業時間	資源配分のための予定された作業。
+Pset_ConstructionResource	実績作業時間	資源配分のための実績の作業。
+Pset_ConstructionResource	残存作業時間	資源配分のための残存している作業。
+Pset_ConstructionResource	予定コスト	資源配分のための予定されているコスト。
+Pset_ConstructionResource	実績コスト	資源配分のための実績のコスト。
+Pset_ConstructionResource	残存コスト	資源配分のための残存しているコスト。
+Pset_ConstructionResource	予定完了率	予定された完了率。
+Pset_ConstructionResource	実績完了率	実績の完了率。
+Pset_ControllerPHistory	デフォルト出力時系列定数	"時間とともに値を示す。
+Pset_ControllerTypeValue.Valueに対応
+※ 設定可能情報は IfcTimeSeriesプロパティ参照"
+Pset_ControllerTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_ControllerTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_CooledBeamTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_CooledBeamTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_CoolingTowerTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_CoolingTowerTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_CoveringCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)
+Pset_CoveringCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_CoveringCommon	遮音等級	"遮音等級。当該国の建築法規による。
+このオブジェクトの音の透過損失を等級値で示す。"
+Pset_CoveringCommon	可燃性等級	可燃性等級。当該国の建築法規による。
+Pset_CoveringCommon	脆弱性等級	脆弱性等級。当該国の建築法規による。
+Pset_CoveringCommon	可燃性区分	この部材が可燃性物質で作られているかどうかを示すブーリアン値。
+Pset_CoveringCommon	火炎表面伝播性	火炎表面伝播性。当該国の建築法規による。
+Pset_CoveringCommon	仕上げ	仕上げ選択に関する情報。表面仕上げに関する仕様。
+Pset_CoveringCommon	外部区分	外部の部材かどうかを示すブーリアン値。もしTRUEの場合、外部の部材で建物の外側に面している。
+Pset_CoveringCommon	熱貫流率	熱貫流率U値。ここではカバリングを通した熱移動の方向における全体の熱還流率を示す。
+Pset_CoveringCommon	耐火等級	耐火等級。当該国の建築法規による。
+Pset_CurtainWallCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_CurtainWallCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_CurtainWallCommon	遮音等級	遮音等級情報。関連する建築基準法を参照。
+Pset_CurtainWallCommon	耐火等級	主要な耐火等級。関連する建築基準法、消防法などの国家基準を参照。
+Pset_CurtainWallCommon	可燃性区分	この部材が可燃性物質で作られているかどうかを示すブーリアン値。
+Pset_CurtainWallCommon	火炎伝播性	炎がどのように材料の表面を広がるかという指標。材料の炎に対する振る舞いについての国家建築規則に従って提供される。
+Pset_CurtainWallCommon	熱貫流率	熱貫流率U値。ここではカーテンウォールを通した熱移動の方向における全体の熱還流率を示す。
+Pset_CurtainWallCommon	外部区分	外部の部材かどうかを示すブーリアン値。もしTRUEの場合、外部の部材で建物の外側に面している。
+Pset_DamperTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_DamperTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_DiscreteAccessoryColumnShoe	ベースプレート厚	柱脚ベースプレートの板厚。
+Pset_DiscreteAccessoryColumnShoe	ベースプレート幅	柱脚ベースプレートの幅。
+Pset_DiscreteAccessoryColumnShoe	ベースプレート成	柱脚ベースプレートの成。
+Pset_DiscreteAccessoryColumnShoe	ケーシング厚	柱脚ケーシングの板厚。
+Pset_DiscreteAccessoryColumnShoe	ケーシング幅	柱脚ケーシングの幅。
+Pset_DiscreteAccessoryColumnShoe	ケーシング成	柱脚ケーシングの成。
+Pset_DiscreteAccessoryCornerFixingPlate	長さ	L型コーナープレートの長さ。
+Pset_DiscreteAccessoryCornerFixingPlate	板厚	L型コーナープレートの板厚。
+Pset_DiscreteAccessoryCornerFixingPlate	フランジ幅Z	L型コーナープレートのZ面のフランジ幅。
+Pset_DiscreteAccessoryCornerFixingPlate	フランジ幅X	L型コーナープレートのX面のフランジ幅。
+Pset_DiscreteAccessoryDiagonalTrussConnector	全体高さ	トラス接続部材の全体の高さ。
+Pset_DiscreteAccessoryDiagonalTrussConnector	全体長さ	トラス接続部材の全体の長さ。
+Pset_DiscreteAccessoryDiagonalTrussConnector	クロスバー間隔	斜めのクロスバーの間隔。
+Pset_DiscreteAccessoryDiagonalTrussConnector	ベースバー径	ベースバーの公称直径。
+Pset_DiscreteAccessoryDiagonalTrussConnector	二次バー径	二次バーの公称直径。
+Pset_DiscreteAccessoryDiagonalTrussConnector	クロスバー径	斜めクロスバーの公称直径。
+Pset_DiscreteAccessoryEdgeFixingPlate	長さ	L型端部プレートの長さ。
+Pset_DiscreteAccessoryEdgeFixingPlate	板厚	L型端部プレートの板厚。
+Pset_DiscreteAccessoryEdgeFixingPlate	フランジ幅Z	L型端部プレートのZ面フランジ幅。
+Pset_DiscreteAccessoryEdgeFixingPlate	フランジ幅X	L型端部プレートのX面フランジ幅。
+Pset_DiscreteAccessoryFixingSocket	参照基準	固定ソケットが参照するローカル標準。
+Pset_DiscreteAccessoryFixingSocket	全体長さ	固定ソケットの全体長さ。
+Pset_DiscreteAccessoryFixingSocket	公称径	線の公称直径。
+Pset_DiscreteAccessoryFixingSocket	ねじ部長さ	固定ソケットの全体長さねじ部の長さ。
+Pset_DiscreteAccessoryLadderTrussConnector	全体高さ	トラス接続部材の全体の高さ。
+Pset_DiscreteAccessoryLadderTrussConnector	全体長さ	トラス接続部材の全体の長さ。
+Pset_DiscreteAccessoryLadderTrussConnector	クロスバー間隔	まっすぐなのクロスバーの間隔。
+Pset_DiscreteAccessoryLadderTrussConnector	ベースバー径	ベースバーの公称直径。
+Pset_DiscreteAccessoryLadderTrussConnector	二次バー径	二次バーの公称直径。
+Pset_DiscreteAccessoryLadderTrussConnector	クロスバー径	まっすぐなクロスバーの公称直径。
+Pset_DiscreteAccessoryStandardFixingPlate	幅	標準的な固定プレートの幅。
+Pset_DiscreteAccessoryStandardFixingPlate	成	標準的な固定プレートの成。
+Pset_DiscreteAccessoryStandardFixingPlate	板厚	標準的な固定プレートの板厚。
+Pset_DiscreteAccessoryWireLoop	ベースプレート厚	ベースプレートの板厚。
+Pset_DiscreteAccessoryWireLoop	ベースプレート幅	ベースプレートの幅。
+Pset_DiscreteAccessoryWireLoop	ベースプレート長さ	ベースプレートの長さ。
+Pset_DiscreteAccessoryWireLoop	ワイヤー径	ワイヤーの公称直径。
+Pset_DiscreteAccessoryWireLoop	埋め込み長さ	プレキャストコンクリート部材の中に埋め込まれたワイヤーの長さ。
+Pset_DiscreteAccessoryWireLoop	留め具長さ	ワイヤーの留め具部分の長さ。
+Pset_DistributionChamberElementCommon	参照記号	具体的な参照ID（例えば、“WWS/VS1/400/001”はWWS系統、VS1/400サブシステム001番部品）。
+Pset_DistributionChamberElementCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_DistributionChamberElementTypeFormedDuct	幅員	ダクトスペースの幅。
+Pset_DistributionChamberElementTypeFormedDuct	深さ	ダクトスペースの深さ。
+Pset_DistributionChamberElementTypeFormedDuct	壁の厚さ	"ダクトスペース壁の厚さ。
+注：ダクトスペースの壁は単層と仮定する"
+Pset_DistributionChamberElementTypeFormedDuct	基部の厚さ	"ダクトスペース床面の厚さ。
+注：ダクトスペースの床は単層と仮定する"
+Pset_DistributionChamberElementTypeFormedDuct	アクセス（点検）カバーの耐荷重	アクセス（点検）カバーの耐荷重（数字或いはアルファベットで定義する）。
+Pset_DistributionChamberElementTypeInspectionChamber	チャンバー（バイブスペース？）の長さあるいは半径	チャンバーの長さあるいは円形チャンバーの半径。
+Pset_DistributionChamberElementTypeInspectionChamber	チャンバー（バイブスペース？）の幅	非円形チャンバーの幅。
+Pset_DistributionChamberElementTypeInspectionChamber	最大深さ	断面の最も低い部分の深さ（地面から）。
+Pset_DistributionChamberElementTypeInspectionChamber	最小深さ	断面の最も高い部分の深さ（地面から）。
+Pset_DistributionChamberElementTypeInspectionChamber	壁の材質	"ダクトスペース壁の材質。
+注：ダクトスペースの壁は単層と仮定する"
+Pset_DistributionChamberElementTypeInspectionChamber	壁厚さ	"ダクトスペース壁の厚さ。
+注：ダクトスペースの壁は単層と仮定する"
+Pset_DistributionChamberElementTypeInspectionChamber	床の材質	"ダクトスペース床面の材質。
+注：ダクトスペースの床は単層と仮定する"
+Pset_DistributionChamberElementTypeInspectionChamber	床の厚さ	"ダクトスペース床面の厚さ。
+注：ダクトスペースの床は単層と仮定する"
+Pset_DistributionChamberElementTypeInspectionChamber	バックドロップ付け	ダクトスペースはバックドロップ或いは堰付けかどうか（TRUE或いはFALSE）。
+Pset_DistributionChamberElementTypeInspectionChamber	アクセス（点検）カバーの材質	"アクセス（点検）カバーの材質。
+注：バイブスペースの壁は単層と仮定する"
+Pset_DistributionChamberElementTypeInspectionChamber	アクセス（点検）カバーの長さ或いは半径	アクセス（点検）カバーの長さ、或いは円形カバーの半径。
+Pset_DistributionChamberElementTypeInspectionChamber	アクセス（点検）カバーの幅	アクセス（点検）カバーの幅。
+Pset_DistributionChamberElementTypeInspectionChamber	アクセス（点検）カバーの耐荷重	アクセス（点検）カバーの耐荷重（数字或いはアルファベットで定義する）。
+Pset_DistributionChamberElementTypeInspectionPit	長さ	ピット長さ。
+Pset_DistributionChamberElementTypeInspectionPit	幅	ピット幅。
+Pset_DistributionChamberElementTypeInspectionPit	深さ	ピット深さ。
+Pset_DistributionChamberElementTypeManhole	最大深さ	断面の最も低い部分の深さ（地面から）。
+Pset_DistributionChamberElementTypeManhole	最小深さ	断面の最も高い部分の深さ（地面から）。
+Pset_DistributionChamberElementTypeManhole	壁の材質	"ダクトスペース壁の材質。
+注：ダクトスペースの壁は単層と仮定する"
+Pset_DistributionChamberElementTypeManhole	壁厚さ	"ダクトスペース壁の厚さ。
+注：ダクトスペースの壁は単層と仮定する"
+Pset_DistributionChamberElementTypeManhole	床の材質	"ダクトスペース床面の材質。
+注：ダクトスペースの床は単層と仮定する"
+Pset_DistributionChamberElementTypeManhole	床の厚さ	"ダクトスペース床面の厚さ。
+注：ダクトスペースの床は単層と仮定する"
+Pset_DistributionChamberElementTypeManhole	浅いか	ダクトスペースは浅いかどうか（TRUE或いはFALSE）。
+Pset_DistributionChamberElementTypeManhole	階段付け	ダクトスペースは階段付けかどうか（TRUE或いはFALSE）。
+Pset_DistributionChamberElementTypeManhole	バックドロップ付け	ダクトスペースはバックドロップ或いは堰付けかどうか（TRUE或いはFALSE）。
+Pset_DistributionChamberElementTypeManhole	アクセス（点検）カバーの材質	"アクセス（点検）カバーの材質。
+注：バイブスペースの壁は単層と仮定する"
+Pset_DistributionChamberElementTypeManhole	アクセス（点検）カバーの長さ或いは半径	アクセス（点検）カバーの長さ、或いは円形カバーの半径。
+Pset_DistributionChamberElementTypeManhole	アクセス（点検）カバーの幅	アクセス（点検）カバーの幅。
+Pset_DistributionChamberElementTypeManhole	アクセス（点検）カバーの耐荷重	アクセス（点検）カバーの耐荷重（数字或いはアルファベットで定義する）。
+Pset_DistributionChamberElementTypeMeterChamber	チャンバーの長さあるいは半径	チャンバーの長さあるいは円形チャンバーの半径。
+Pset_DistributionChamberElementTypeMeterChamber	チャンバーの幅	非円形チャンバーの幅。
+Pset_DistributionChamberElementTypeMeterChamber	壁の材質	"ダクトスペース壁の材質。
+注：ダクトスペースの壁は単層と仮定する"
+Pset_DistributionChamberElementTypeMeterChamber	壁厚さ	"ダクトスペース壁の厚さ。
+注：ダクトスペースの壁は単層と仮定する"
+Pset_DistributionChamberElementTypeMeterChamber	床の材質	"ダクトスペース床面の材質。
+注：ダクトスペースの床は単層と仮定する"
+Pset_DistributionChamberElementTypeMeterChamber	床の厚さ	"ダクトスペース床面の厚さ。
+注：ダクトスペースの床は単層と仮定する"
+Pset_DistributionChamberElementTypeMeterChamber	アクセス（点検）カバーの材質	"アクセス（点検）カバーの材質。
+注：バイブスペースの壁は単層と仮定する"
+Pset_DistributionChamberElementTypeSump	長さ	排水チャンバーの長さ。
+Pset_DistributionChamberElementTypeSump	幅	排水チャンバーの幅。
+Pset_DistributionChamberElementTypeSump	最大深さ	断面の最も低い部分の深さ（地面から）。
+Pset_DistributionChamberElementTypeTrench	長さ	溝の長さ。
+Pset_DistributionChamberElementTypeTrench	幅	溝の幅。
+Pset_DistributionChamberElementTypeTrench	最大深さ	断面の最も低い部分の深さ（地面から）。
+Pset_DistributionChamberElementTypeValveChamber	チャンバーの長さあるいは半径	チャンバーの長さあるいは円形チャンバーの半径。
+Pset_DistributionChamberElementTypeValveChamber	チャンバー幅	非円形チャンバーの幅。
+Pset_DistributionChamberElementTypeValveChamber	壁の材質	"ダクトスペース壁の材質。
+注：ダクトスペースの壁は単層と仮定する"
+Pset_DistributionChamberElementTypeValveChamber	壁厚さ	"ダクトスペース壁の厚さ。
+注：ダクトスペースの壁は単層と仮定する"
+Pset_DistributionChamberElementTypeValveChamber	床の材質	"ダクトスペース床面の材質。
+注：ダクトスペースの床は単層と仮定する"
+Pset_DistributionChamberElementTypeValveChamber	床の厚さ	"ダクトスペース床面の厚さ。
+注：ダクトスペースの床は単層と仮定する"
+Pset_DistributionChamberElementTypeValveChamber	アクセス（点検）カバーの材質	"アクセス（点検）カバーの材質。
+注：バイブスペースの壁は単層と仮定する"
+Pset_DistributionPortCommon	ポート番号	ポートに含まれる要素、種類を示す番号。
+Pset_DistributionPortCommon	色番号	コネクタの色。
+Pset_DistributionPortPHistoryCable	電流	電流のログ。
+Pset_DistributionPortPHistoryCable	電圧	電圧のログ。
+Pset_DistributionPortPHistoryCable	有効電力	有効電力。
+Pset_DistributionPortPHistoryCable	無効電力	無効電力。
+Pset_DistributionPortPHistoryCable	皮相電力	皮相電力。
+Pset_DistributionPortPHistoryCable	パワーファクタ	パワーファクタ。
+Pset_DistributionPortPHistoryPipe	温度	燃料の温度。
+Pset_DistributionPortPHistoryPipe	圧力	燃料の圧力。
+Pset_DistributionPortPHistoryPipe	流量	燃料の流速。
+Pset_DistributionPortTypeCable	接続タイプ	"物理ポート接続：
+
+- ACPLUG: AC プラグ
+- DCPLUG: DC プラグ
+- CRIMP: 裸線"
+Pset_DistributionPortTypeCable	接続サブタイプ	"物理ポート接続のサブタイプ。接続タイプ以外の情報を設定する場合に使用。下記の値を設定：
+
+- ACプラグ: A, B, C, D, E, F, EF, G, H, I, J, K, L, M"
+Pset_DistributionPortTypeCable	接続ジェンダー	形状的な接続ジェンダー（オス、メス、その他、未知、未設定）。
+Pset_DistributionPortTypeCable	電線種類	電気負荷と連結する電線種類。
+Pset_DistributionPortTypeCable	第３高調波電流と相電流の比	第３高調波電流と相電流の比率。
+Pset_DistributionPortTypeCable	電流	実電流と動作可能範囲。
+Pset_DistributionPortTypeCable	電圧	実電圧と動作可能範囲。
+Pset_DistributionPortTypeCable	電力	実電力と動作可能範囲。
+Pset_DistributionPortTypePipe	接続タイプ	"物理ポート接続：
+
+- Coaxial: 同軸コネクタ.
+- DSub: D-Subコネクタ.
+- Infrared:赤外線
+- RJ: 登録済みジャック.
+- Radio: 無線
+- USB: USB."
+Pset_DistributionPortTypePipe	接続サブタイプ	"物理ポート接続のサブタイプ。接続タイプ以外の情報を設定する場合に使用。下記の値を設定：
+
+- DSub: DA15, DB25, DC37, DD50, DE9, DE15 
+- Radio: IEEE802.11g, IEEE802.11n
+- RJ: 4P4C, 6P2C, 8P8C 
+- USB: A, B, MiniA, MiniB, MicroA, MicroB"
+Pset_DistributionPortTypePipe	呼び径	配管の呼び径。
+Pset_DistributionPortTypePipe	内径	配管の実内径。
+Pset_DistributionPortTypePipe	外径	配管の実外径。
+Pset_DistributionPortTypePipe	温度	流体の温度。
+Pset_DistributionPortTypePipe	体積流量	流体の体積流量。
+Pset_DistributionPortTypePipe	質量流量	流体の質量流量。
+Pset_DistributionPortTypePipe	流動状態	断面の充満率で流動状態を定義する。
+Pset_DistributionPortTypePipe	速度	流体の速度。
+Pset_DistributionPortTypePipe	圧力	流体の圧力。
+Pset_DistributionSystemCommon	参照記号	空調システム、或いはサブシステムの参照ID（例えば、'WWS/VS1'はWWS系統のVSI/400サブ系統）。IDは当該地域技術基準より決められる。
+Pset_DistributionSystemTypeElectrical	電気システム方式	"IEC60364電気基準に定義した電気接地の方式。電気設備の種類、接地電極と設備の導電性部分の種類で決められる。具体的なには、IEC60364に下記のような方法がある：
+
+
+- TNシステム：電気設備は一点或いは多点の接地点を持ち、直接接地されるシステム。設備と接地極の導電性部分は保護されていること。
+- TN　Cシステム：系統の全てにわたって、中性線と保護導体が一つの導体のTNシステム。
+- TN　Sシステム：系統の全てにわたって、独立の中性線と保護導体を有するTNシステム。
+- TN　C　Sシステム：系統の一部では、中性線と保護導体が一つの導体のTNシステム。
+- TTシステム：一点を大地に直接接続し、電力系統の接地とは無関係に、設備の露出導電性部分を大地に直接接地すること。
+- ITシステム：電力システムを大地(接地)から絶縁する、設備の露出導電性部分を大地に直接接地すること。"
+Pset_DistributionSystemTypeElectrical	電気システムのカテゴリー	IECに準拠した回路の電圧レンジを示す。次の列挙型の値を取る。(HIGHVOLTAGE indicates >1000V AC or >1500V DV; LOWVOLTAGE indicates 50-1000V AC or 120-1500V DC; EXTRALOWVOLTAGE indicates <50V AC or <120V DC.)
+Pset_DistributionSystemTypeElectrical	負荷率	ある期間中同じ回路にある複数電気設備の同時最大負荷と各設備の合計負荷の比率。
+Pset_DistributionSystemTypeElectrical	最大許容電圧降下	"電気回路での電圧降下は最大電圧降下を超えないように。二種類の電圧降下限度があり、一つは分岐－主回路、もう一つは各分電盤或いは末端回路の電気需要装置と接続電気盤である。総電圧下降を使用範囲以内に制限する。デフォルト値は分岐－主回路1.5％、末端回路2.5％、合計総電圧4％である。
+注：この値はIFCモデルでの制約値と指定されているが、現段階ではプロプティセットに設定する。将来的には必要な性能として各ソフトアプリケションに利用する。"
+Pset_DistributionSystemTypeElectrical	ネットインピーダンス	電気回路での最大接地インピーダンス（一般はZsで表示）。55℃ (130°F)での数値。
+Pset_DistributionSystemTypeVentilation	設計値名称	設計値の名称。
+Pset_DistributionSystemTypeVentilation	ダクト寸法の決め方	ダクト寸法を決める計算方法。
+Pset_DistributionSystemTypeVentilation	圧力等級	ダクトシステム各部位の圧力等級（計測した圧力）。
+Pset_DistributionSystemTypeVentilation	漏れ率	ダクトシステム各部位の漏れ率。
+Pset_DistributionSystemTypeVentilation	摩擦損失	単位長さあたりの圧力損失（計測した圧力損失/ダクト長さ）。
+Pset_DistributionSystemTypeVentilation	廃材率	金属板の廃材率。
+Pset_DistributionSystemTypeVentilation	ダクトの密閉性	ダクトと継ぎ手の密閉形式。
+Pset_DistributionSystemTypeVentilation	最大速度	ダクト或いは継ぎ手の最大設計風速。
+Pset_DistributionSystemTypeVentilation	アスペクト比	デフォルトアスペクト比。
+Pset_DistributionSystemTypeVentilation	最小高さ	矩形、円形或いは楕円形ダクトの最小高さ。
+Pset_DistributionSystemTypeVentilation	最小幅	矩形、円形或いは楕円形ダクトの最小幅。
+Pset_DoorCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_DoorCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_DoorCommon	耐火等級	主要な耐火等級。関連する建築基準法、消防法などの国家基準を参照。
+Pset_DoorCommon	遮音等級	遮音等級情報。関連する建築基準法を参照。
+Pset_DoorCommon	防犯等級	防犯等級情報。関連する基準を参照。
+Pset_DoorCommon	外部区分	外部の部材かどうかを示すブーリアン値。もしTRUEの場合、外部の部材で建物の外側に面している。
+Pset_DoorCommon	熱貫流率	熱貫流率U値。
+Pset_DoorCommon	非常口区分	このオブジェクトが火災時の非常口として設計されているかどうかを示すブーリアン値。ここでは関連する建築基準法における出口ドアとして定義している。
+Pset_DoorCommon	自動ドア閉機能区分	このドアが自動的に閉まる機能を有するかどうかのブーリアン値。
+Pset_DoorCommon	煙止め機能区分	このドアが煙を止める機能を有するかどうかのブーリアン値。
+Pset_DoorWindowGlazingType	ガラス枚数	"ガラスの枚数。例：""2""はペアガラス。"
+Pset_DoorWindowGlazingType	ガラス厚1	最初の（室内側）ガラスの厚み。
+Pset_DoorWindowGlazingType	ガラス厚2	2番目（中間、あるいは外側）のガラスの厚み。
+Pset_DoorWindowGlazingType	ガラス厚3	3番目（外側）のガラスの厚み。
+Pset_DoorWindowGlazingType	充填ガス種	2枚のガラス間の隙間に充填されたガスの名称。これは情報目的専用に提供される。
+Pset_DoorWindowGlazingType	ガラス色	ガラスの色合い。これは情報目的専用に提供される。
+Pset_DoorWindowGlazingType	強化ガラス	強化ガラスか（TRUE）否か(FALSE)を示す。
+Pset_DoorWindowGlazingType	皮膜を被せたガラス	ガラス以外の素材が重ねられているか（TRUE）否か（FALSE)示す。
+Pset_DoorWindowGlazingType	コーティング	ガラスがコーティングされいるか（TRUE）否か（FALSE）示す。
+Pset_DoorWindowGlazingType	網入りガラス	不法侵入防止の網入りガラスか（TRUE)否か（FALSE）示す。
+Pset_DoorWindowGlazingType	可視光反射率	ガラスへ法線入射した可視光の反射率。単位の無い値。
+Pset_DoorWindowGlazingType	可視光透過率	ガラスへ法線入射した可視光の透過率。単位の無い値。
+Pset_DoorWindowGlazingType	日射吸収率	（Asol)ガラスで吸収される日射の比率。吸収の合計は外部（a）と、室内（qi）に分配される。以下の方程式に注意。Asol + Rsol + Tsol = 1
+Pset_DoorWindowGlazingType	日射反射率	（Rsol）ガラスで反射する日射の比率（ρeとも表わされる）。以下の方程式に注意。Asol + Rsol + Tsol = 1
+Pset_DoorWindowGlazingType	日射透過率	（Tsol）ガラスを透過する日射の比率（τeとも表わされる）。以下の方程式に注意。Asol + Rsol + Tsol = 1
+Pset_DoorWindowGlazingType	透過太陽熱利得係数	(SHGC):室内の熱利得の原因となる日射の比率。ガラスの透過分(Tsol or τe)と吸収分の内、室内側(qi)への分配分の和。SHGCは、g値（g = τe + qi）としても参照される。
+Pset_DoorWindowGlazingType	遮蔽係数	(SC): ガラスの太陽熱伝導の基準、3mm（1/8インチ）透明の一枚ガラスの性能との比。遮蔽係数は太陽熱利得係数(SHGC)に移行し、段階的に廃止、SHGC×1.15とほとんど等しい。遮蔽係数は０から１までの単位無しの値。
+Pset_DoorWindowGlazingType	夏期の熱透過係数	素材の熱透過係数（U値）。夏期のガラスの熱透過係数だけ、U値として参照される
+Pset_DoorWindowGlazingType	冬季の熱透過係数	素材の熱透過係数（U値）。夏期のガラスの熱透過係数だけ、U値として参照される。
+Pset_DuctFittingOccurrence	内面粗さ係数	ダクト継手材料の内面粗さ
+Pset_DuctFittingOccurrence	内張り有無	内貼り保温ダクト内面にあるときにTRUE。無い時にFALSE
+Pset_DuctFittingOccurrence	色	"ダクト継手の色
+メモ：塗装されているときに使用される。他の場合は仕上げとして定義"
+Pset_DuctFittingPHistory	損失係数	参照された断面での動圧に対する全圧損失の比を表わす流体抵抗の計算に使用される無次元の損失係数
+Pset_DuctFittingPHistory	大気圧	周囲の大気圧
+Pset_DuctFittingPHistory	漏れ量	体積漏れ流量
+Pset_DuctFittingTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_DuctFittingTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_DuctFittingTypeCommon	圧力クラス	管轄権を持つ当局（SMACNAなど）によって定義された圧力分類
+Pset_DuctFittingTypeCommon	圧力範囲	許容最大・最小動作圧力（周辺圧力との相対値）
+Pset_DuctFittingTypeCommon	温度範囲	許容最高・最低温度
+Pset_DuctSegmentOccurrence	内面粗さ係数	ダクト継手材料の内面粗さ
+Pset_DuctSegmentOccurrence	内張り有無	内貼り保温ダクト内面にあるときにTRUE。無い時にFALSE
+Pset_DuctSegmentOccurrence	色	"ダクト継手の色
+メモ：塗装されているときに使用される。他の場合は仕上げとして定義"
+Pset_DuctSegmentPHistory	損失係数	参照された断面での動圧に対する全圧損失の比を表わす流体抵抗の計算に使用される無次元の損失係数
+Pset_DuctSegmentPHistory	大気圧	周囲の大気圧
+Pset_DuctSegmentPHistory	漏れ曲線	"作動圧力に対する単位長さあたりの漏れ曲線。
+スカラー値が表現されている場合は、所定の圧力（例えば、ASHRAE　Fundamentals 200134.16）における単位面積当たりの流量である漏れクラスを表す。"
+Pset_DuctSegmentPHistory	漏れ量	体積漏れ流量
+Pset_DuctSegmentTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_DuctSegmentTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_DuctSegmentTypeCommon	形状	"断面形状：
+この形状は直管を通じて一定である。変形する形状のためには、かわりに変形継手が使用される。（フラットオーバル、角型、丸型　他）"
+Pset_DuctSegmentTypeCommon	圧力クラス	管轄権を持つ当局（SMACNAなど）によって定義された圧力分類
+Pset_DuctSegmentTypeCommon	圧力範囲	許容最大・最小動作圧力（周辺圧力との相対値）
+Pset_DuctSegmentTypeCommon	温度範囲	許容最高・最低温度
+Pset_DuctSegmentTypeCommon	ハゼ	ハゼの種類は、ダクト直管の縦方向に使用するハゼの種類
+Pset_DuctSegmentTypeCommon	呼び径・巾	ダクト直管の呼び径またはダクト巾
+Pset_DuctSegmentTypeCommon	呼び高さ	ダクト直管の高さ
+Pset_DuctSegmentTypeCommon	補強	ダクト直管に何か使用されている場合の補強種類
+Pset_DuctSegmentTypeCommon	補強間隔	補強要素間の距離
+Pset_DuctSilencerPHistory	風量	体積風量
+Pset_DuctSilencerPHistory	圧力降下曲線	風量の関数としての空気圧力降下
+Pset_DuctSilencerTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_DuctSilencerTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_DuctSilencerTypeCommon	水力直径	水力直径
+Pset_DuctSilencerTypeCommon	長さ	サイレンサの仕上げ長さ
+Pset_DuctSilencerTypeCommon	重さ	サイレンサ重量
+Pset_DuctSilencerTypeCommon	流量範囲	送風可能な風量範囲
+Pset_DuctSilencerTypeCommon	作動圧力範囲	許容最小・最大作動圧力（周囲圧との相対値）
+Pset_DuctSilencerTypeCommon	温度範囲	許容最低・最高温度
+Pset_DuctSilencerTypeCommon	外部保温	サイレンサに外部保温があるときTRUE
+Pset_ElectricApplianceTypeCommon	参照	当該プロジェクトで定義する形式の参照ID（例：A-1)、承認された分類に存在しないときに使用される。
+Pset_ElectricApplianceTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_ElectricApplianceTypeDishwasher	食器洗浄機のタイプ	食器洗浄機のタイプ。
+Pset_ElectricApplianceTypeElectricCooker	電気調理器のタイプ	電気調理器のタイプ。
+Pset_ElectricDistributionBoardTypeCommon	参照	当該プロジェクトで定義する形式の参照ID（例：A-1)、承認された分類に存在しないときに使用される。
+Pset_ElectricDistributionBoardTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_ElectricFlowStorageDeviceTypeCommon	参照	当該プロジェクトで定義する形式の参照ID（例：A-1)、承認された分類に存在しないときに使用される。
+Pset_ElectricFlowStorageDeviceTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_ElectricFlowStorageDeviceTypeCommon	公称電圧	電源の公称電圧。
+Pset_ElectricFlowStorageDeviceTypeCommon	オフセット公称電圧	電源の最大値と最小許容電圧。たとえば380V/440Vの境界は400Vの公称電圧に適用される。
+Pset_ElectricFlowStorageDeviceTypeCommon	公称周波数	電源の公称周波数。
+Pset_ElectricFlowStorageDeviceTypeCommon	接続導体機能	導体の機能は負荷が接続された状態。
+Pset_ElectricFlowStorageDeviceTypeCommon	3極最大短絡電流	電源供給時点の3極最大短絡電流。
+Pset_ElectricFlowStorageDeviceTypeCommon	3極最大短絡電流力率	電源供給時点の3極最大短絡電流力率。
+Pset_ElectricFlowStorageDeviceTypeCommon	2極最小短絡電流	電源供給時点の2極最小短絡電流。
+Pset_ElectricFlowStorageDeviceTypeCommon	2極最小短絡電流力率	電源供給時点の2極最小短絡電流力率。
+Pset_ElectricFlowStorageDeviceTypeCommon	1極最大短絡電流	電源供給時点の点1相とN間の1極最大短絡電流。
+Pset_ElectricFlowStorageDeviceTypeCommon	1極最大短絡電流力率	電源供給時点の点1相とN間の1極最大短絡電流力率。
+Pset_ElectricFlowStorageDeviceTypeCommon	1極最小短絡電流	電源供給時点の点1相とN間の1極最小短絡電流。
+Pset_ElectricFlowStorageDeviceTypeCommon	1極最小短絡電流力率	電源供給時点の点1相とN間の1極最小短絡電流力率。
+Pset_ElectricFlowStorageDeviceTypeCommon	1極最大地絡電流	電源供給時点の点1相とPE/PEN間の1極最大地絡電流。
+Pset_ElectricFlowStorageDeviceTypeCommon	1極最大地絡電流力率	電源供給時点の点1相とPE/PEN間の1極最大地絡電流力率。
+Pset_ElectricFlowStorageDeviceTypeCommon	1極最小地絡電流	電源供給時点の点1相とPE/PEN間の1極最小地絡電流。
+Pset_ElectricFlowStorageDeviceTypeCommon	1極最小地絡電流力率	電源供給時点の点1相とPE/PEN間の1極最小地絡電流力率。
+Pset_ElectricGeneratorTypeCommon	参照	当該プロジェクトで定義する形式の参照ID（例：A-1)、承認された分類に存在しないときに使用される。
+Pset_ElectricGeneratorTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_ElectricGeneratorTypeCommon	発電効率	出力容量と入力容量の比率。
+Pset_ElectricGeneratorTypeCommon	始動電流係数	始動電流係数はエンジンが動き始めた時のピーク始動電流を定義。始動電流係数は定格電流と始動時の電流を掛け合わせたもの。
+Pset_ElectricGeneratorTypeCommon	最大出力	エンジンの最大出力定格。
+Pset_ElectricMotorTypeCommon	参照	当該プロジェクトで定義する形式の参照ID（例：A-1)、承認された分類に存在しないときに使用される。
+Pset_ElectricMotorTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_ElectricMotorTypeCommon	最大出力	エンジンの最大出力定格。
+Pset_ElectricMotorTypeCommon	出力効率	出力容量と入力容量の比率。
+Pset_ElectricMotorTypeCommon	始動電流係数	始動電流係数はエンジンが動き始めた時のピーク始動電流を定義。始動電流係数は定格電流と始動時の電流を掛け合わせたもの。
+Pset_ElectricMotorTypeCommon	始動時間	モーターが停止状態から定格電圧を印加し定格速度に到達するまでに必要な時間。
+Pset_ElectricMotorTypeCommon	最大時間	"モーターがEX環境でローターロックされて使用きる最大時間。
+モーター始動電流が機器を介して減速している時間より前に保護装置で停止する時間を示す。"
+Pset_ElectricMotorTypeCommon	拘束ロータ電流	モーターの電機子に電圧を印加しロータが回っていない時の入力電流。
+Pset_ElectricMotorTypeCommon	モーター保護構造	モーターに必要な筐体を使用可能なタイプのリストから選択。
+Pset_ElectricMotorTypeCommon	フレームサイズ	フレームサイズの意味が実際の大きさを表示しているのか、規格表記なのかを指定。
+Pset_ElectricMotorTypeCommon	保護	モーターの筐体が守られているかどうかを示す。
+Pset_ElectricMotorTypeCommon	巻線　	モータが単一の速度であるかどうかを示す。例えば、単巻線、マルチスピード、分割巻線。
+Pset_ElectricTimeControlTypeCommon	参照	当該プロジェクトで定義する形式の参照ID（例：A-1)、承認された分類に存在しないときに使用される。
+Pset_ElectricTimeControlTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_ElementComponentCommon	参照記号	具体的な参照ID（例えば、“WWS/VS1/400/001”はWWS系統、VS1/400サブシステム001番部品）。
+Pset_ElementComponentCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_EngineTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_EngineTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_EngineTypeCommon	エネルギ源	エネルギー源（ディーゼル、ガソリン、天然ガス、プロパン、バイオディーゼル、下水ガス、水素、バイオ燃料、　他）
+Pset_EnvironmentalImpactIndicators	参照記号	このプロジェクトのための参照記号。
+Pset_EnvironmentalImpactIndicators	機能単位参照	データベースやクラスへの参照。
+Pset_EnvironmentalImpactIndicators	単位	関連する環境指数値の数量単位。
+Pset_EnvironmentalImpactIndicators	ライフサイクルフェーズ	環境データが有効であるライフサイクル全てまたは特定の段階。
+Pset_EnvironmentalImpactIndicators	期待される耐用期間	数年間の期待される耐用年数。
+Pset_EnvironmentalImpactIndicators	単位あたり全一次エネルギ消費	ISO21930:2007で定義されたエネルギー消費量。
+Pset_EnvironmentalImpactIndicators	単位あたり水使用	リットル単位で表現された水の消費量。
+Pset_EnvironmentalImpactIndicators	単位あたり有害廃棄物	生成された有害な廃棄量。
+Pset_EnvironmentalImpactIndicators	単位あたり非有害廃棄物	生成された無害な排気量。
+Pset_EnvironmentalImpactIndicators	単位あたり気候変動	CO2で計算された温室効果ガスの放出量。
+Pset_EnvironmentalImpactIndicators	単位あたり大気酸性化	SO2で計算される大気の酸性化に影響するガスの量。
+Pset_EnvironmentalImpactIndicators	単位あたり再生可能エネルギ消費	ISO21930:2007で定義される再生可能エネルギーの使用量。
+Pset_EnvironmentalImpactIndicators	単位あたり再生不可エネルギ消費	ISO21930:2007で定義される非再生エネルギーの使用量。
+Pset_EnvironmentalImpactIndicators	単位あたり資源消費	アンチモンで計算される資源の使用量。
+Pset_EnvironmentalImpactIndicators	単位あたり不活性廃棄物	生成された安定廃棄物の量。
+Pset_EnvironmentalImpactIndicators	単位あたり放射性廃棄物	生成された放射性廃棄物の量。
+Pset_EnvironmentalImpactIndicators	単位あたり成層圏オゾン層破壊	CFC-R11で計算される成層圏のオゾン層を破壊するガスの量。
+Pset_EnvironmentalImpactIndicators	単位あたり光化学オゾン生成	エチレンで計算される光化学物質オゾンを生成するガスの量。
+Pset_EnvironmentalImpactIndicators	単位あたり富栄養化	PO4で計算される富栄養化する化合物の量。
+Pset_EnvironmentalImpactValues	主なエネルギー消費の総量	ISO21930:2007.で定義されているエネルギー量。
+Pset_EnvironmentalImpactValues	水消費量	水の消費量。
+Pset_EnvironmentalImpactValues	有害廃棄物	生成される有害廃棄物の量。
+Pset_EnvironmentalImpactValues	一般廃棄物	生成される一般廃棄物の量。
+Pset_EnvironmentalImpactValues	気候変化	算出されたCO2と等しい放出される温室効果ガスの量。
+Pset_EnvironmentalImpactValues	大気の酸性化	算出されたSO2と等しい大気中の酸性化の責任を負うガスの量。
+Pset_EnvironmentalImpactValues	継続可能なエネルギー消費量	ISO21930:2007 で定義されている継続可能なエネルギー消費量。
+Pset_EnvironmentalImpactValues	継続不可能なエネルギー消費量	ISO21930:2007 で定義されている継続不可能なエネルギー消費量。
+Pset_EnvironmentalImpactValues	資源の枯渇	算出されたアンチモンと同等な資源の量。
+Pset_EnvironmentalImpactValues	安定廃棄物	生成される安定廃棄物の量。
+Pset_EnvironmentalImpactValues	放射性廃棄物	生成される放射性廃棄物の量。
+Pset_EnvironmentalImpactValues	大気オゾン層破壊	算出された CFC-R11と等しい大気オゾン層を破壊するガスの量。
+Pset_EnvironmentalImpactValues	光化学オゾン生成	算出された エチレンと等しい光化学オゾン層を生成するガスの量。
+Pset_EnvironmentalImpactValues	富栄養化	算出されたPO4と等しい富栄養化を混合する量。
+Pset_EvaporativeCoolerPHistory	液温度	液温度　（水溜り温度）
+Pset_EvaporativeCoolerPHistory	効率	（一次）空気の入力乾球温度と（二次）空気の湿球温度の差に対する（一次）空気の流れの乾球温度の変化の割合。
+Pset_EvaporativeCoolerPHistory	顕熱交換量	一次空気流の顕熱交換量
+Pset_EvaporativeCoolerPHistory	潜熱交換量	一次空気流の潜熱交換量
+Pset_EvaporativeCoolerPHistory	全熱交換量	一次空気流の全熱交換量
+Pset_EvaporativeCoolerTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_EvaporativeCoolerTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_EvaporativeCoolerTypeCommon	流れ種類	"カウンタフロー：空気と水の流れが逆方向で入る
+クロスフロー：空気と「水の流れが垂直
+平行流：空気と水の流れが同じ方向で入る"
+Pset_EvaporativeCoolerTypeCommon	熱交換面積	熱交換面積
+Pset_EvaporativeCoolerTypeCommon	動作温度範囲	許容作動周囲空気温度範囲
+Pset_EvaporativeCoolerTypeCommon	水要件	水の要件
+Pset_EvaporatorPHistory	排熱量	冷凍効果と圧縮機への電源入力の相当熱量の合計
+Pset_EvaporatorPHistory	外表面熱交換係数	外表面に関連づけられた外表面熱交換係数
+Pset_EvaporatorPHistory	内面熱交換係数	内面に関連づけられた内面熱交換係数
+Pset_EvaporatorPHistory	蒸発温度	蒸発温度
+Pset_EvaporatorPHistory	対数平均温度差	冷媒と水または空気の対数平均温度差
+Pset_EvaporatorPHistory	UA曲線	UV=ｆ（V外面、V内面）、UVは、入り口での内面・外面流体速度の関数
+Pset_EvaporatorPHistory	圧縮機・蒸発器熱取得	蒸発器出口と圧縮機入口間の熱取得
+Pset_EvaporatorPHistory	圧縮機・蒸発器圧力降下	蒸発器出口と圧縮機入口間の圧力降下
+Pset_EvaporatorPHistory	蒸発器平均空隙率	蒸発器の平均の空隙率
+Pset_EvaporatorPHistory	水側汚れ抵抗	水／空気面の汚れ抵抗
+Pset_EvaporatorTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_EvaporatorTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_EvaporatorTypeCommon	蒸発媒体	"ColdLiquidは：蒸発器は、冷媒と熱交換するために液状の流体を使用しています。
+ColdAir：蒸発器は、冷媒と熱交換するために空気を使用している。"
+Pset_EvaporatorTypeCommon	蒸発器冷却剤	蒸発器で使用する流体（水、ブライン、グリコール、　他）
+Pset_EvaporatorTypeCommon	冷媒分類	"圧縮機で使用される冷媒種類
+CFC: Chlorofluorocarbons.
+HCFC: Hydrochlorofluorocarbons.
+HFC: Hydrofluorocarbons.
+（CFC, HCFC, HFC, HYDROCARBONS, AMMONIA, CO2, H2O, その他）"
+Pset_EvaporatorTypeCommon	外表面積	外表面積（一次・二次の両面積）
+Pset_EvaporatorTypeCommon	内表面積	内部表面積
+Pset_EvaporatorTypeCommon	内部冷媒容積	蒸発器（冷媒側）の内部容積
+Pset_EvaporatorTypeCommon	内部水容積	蒸発器（水側）の内部容積
+Pset_EvaporatorTypeCommon	設計熱交換面積	設計全熱交換係数の設計熱交換面積
+Pset_EvaporatorTypeCommon	設計熱交換係数	設計熱交換面積の全熱交換係数
+Pset_FanCentrifugal	吐出位置	"遠心送風機の吐出位置
+TOPHORIZONTAL: 上部水平 
+TOPANGULARDOWN: 上部角度付き下向き 
+DOWNBLAST: 下向き
+BOTTOMANGULARDOWN: 下部角度付き下向き
+BOTTOMHORIZONTAL: 下部水平
+BOTTOMANGULARUP: 下部角度付き上向き
+UPBLAST: 上向き
+TOPANGULARUP: 上部角度付き上向き. 
+OTHER: その他"
+Pset_FanCentrifugal	角度方向	"ファンの駆動側から見たホイール回転方向
+CLOCKWISE　　時計回り
+ COUNTERCLOCKWISE　反時計回り
+ OTHER　その他"
+Pset_FanCentrifugal	配置	"ファンとモーターの配置（AMCAによる定義）
+ARRANGEMENT1, ARRANGEMENT2, ARRANGEMENT3, ARRANGEMENT4, ARRANGEMENT7, ARRANGEMENT8, ARRANGEMENT9, ARRANGEMENT10, OTHER, NOTKNOWN, UNSET"
+Pset_FanOccurrence	吐出形式	"送風機出口の接続形式定義
+Duct：ダクトへの吐き出し
+Screen:SCREEN内への吐き出し
+Louver:ルーバーへの吐き出し"
+Pset_FanOccurrence	Fan用途	"Fanの系統
+SUPPLYAIR, RETURNAIR, EXHAUSTAIR, COOLINGTOWER, OTHER"
+Pset_FanOccurrence	コイル位置	"Fanとコイル間の関係定義
+DwawThrough:ファンはコイルの下流に位置
+BlowThrough:ファンはコイルの上流に位置"
+Pset_FanOccurrence	モーター位置	"空気流路と相対的なモーターの位置定義
+流路内、流路外　その他"
+Pset_FanOccurrence	Fan設置タイプ	"建物へのFan設置方法定義
+MANUFACTUREDCURB, FIELDERECTEDCURB, CONCRETEPAD, SUSPENDED, WALLMOUNTED, DUCTMOUNTED"
+Pset_FanOccurrence	モーター排熱	流体中にモーター発熱が放出される場合にTRUE
+Pset_FanOccurrence	羽根径	ファンホイールの直径　-　幾何学的に類似したファンの性能を基準化するために使用。
+Pset_FanPHistory	回転速度	回転速度
+Pset_FanPHistory	ホイール先端速度	"ファンブレード先端速度
+通常、軸から最も遠いファンブレードの先端の直線速度として定義されている"
+Pset_FanPHistory	Fan効率	ファン機械効率
+Pset_FanPHistory	全体効率	モーターとファンの全体効率
+Pset_FanPHistory	Fan効率動力量	ファン消費電力
+Pset_FanPHistory	軸動力量	ファン軸動力
+Pset_FanPHistory	吐出速度	ファン吐出口からの吐出風速
+Pset_FanPHistory	吐出圧力損失	吐出部に関連した吐出圧力損失
+Pset_FanPHistory	駆動電力損失	ファン駆動力損失は、モータとファンホイールとの間の接続の種類に関連付けられている。
+Pset_FanTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_FanTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_FanTypeCommon	モーター駆動種類	"モーター駆動種類
+DIRECTDRIVE: ダイレクトドライブ
+BELTDRIVE: ベルトドライブ
+COUPLING: カップリング
+OTHER: その他"
+Pset_FanTypeCommon	容量制御方式	"InletVane: インレットベーン
+VariableSpeedDrive: 変速駆動 
+BladePitchAngle: 羽根ピッチ制御
+TwoSpeed: 二速制御
+DischargeDamper: 吐出ダンパ制御"
+Pset_FanTypeCommon	動作温度範囲	許容動作周囲温度範囲
+Pset_FanTypeCommon	設計風量	設計風量
+Pset_FanTypeCommon	設計全圧	ファンでの設計全圧上昇
+Pset_FanTypeCommon	設計静圧	設計空気循環量を保証するためにファンが克服しなければならない気流中の静圧
+Pset_FanTypeCommon	設計回転速度	設計ホイール速度
+Pset_FanTypeCommon	設計動力	設計動力
+Pset_FanTypeCommon	動作環境	最大動作周囲温度での動作の時間
+Pset_FilterTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_FilterTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_FireSuppressionTerminalTypeBreechingInlet	送水口タイプ	送水口タイプの定義。
+Pset_FireSuppressionTerminalTypeBreechingInlet	入口口径	入口の直径。
+Pset_FireSuppressionTerminalTypeBreechingInlet	出口口径	出口の直径。
+Pset_FireSuppressionTerminalTypeBreechingInlet	カップリングタイプ	送水口入口のカップリングタイプ。
+Pset_FireSuppressionTerminalTypeBreechingInlet	保護キャップ	入口接続が保護キャップを持っているか。
+Pset_FireSuppressionTerminalTypeCommon	参照記号	使用される認識分類システムで分類基準がない場合、プロジェクトで指定された型（タイプ'Ａ-1'など）で提供されるレファレンスID。
+Pset_FireSuppressionTerminalTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_FireSuppressionTerminalTypeFireHydrant	消火栓のタイプ	"消火栓の必要なタイプを定義する。
+
+乾式l：凍結の可能性のあるとき地中に開放弁セット。
+
+湿式：凍結の可能性のないとき地上に開放弁セット。"
+Pset_FireSuppressionTerminalTypeFireHydrant	ポンプ接続サイズ	ポンプユニットに接続されであろう消防ホースの接続サイズ。
+Pset_FireSuppressionTerminalTypeFireHydrant	ホースの接続の数	（ポンプ接続を除く）消火栓のホース接続の数。
+Pset_FireSuppressionTerminalTypeFireHydrant	ホース接続サイズ	接続ホースのサイズ（ポンプユニット接続以外の）。
+Pset_FireSuppressionTerminalTypeFireHydrant	放水流量	放水液体の体積。
+Pset_FireSuppressionTerminalTypeFireHydrant	流量クラス	消火栓流量クラスの英数字表示（流量属性と一緒に、または代わりに用いられる）。
+Pset_FireSuppressionTerminalTypeFireHydrant	飲用水かどうか	消火栓の水が飲用かどうかの表示（飲用：TRUEを設定、飲用以外：FALSEを設定）。
+Pset_FireSuppressionTerminalTypeFireHydrant	圧力	最大圧力、消火栓の耐圧。
+Pset_FireSuppressionTerminalTypeFireHydrant	本体色	"消火栓本体の色。
+
+注意：特定の状況で消火栓ボディに求められる地域消防規則法定色による。"
+Pset_FireSuppressionTerminalTypeFireHydrant	キャップ色	"消火栓キャップの色。
+
+注意：特定の状況で消火栓キャップに求められる地域消防規則法定色による。"
+Pset_FireSuppressionTerminalTypeHoseReel	ホースリールタイプ	あらかじめ定義済みのホース構成の型から必要な型を設定する識別。
+Pset_FireSuppressionTerminalTypeHoseReel	ホースリール装着タイプ	あらかじめ定義済みの取り付けホースリールの型から必要な型を設定する識別。
+Pset_FireSuppressionTerminalTypeHoseReel	インレット接続サイズ	ホースリールへの入口接続のサイズ。
+Pset_FireSuppressionTerminalTypeHoseReel	ホース径	ホースの公称口径（内径）。
+Pset_FireSuppressionTerminalTypeHoseReel	ホースの長さ	ホースホースリールに装着されたホースの公称長さ（全て伸ばされたときの）。
+Pset_FireSuppressionTerminalTypeHoseReel	ホースノズルタイプ	あらかじめ定義済みのホースの先端に取り付けられるノズルの型（放出パターンの観点から）から必要な型を設定する識別。
+Pset_FireSuppressionTerminalTypeHoseReel	サービスクラス	適用されるホースリールの使用方法の分類。
+Pset_FireSuppressionTerminalTypeHoseReel	分類認証機関	ホースリールの分類認証機関の名称。（例　NFPA/ FEMA）
+Pset_FireSuppressionTerminalTypeSprinkler	スプリンクラータイプ	あらかじめ定義済みのスプリンクラーの型から必要な型を設定する識別。
+Pset_FireSuppressionTerminalTypeSprinkler	作動	あらかじめ定義済みのスプリンクラーの作動方式から必要な方式を設定する識別。
+Pset_FireSuppressionTerminalTypeSprinkler	応答	あらかじめ定義済みのスプリンクラーの応答方式から必要な方式を設定する識別。
+Pset_FireSuppressionTerminalTypeSprinkler	作動温度	設計作動温度。
+Pset_FireSuppressionTerminalTypeSprinkler	カバー面積	スプリンクラーの設計保護区画面積。
+Pset_FireSuppressionTerminalTypeSprinkler	ディフレクターの有無	スプリンクラー作動時、放水を拡散させる偏向器（バッフル）取り付けているかどうかの表示（= TRUE）そうでないか（= FALSE）を返します。
+Pset_FireSuppressionTerminalTypeSprinkler	バルブ液体色	バルブ作動スプリンクラーのバルブ液体色の設定。液体色は、スプリンクラーヘッドの作動温度に応じて変化する。また、この属性は、高速応答スプリンクラーは設定する必要はない。
+Pset_FireSuppressionTerminalTypeSprinkler	吐出流量	吐出流体の体積流量。
+Pset_FireSuppressionTerminalTypeSprinkler	残留流動圧力	吐出流量が確保される、パイプラインの流れ時残留圧力。
+Pset_FireSuppressionTerminalTypeSprinkler	流量係数	スプリンクラーの流れの係数。
+Pset_FireSuppressionTerminalTypeSprinkler	最大作動圧力	最大圧力、製造耐圧。
+Pset_FireSuppressionTerminalTypeSprinkler	接続サイズ	スプリンクラーへの入口接続のサイズ。
+Pset_FlowInstrumentTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_FlowInstrumentTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_FlowInstrumentTypePressureGauge	圧力計タイプ	圧力が表示される手段を識別する。
+Pset_FlowInstrumentTypePressureGauge	表示サイズ	表示のサイズ。 ダイヤル圧力計に関しては、ダイヤルの直径になる。
+Pset_FlowInstrumentTypeThermometer	温度計タイプ	温度が表示される手段を識別する。
+Pset_FlowInstrumentTypeThermometer	表示サイズ	表示のサイズ。 棒温度計の場合では、軸の長さになる。 ダイヤル温度計に関しては、ダイヤルの直径になる。
+Pset_FlowMeterTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_FlowMeterTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_FootingCommon	参照記号	当プロジェクトにおけるこの指定型式のためのリファレンスID。（たとえは、'A-1'型)
+Pset_FootingCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_HeatExchangerTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_HeatExchangerTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_HeatExchangerTypeCommon	配置	熱交換器の流れの基本的配置(カウンターフロー、クロスフロー。パラレルフロー、マルチパス、その他)
+Pset_HeatExchangerTypePlate	プレート数	プレート式熱交換器に使われているプレート数
+Pset_HumidifierPHistory	標準大気圧（外気圧）	標準大気圧(外気圧）
+Pset_HumidifierPHistory	飽和比率	飽和比率：最大絶対湿度に対する現在の絶対湿度の割合
+Pset_HumidifierTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_HumidifierTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_HumidifierTypeCommon	応用	加湿器の応用　(固定式：ダクト搬送系に設置する加湿器、可搬式：クト搬送系に設置しない加湿器)
+Pset_HumidifierTypeCommon	重量	加湿器の重量
+Pset_HumidifierTypeCommon	加湿量の平均	気流に加わった水蒸気の平均量
+Pset_HumidifierTypeCommon	気流量の平均	加湿される気流の平均量
+Pset_HumidifierTypeCommon	内部制御	内部調整の制御
+Pset_HumidifierTypeCommon	水必要量	補給水の必要量
+Pset_InterceptorTypeCommon	参照記号	使用される認識分類システムで分類基準がない場合、プロジェクトで指定された型（タイプ'Ａ-1'など）で提供されるレファレンスID。
+Pset_InterceptorTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_JunctionBoxTypeCommon	参照	当該プロジェクトで定義する形式の参照ID（例：A-1)、承認された分類に存在しないときに使用される。
+Pset_JunctionBoxTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_JunctionBoxTypeCommon	分岐の数	スロットスイッチ/コンセント（最も一般的に1、2、3、または4）で使用可能な数。
+Pset_JunctionBoxTypeCommon	明確な深さ	ジヤンクションボックスにケーブルを収められる深さ。
+Pset_JunctionBoxTypeCommon	形状	ジヤンクションボックスの形状。
+Pset_JunctionBoxTypeCommon	位置	ジヤンクションボックスの配置場所。
+Pset_JunctionBoxTypeCommon	取り付け	ジヤンクションボツクスの取り付け方法。
+Pset_JunctionBoxTypeCommon	外部露出	ジャンクションボックスが外部露出の許可がされているかどうかを表示（外部露出が許可されている場合は設定）。
+Pset_JunctionBoxTypeCommon	機密性エンクロージャ等級	エンクロージャによる国際保護等級（IPコード）。
+Pset_LampTypeCommon	参照	当該プロジェクトで定義する形式の参照ID（例：A-1)、承認された分類に存在しないときに使用される。
+Pset_LampTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_LampTypeCommon	光束	"光束は放射束を光度測定したもので、たとえば、光源からの発光の量である。光束は全室内、または室内の一部（立体角の部分的な光束）で計測する。
+全ての光度測定の項目は高速の派生である。光束は単位ルーメンで計られる。光束は各ランプからの値で与えられる。"
+Pset_LampTypeCommon	照明器具ワット数	発光するための定格ワット数
+Pset_LampTypeCommon	保守率	回復不可能な光量減少が原因の光源自体の光束の低下、たとえば照明器具の老朽化や汚れによる光量の減少。
+Pset_LampTypeCommon	安定期のタイプ	"安定器は使用中の過電流を抑え、蛍光ランプの起動に必要な高い電圧を供給し、ガス放電を安定させる。安定器は蛍光灯、水銀灯、メタルハライドランプ、高圧ナトリウムランプ等の放電灯使用する時に必要となる。
+磁気式安定器はランプに流れる電流の制限のために、直列に接続された自己誘導の手法を用いている電流と出力から照明の効率運用の結果がわかる。
+特別な設計の安定器は全ての照明の光束、色の見え方、寿命の要求に答える。
+蛍光灯用の磁気式安定器にはKVG従来型とVVG省電力型の2種類がある。
+省電力型安定器は光効率で、安定器での損失の低減及び低熱負荷になっている。電子式安定器は蛍光灯を高周波で安定的に点灯させる。"
+Pset_LampTypeCommon	ランプ補正	力率の改善と高調波の抑制のために使用される補正
+Pset_LampTypeCommon	色の見え方	"DIN（ドイツ規格協会）とCIE（国際照明委員会）の両方の規格で、人工照明は色の見え方で分類される。
+人の目には全て白く見えてくる、その差異は直接比較することにより判別することが可能である。視機能は色の見え方の差異に直接影響はしない。"
+Pset_LampTypeCommon	波長域	"波長を考慮して合成することを放射スペクトルで表現する。
+光は可視の電磁波の一種で、訳380～780nmの範囲の波長の放射である。
+色の変化は紫から藍色、青、緑、黄色、オレンジ、赤の範囲に相当する。これらの色は連続する波長で、お互いに合成した波長領域である。"
+Pset_LampTypeCommon	色温度	放射源の色温度は黒体、または完全放射体の色温度にて定義され、与えられた放射の色度と等しい黒体の温度のこと。与えられた放射の色度が黒体放射軌跡上にない場合に、相対分光分布を黒体放射に近似する。最も一般的な人工光源の色温度の範囲は、3000K以下（暖白）から4000K（中間）で、5000k以上は昼光。
+Pset_LampTypeCommon	演色評価数	同じ色温度の基準光源で、規定された8色の試験色票での光源による色彩の再表現を比較する。CRIの評価スケールは1～100で、基準光源の場合を100とする。
+Pset_LandRegistration	敷地ID	登記における識別番号。
+Pset_LandRegistration	恒久ID区分	敷地IDが恒久的なものかどうかを示すブーリアン値。
+Pset_LandRegistration	敷地番号ID	登記所による識別番号。
+Pset_LightFixtureTypeCommon	参照	当該プロジェクトで定義する形式の参照ID（例：A-1)、承認された分類に存在しないときに使用される。
+Pset_LightFixtureTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_LightFixtureTypeCommon	電球数	電球数。
+Pset_LightFixtureTypeCommon	総ワット数	全ての照明器具のワット数。
+Pset_LightFixtureTypeCommon	照明器具取付方法	照明器具の取付方法をリストから選択。
+Pset_LightFixtureTypeCommon	照明器具取付場所	照明器具の取付場所をリストから選択。
+Pset_LightFixtureTypeCommon	保守率	汚れ、煙、年数による初期からのランプや反射装置の低減許容計算。
+Pset_LightFixtureTypeSecurityLighting	防犯灯	防犯灯のタイプ。
+Pset_LightFixtureTypeSecurityLighting	器具の高さ	出口標識などの器具の高さ。
+Pset_LightFixtureTypeSecurityLighting	自己診断機能	自己診断機能のタイプ。
+Pset_LightFixtureTypeSecurityLighting	電源バックアップシステム	電源バックアップシステムのタイプ。
+Pset_LightFixtureTypeSecurityLighting	避難標識の向き	避難標識の向き。
+Pset_LightFixtureTypeSecurityLighting	アドレス指定能力	アドレス指定能力のタイプ。
+Pset_MechanicalFastenerAnchorBolt	長さ	アンカーボルトの長さ。
+Pset_MechanicalFastenerAnchorBolt	直径	アンカーボルトの直径。
+Pset_MedicalDeviceTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_MedicalDeviceTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_MemberCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_MemberCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_MemberCommon	全長	このオブジェクトの全長。
+Pset_MemberCommon	傾斜	傾斜角度。水平を0度とする。
+Pset_MemberCommon	回転	オブジェクトの長軸に対する回転。
+Pset_MemberCommon	外部区分	外部の部材かどうかを示すブーリアン値。もしTRUEの場合、外部の部材で建物の外側に面している。
+Pset_MemberCommon	熱貫流率	熱貫流率U値。ここではメンバーオブジェクトを通した熱移動の方向における全体の熱還流率を示す。
+Pset_MemberCommon	耐力部材	荷重に関係している部材かどうかを示すブーリアン値。
+Pset_MemberCommon	耐火等級	主要な耐火等級。関連する建築基準法、消防法などの国家基準を参照。
+Pset_MotorConnectionTypeCommon	参照	当該プロジェクトで定義する形式の参照ID（例：A-1)、承認された分類に存在しないときに使用される。
+Pset_MotorConnectionTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_OpeningElementCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_OpeningElementCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_OpeningElementCommon	目的	"開口の目的を示す文字列。例：""ventilation""（換気）、""access""（通行）など。"
+Pset_OpeningElementCommon	非常口区分	"このオブジェクト（開口）が火災の場合に出口として使われるように設計されているかどうかを示すブーリアン値。(TRUE)はい、(FALSE)いいえ。
+ここに、空間(例えば廊下)は、例えば火災避難目的のために出口空間として使われるよう設計されているかどうか。"
+Pset_OpeningElementCommon	保護	開港が安全性を考慮した保護機能があるかどうかを示すブーリアン値。適用される建築基準などにより保護されている場合(TRUE)、そうではない場合(FALSE）となる。
+Pset_OutletTypeCommon	参照	当該プロジェクトで定義する形式の参照ID（例：A-1)、承認された分類に存在しないときに使用される。
+Pset_OutletTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_OutletTypeCommon	プラグ接続可否	差込口が緩いプラグ接続を認めるか、それが直接接続されるかどうか、あるいは接続の形式がまだ決定されていないかを指示する。
+Pset_OutsideDesignCriteria	暖房用設計外気乾球温度	暖房用設計用外気乾球温度。
+Pset_OutsideDesignCriteria	暖房用設計外気湿球温度	暖房用設計用外気湿球温度。
+Pset_OutsideDesignCriteria	暖房設計基準日	暖房設計用気象データの日付。
+Pset_OutsideDesignCriteria	冷房用設計外気乾球温度	冷房用設計用外気乾球温度。
+Pset_OutsideDesignCriteria	冷房用設計外気湿球温度	冷房用設計用外気湿球温度。
+Pset_OutsideDesignCriteria	冷房設計基準日	冷房設計用気象データの日時（月、日、時刻）。
+Pset_OutsideDesignCriteria	気象台所在地	空調負荷計算時使用する気象データの気象台所在地。
+Pset_OutsideDesignCriteria	気象データ	気象台所在地の気象データ。
+Pset_OutsideDesignCriteria	周囲環境からの熱放射強度	周囲環境から建物への熱放射強度。
+Pset_OutsideDesignCriteria	卓越風の風向	卓越風の風向、真北は0°、時計回り。
+Pset_OutsideDesignCriteria	卓越風の風速	PrevailingWindDirection 属性に示された風向から来た卓越風の風速。
+Pset_PackingInstructions	荷造り注意タイプ	"引越しの最中の品物の取り扱いに要求される、あらかじめ定義されている注意タイプの識別子：
+
+Fragile: 注意深い取り扱いをしないと壊れる品物。
+HandleWithCare: 注意深い取り扱いでしないと損害を受ける品物。"
+Pset_PackingInstructions	包装材料	品物の包装に使用される材料に関する特記事項。
+Pset_PackingInstructions	コンテナー材料	品物の収容するのに使用される材料に関する特記事項。
+Pset_PackingInstructions	特記事項	荷造りに関する特記事項。
+Pset_PileCommon	参照記号	当プロジェクトにおけるこの指定型式のためのリファレンスID。（たとえは、'A-1'型)
+Pset_PileCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_PipeConnectionFlanged	フランジ基準	フランジ形状の名称基準
+Pset_PipeConnectionFlanged	フランジ規格	フランジ規格を記述している基準
+Pset_PipeConnectionFlanged	フランジの内径のサイズ	フランジの呼び径
+Pset_PipeConnectionFlanged	フランジの直径	フランジの全直径
+Pset_PipeConnectionFlanged	フランジの厚さ	パイプをつなぐ材料の厚み
+Pset_PipeConnectionFlanged	ボルト穴の数	フランジにあるボルト穴の数
+Pset_PipeConnectionFlanged	ボルトの大きさ	フランジを締めるボルトの大きさ
+Pset_PipeConnectionFlanged	ボルト穴ピッチ	ボルト穴がある円の直径
+Pset_PipeFittingOccurrence	内部粗度係数	配管部の内部粗度係数
+Pset_PipeFittingOccurrence	色	配管部の内部粗度係数　記：プラスチック配管にのみ使われる。保護のためではない塗装された表面を持つ配管にも使われる。
+Pset_PipeFittingPHistory	損失係数	無次元数的な損失係数で、ある断面において、動圧に対する全圧損失の割合を表す流れ抵抗を計算するのに使われる。
+Pset_PipeFittingPHistory	漏洩流量	漏洩量と圧力差の関係
+Pset_PipeFittingTypeBend	曲がり角度	流れの方向を変える
+Pset_PipeFittingTypeBend	曲率半径	円弧の曲率半径？
+Pset_PipeFittingTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_PipeFittingTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_PipeFittingTypeCommon	圧力分類	継ぎ手接合部の圧力等級？
+Pset_PipeFittingTypeCommon	圧力範囲	許容できる最大/最小管内圧力(周囲圧力に比較して)
+Pset_PipeFittingTypeCommon	温度範囲	許容できる最大/最小温度
+Pset_PipeFittingTypeCommon	継ぎ手接合部損失係数	接合部を通過する際の摩擦による圧力損失を決める係数
+Pset_PipeFittingTypeJunction	継ぎ手タイプ	接合のタイプ　(T継ぎ手は3本　十字継ぎ手は4本)
+Pset_PipeFittingTypeJunction	左継ぎ手角度	左継ぎ手の流れの方向の変化
+Pset_PipeFittingTypeJunction	左継ぎ手半径	左継ぎ手の曲がりの半径
+Pset_PipeFittingTypeJunction	右継ぎ手角度	右継ぎ手の流れの方向の変化
+Pset_PipeFittingTypeJunction	右継ぎ手半径	右継ぎ手の曲がりの半径(ゼロは鋭い曲がりを意味する)
+Pset_PipeSegmentOccurrence	内部粗度係数	配管部の内部粗度係数
+Pset_PipeSegmentOccurrence	色	配管部の内部粗度係数　記：この語はプラスチック配管にのみ使われる。しかしながら、保護のためではない塗装された表面を持つ配管にも使われる。
+Pset_PipeSegmentOccurrence	勾配	配管部の勾配
+Pset_PipeSegmentPHistory	漏洩曲線	配管圧力に対する単位あたり流出量曲線
+Pset_PipeSegmentPHistory	流体漏洩量	漏洩量
+Pset_PipeSegmentTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_PipeSegmentTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_PipeSegmentTypeCommon	動作圧	動作圧
+Pset_PipeSegmentTypeCommon	圧力範囲	許容最大/最小管内圧力(周囲圧力に比較して)
+Pset_PipeSegmentTypeCommon	温度範囲	許容最大/最小温度
+Pset_PipeSegmentTypeCommon	呼び径	配管部の呼び径、リストに一つの数字しかないとき、この呼び径が全ての管端に当てはまる。一つ以上の数字があるとき、呼び径はリストの表示に対応する管端にあてはまる。
+Pset_PipeSegmentTypeCommon	内径	配管の実内径(リストの複数の数字の解釈については呼び径参照)
+Pset_PipeSegmentTypeCommon	外径	配管の実外径(リストの複数の数字の解釈については呼び径参照)
+Pset_PipeSegmentTypeCulvert	内幅	暗渠管の内幅
+Pset_PipeSegmentTypeCulvert	許容深さ	暗渠管の許容(安全)深さ
+Pset_PipeSegmentTypeGutter	勾配	排水に必要な溝の角度（傾斜）
+Pset_PipeSegmentTypeGutter	流量	実際の排水流量　　０.00値はこの値がｾｯﾄされていないことを意味する　
+Pset_PlateCommon	参照記号	認識された分類体系で参照する分類がない場合にこのプロジェクト固有の参照記号（例：タイプ'A-1'）が与えられる。
+Pset_PlateCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_PlateCommon	遮音等級	このオブジェクトの遮音等級。各国の建築基準に従って決められる。このオブジェクトの音響透過を指数であらわす。（実際の吸音値を示すかわりに）
+Pset_PlateCommon	外部区分	この要素が外部に用いられるか（TRUE）、否か（FALSE）を示す。（TRUE)の場合、これは外部要素で、建物の外部に面している。
+Pset_PlateCommon	熱貫流率	材料の熱貫流率（U値）。すべての扉部材に適応される。
+Pset_PlateCommon	耐力部材	オブジェクトが荷重を保持するか（TRUE）、保持しないか（FALSE）を示す。
+Pset_PlateCommon	耐火等級	当該オブジェクトの耐火等級。国で定めた耐火安全等級分類による。
+Pset_PrecastConcreteElementGeneral	特定子の記述	プレキャストコンクリート要素の特定子（部位）を記述する。内容はローカルな（各国の）標準（規格）に依存する。例えばフィンランドでは、柱はP、梁はKのように通常、頭文字1文字で表す。
+Pset_PrecastConcreteElementGeneral	面取り	プレキャストコンクリート要素の面取り。面取りは両方向で等しいものとする。
+Pset_PrecastConcreteElementGeneral	メーカーの認可分類	ローカルな標準によるメーカーの認可分類。
+Pset_PrecastConcreteElementGeneral	脱型強度	脱型時におけるコンクリートの最小必要圧縮強度。
+Pset_PrecastConcreteElementGeneral	吊り上げ強度	コンクリート要素が吊り上げられる時のコンクリートの最小必要圧縮強度。
+Pset_PrecastConcreteElementGeneral	リリース強度	緊張力が解放される時のコンクリートの最小必要圧縮強度。この属性はプレストレストコンクリート要素のみに適用される。
+Pset_PrecastConcreteElementGeneral	最小許容支持長さ	最小許容支持長さ。
+Pset_PrecastConcreteElementGeneral	初引張力	緊張材の初期応力。この属性はプレストレストコンクリート要素のみに適用される。
+Pset_PrecastConcreteElementGeneral	緊張材のリラクセーション	緊張材の最大許容リラクセーション（応力弛緩、－係数）。通常、1000時間あたりの割合（%)。この属性はプレストレストコンクリート要素のみに適用される。
+Pset_PrecastConcreteElementGeneral	輸送強度	輸送に必要なコンクリートの最小必要圧縮強度。
+Pset_PrecastConcreteElementGeneral	輸送中の支持に関する記述	プレキャストコンクリート要素が輸送中における支持方法について書かれたテキスト文書。
+Pset_PrecastConcreteElementGeneral	輸送中の支持に関する参考文献	プレキャストコンクリート要素が輸送中における支持方法について書かれた外部ドキュメントの参照。
+Pset_PrecastConcreteElementGeneral	くぼみの充填	（定着部の？）くぼみをどのように扱うのかについて書かれたラベル：開けたままにするか、プラグで塞ぐ、または後詰めコンクリートで塞ぐ。例えば、「塞がない」、「塞ぐ」、「コンクリートで塞ぐ」と書かれるだろう。この属性はスラブに開けられたくぼみにも適用される。
+Pset_ProjectOrderChangeOrder	変更理由	変更が必要となる問題の記述。
+Pset_ProjectOrderChangeOrder	予算源	要求された予算の出所・源。
+Pset_ProjectOrderMoveOrder	特別指示	移動・引っ越しに影響する特別な指示。
+Pset_ProtectiveDeviceBreakerUnitI2TCurve	電圧レベル	"保護装置が作動する電圧レベルを選択。
+[U230,U400,U525,U690,U1000,その他,不明,無]"
+Pset_ProtectiveDeviceBreakerUnitI2TCurve	定格電流	"定格電流[A]を少なくても1つ値をセットしなければならない。
+ セット内の任意の値の値を超えてはならない。
+ 定格電流は、同じブレーカ部に関連付けられている。"
+Pset_ProtectiveDeviceBreakerUnitI2TCurve	遮断機曲線	"適用された電流と通過する遮断機のエネルギーを示した曲線
+ （1）定義値：ProspectiveCurrent（固有電流）：
+   電流/I2tで示される最小2から最大8のリストで電流[A]を定義します。
+   カーブが連続する2つの点を結ぶ直線として描かれています。
+
+
+ （2）定義値：LetThroughEnergy：
+   電流/I2tで示される最小2から最大8のリストで通過エネルギー電流[[A2s]を定義します。
+   カーブが連続する2つの点を結ぶ直線として描かれています。"
+Pset_ProtectiveDeviceBreakerUnitI2TFuseCurve	電圧レベル	電圧レベルを選択。
+Pset_ProtectiveDeviceBreakerUnitI2TFuseCurve	フューズ遮断機融解曲線	"想定外の電流が流れた時に遮断機のフューズを溶かすために必要なエネルギーを表す曲線。
+  想定外の電流が流れた時に遮断機のフューズを溶かすために必要なエネルギーを表す曲線。
+
+  （1）定義値：融解電流：電流/ 融解エネルギーで示される最小2から最大8のリストで電流[A]を定義します。
+   カーブが連続する2つの点を結ぶ直線として描かれています。
+  （2）定義値：融解エネルギー：/電流/融解エネルギーの位置[A2s]で示される2～16の想定されるフューズが溶解始める電流[A2s]を定義します。カーブが連続する2つの点を結ぶ直線として描かれています。"
+Pset_ProtectiveDeviceBreakerUnitI2TFuseCurve	フューズ遮断機融解曲線	"想定外の電流が流れた時に遮断機のフューズを溶かすために必要なエネルギーを表す曲線。
+  想定外の電流が流れた時に遮断機のフューズを溶かすために必要なエネルギーを表す曲線。
+
+  （1）定義値：融解電流：電流/ 融解エネルギーで示される最小2から最大8のリストで電流[A]を定義します。
+   カーブが連続する2つの点を結ぶ直線として描かれています。
+  （2）定義値：融解エネルギー：/電流/融解エネルギーの位置[A2s]で示される2～16の想定されるフューズが溶解始める電流[A2s]を定義します。カーブが連続する2つの点を結ぶ直線として描かれています。"
+Pset_ProtectiveDeviceBreakerUnitIPICurve	電圧レベル	電圧レベルを選択。
+Pset_ProtectiveDeviceBreakerUnitIPICurve	定格電流	"定格電流[A]を少なくても1つ値をセットしなければならない。
+ セット内の任意の値の値を超えてはならない。
+ 定格電流は、同じブレーカ部に関連付けられている。"
+Pset_ProtectiveDeviceBreakerUnitIPICurve	遮断機曲線	"適用された電流と通過する遮断機のエネルギーを示した曲線
+ （1）定義値：ProspectiveCurrent（固有電流）：
+   電流/I2tで示される最小2から最大8のリストで電流[A]を定義します。
+   カーブが連続する2つの点を結ぶ直線として描かれています。
+
+
+ （2）定義値：LetThroughEnergy：
+   電流/I2tで示される最小2から最大8のリストで通過エネルギー電流[[A2s]を定義します。
+   カーブが連続する2つの点を結ぶ直線として描かれています。"
+Pset_ProtectiveDeviceBreakerUnitTypeMCB	電力損失	定格電流がMCBに流れている時のMCBの極当たりの電力損失[W]。
+Pset_ProtectiveDeviceBreakerUnitTypeMCB	電圧レベル	電圧レベルを選択。
+Pset_ProtectiveDeviceBreakerUnitTypeMCB	定格電流	"定格電流[A]を少なくても1つ値をセットしなければならない。
+ セット内の任意の値の値を超えてはならない。
+ 定格電流は、同じブレーカ部に関連付けられている。"
+Pset_ProtectiveDeviceBreakerUnitTypeMCB	定格限界短絡遮断容量	IECの60947シリーズに基づいてテストされたMCBの定格限界短絡遮断容量を[A]で設定。
+Pset_ProtectiveDeviceBreakerUnitTypeMCB	定格使用短絡遮断容量	IECの60947シリーズに基づいてテストされたMCBの定格使用短絡遮断容量を[A]で設定。
+Pset_ProtectiveDeviceBreakerUnitTypeMCB	ICN60898	IECの60898シリーズに基づいてテストされたMCBの定格遮断容量を[A]で設定。
+Pset_ProtectiveDeviceBreakerUnitTypeMCB	ICS60898	IECの60898シリーズに基づいてテストされたMCBの遮断使用容量を[A]で設定。
+Pset_ProtectiveDeviceBreakerUnitTypeMotorProtection	能力クラス	モータ保護を行う開閉装置は、能力が違う最大7種類がある。名称の例として、B, C, N, S, H, L, Vが含まれる。
+Pset_ProtectiveDeviceBreakerUnitTypeMotorProtection	電圧レベル	電圧レベルを選択。
+Pset_ProtectiveDeviceBreakerUnitTypeMotorProtection	ICU60947	IECの60947シリーズに基づいてテスト配線用遮断機またはモータ保護装置のための遮断容量を[A]で設定。
+Pset_ProtectiveDeviceBreakerUnitTypeMotorProtection	ICS60947	IECの60947シリーズに基づいてテスト配線用遮断機またはモータ保護装置のための遮断容量サービスを[A]で設定。
+Pset_ProtectiveDeviceBreakerUnitTypeMotorProtection	ICW60947	"IEC60947シリーズに基づいてテストした配線遮断機またはモータ保護装置のための電流[A]に耐える温度。
+ 値は、1sで与えられる。"
+Pset_ProtectiveDeviceBreakerUnitTypeMotorProtection	ICM60947	IECの60947シリーズに基づいてテストした配線遮断機またはモータ保護装置のためので作る能力[A]。
+Pset_ProtectiveDeviceTrippingCurve	動作特性曲線のタイプ	動作特性曲線のタイプを指定。
+Pset_ProtectiveDeviceTrippingCurve	動作特性曲線	"(1)電流/時間の位置[x In]で示される2～16の想定される電流値を定義する。
+(2)定義された値は、電流/時間の位置[ｓ]で示される2～16の想定される放電時間。"
+Pset_ProtectiveDeviceTrippingFunctionGCurve	切り替え	装置の “ON-OFF”状態を電気的表示が切り替え可能かどうか。
+Pset_ProtectiveDeviceTrippingFunctionGCurve	定格調整電流	電流によって、動作時間が短かかったり長かったりするかどうか。
+Pset_ProtectiveDeviceTrippingFunctionGCurve	外部調整	外部調整が可能かどうか。
+Pset_ProtectiveDeviceTrippingFunctionGCurve	放出電流	放出する電流は、S-functionの初期特性。
+Pset_ProtectiveDeviceTrippingFunctionGCurve	放出時間	"関連する部分の初期トリップのための[s]が放出時間。
+ このトリップ時間は、リリースの電流よりも低い電流の場合、指定された動作時間よりも長くなります。
+ 値が平均値として与えられる。"
+Pset_ProtectiveDeviceTrippingFunctionGCurve	許容電流1	時間/特性曲線の許容範囲を[％]で指定。
+Pset_ProtectiveDeviceTrippingFunctionGCurve	許容電流限界1	"許容電流1を制限する時間制限。
+値が0の場合は、制限はない。"
+Pset_ProtectiveDeviceTrippingFunctionGCurve	許容電流2	[％]で指定された時間/特性曲線の許容範囲は、上記の許容電流限界1の時間で有効です。
+Pset_ProtectiveDeviceTrippingFunctionGCurve	電流許容値	"許容電流限界1の値のみかどうか
+ 上記でない場合、電流許容値はプラス/マイナスした値。"
+Pset_ProtectiveDeviceTrippingFunctionGCurve	許容時間1	[％]で時間/特性曲線の許容時間を設定
+Pset_ProtectiveDeviceTrippingFunctionGCurve	許容限界時間1	"許容時間1を制限する電流制限値。
+値が0の場合は、制限はない。"
+Pset_ProtectiveDeviceTrippingFunctionGCurve	許容時間2	[％]で指定された時間/特性曲線の許容範囲は、上記の許容電流限界1の電流で有効です。
+Pset_ProtectiveDeviceTrippingFunctionGCurve	時間許容値	"許容時間1の値のみかどうか
+ 上記でない場合、時間許容値は、プラス/マイナスした値。"
+Pset_ProtectiveDeviceTrippingFunctionGCurve	I2tの開始放流電流	G関数の特性曲線I2tの始点[x In]が開始放流電流。
+Pset_ProtectiveDeviceTrippingFunctionGCurve	I2tの開始放流時間	G関数の特性曲線I2tの始点[s]が開始放流時間。
+Pset_ProtectiveDeviceTrippingFunctionGCurve	I2tの終了放流電流	"G関数のI2の特性曲線のエンドポイントの[s]を放流電流。 
+  I2tの終了放流電流がI2tの開始放流電流よりも低くしなければならない。"
+Pset_ProtectiveDeviceTrippingFunctionGCurve	I2tの終了放流時間	"G関数のI2の特性曲線のエンドポイントの[s]を放流時間。 
+ I2tの終了放流電流時間がI2tの開始放流時間よりも低くしなければならない。"
+Pset_ProtectiveDeviceTrippingFunctionICurve	切り替え	装置の “ON-OFF”状態を電気的表示が切り替え可能かどうか。
+Pset_ProtectiveDeviceTrippingFunctionICurve	定格調整電流	電流によって、動作時間が短かかったり長かったりするかどうか。
+Pset_ProtectiveDeviceTrippingFunctionICurve	放出電流	放出する電流は、S-functionの初期特性。
+Pset_ProtectiveDeviceTrippingFunctionICurve	放出時間	"関連する部分の初期トリップのための[s]が放出時間。
+ このトリップ時間は、リリースの電流よりも低い電流の場合、指定された動作時間よりも長くなります。
+ 値が平均値として与えられる。"
+Pset_ProtectiveDeviceTrippingFunctionICurve	許容電流1	時間/特性曲線の許容範囲を[％]で指定。
+Pset_ProtectiveDeviceTrippingFunctionICurve	許容電流限界1	"許容電流1を制限する時間制限。
+値が0の場合は、制限はない。"
+Pset_ProtectiveDeviceTrippingFunctionICurve	許容電流2	[％]で指定された時間/特性曲線の許容範囲は、上記の許容電流限界1の時間で有効です。
+Pset_ProtectiveDeviceTrippingFunctionICurve	電流許容値	"許容電流限界1の値のみかどうか
+ 上記でない場合、電流許容値はプラス/マイナスした値。"
+Pset_ProtectiveDeviceTrippingFunctionICurve	許容時間1	[％]で時間/特性曲線の許容時間を設定。
+Pset_ProtectiveDeviceTrippingFunctionICurve	許容限界時間1	"許容時間1を制限する電流制限値。
+値が0の場合は、制限はない。"
+Pset_ProtectiveDeviceTrippingFunctionICurve	許容時間2	[％]で指定された時間/特性曲線の許容範囲は、上記の許容電流限界1の電流で有効です。
+Pset_ProtectiveDeviceTrippingFunctionICurve	時間許容値	"許容時間1の値のみかどうか
+ 上記でない場合、時間許容値は、プラス/マイナスした値。"
+Pset_ProtectiveDeviceTrippingFunctionICurve	最大調整X_ICS	実際のトリップ装置の一部である保護装置のIcs 遮断容量に関連して利用可能な電流の最大調整値。
+Pset_ProtectiveDeviceTrippingFunctionLCurve	切り替え	装置の “ON-OFF”状態を電気的表示が切り替え可能かどうか。
+Pset_ProtectiveDeviceTrippingFunctionLCurve	上電流1	[x In]の電流,電流をトリップするL関数のI2t部分は、上限電流1よりも大きい電流を示す。
+Pset_ProtectiveDeviceTrippingFunctionLCurve	上電流2	[x In]の電流,電流をトリップするL関数のI2t部分は、上限時間/特性曲線よりも大きい電流を示す。
+Pset_ProtectiveDeviceTrippingFunctionLCurve	上時間1	[s]の時間,上時間より低い上部の時間/特性曲線のトリップ時間は、L-関数ののI2t部分によって決定される。
+Pset_ProtectiveDeviceTrippingFunctionLCurve	上時間2	[s]の時間,上電流2より上部の特性曲線のトリップ時間を示す
+Pset_ProtectiveDeviceTrippingFunctionLCurve	下電流1	[x In]の電流,電流をトリップするL関数のI2t部分は、下電流1よりも小さい電流を示す。
+Pset_ProtectiveDeviceTrippingFunctionLCurve	下電流2	[x In]の電流,電流をトリップするL関数のI2t部分は、特性曲線よりも小さい電流を示す。
+Pset_ProtectiveDeviceTrippingFunctionLCurve	下時間1	[s]の時間,下時間より低い特性曲線のトリップ時間は、L-関数ののI2t部分によって決定される。
+Pset_ProtectiveDeviceTrippingFunctionLCurve	下時間2	[s]の時間,下電流2より下部の特性曲線のトリップ時間を示す。
+Pset_ProtectiveDeviceTrippingFunctionSCurve	切り替え	装置の “ON-OFF”状態を電気的表示が切り替え可能かどうか。
+Pset_ProtectiveDeviceTrippingFunctionSCurve	定格調整電流	電流によって、動作時間が短かかったり長かったりするかどうか。
+Pset_ProtectiveDeviceTrippingFunctionSCurve	放出電流	放出する電流は、S-functionの初期特性。
+Pset_ProtectiveDeviceTrippingFunctionSCurve	放出時間	"関連する部分の初期トリップのための[s]が放出時間。
+ このトリップ時間は、リリースの電流よりも低い電流の場合、指定された動作時間よりも長くなります。
+ 値が平均値として与えられる。"
+Pset_ProtectiveDeviceTrippingFunctionSCurve	許容電流1	時間/特性曲線の許容範囲を[％]で指定。
+Pset_ProtectiveDeviceTrippingFunctionSCurve	許容電流限界1	"許容電流1を制限する時間制限。
+値が0の場合は、制限はない。"
+Pset_ProtectiveDeviceTrippingFunctionSCurve	許容電流2	[％]で指定された時間/特性曲線の許容範囲は、上記の許容電流限界1の時間で有効です。
+Pset_ProtectiveDeviceTrippingFunctionSCurve	電流許容値	"許容電流限界1の値のみかどうか
+ 上記でない場合、電流許容値はプラス/マイナスした値。"
+Pset_ProtectiveDeviceTrippingFunctionSCurve	許容時間1	[％]で時間/特性曲線の許容時間を設定
+Pset_ProtectiveDeviceTrippingFunctionSCurve	許容限界時間1	"許容時間1を制限する電流制限値。
+値が0の場合は、制限はない。"
+Pset_ProtectiveDeviceTrippingFunctionSCurve	許容時間2	[％]で指定された時間/特性曲線の許容範囲は、上記の許容電流限界1の電流で有効です。
+Pset_ProtectiveDeviceTrippingFunctionSCurve	時間許容値	"許容時間1の値のみかどうか。
+ 上記でない場合、時間許容値は、プラス/マイナスした値。"
+Pset_ProtectiveDeviceTrippingFunctionSCurve	I2tの開始放流電流	S関数の特性曲線I2tの始点[x In]が開始放流電流。
+Pset_ProtectiveDeviceTrippingFunctionSCurve	I2tの開始放流時間	S関数の特性曲線I2tの始点[s]が開始放流時間。
+Pset_ProtectiveDeviceTrippingFunctionSCurve	I2tの終了放流電流	"S関数のI2の特性曲線のエンドポイントの[s]を放流電流。 
+  I2tの終了放流電流がI2tの開始放流電流よりも低くしなければならない。"
+Pset_ProtectiveDeviceTrippingFunctionSCurve	I2tの終了放流時間	"S関数のI2の特性曲線のエンドポイントの[s]を放流時間。 
+ I2tの終了放流電流時間がI2tの開始放流時間よりも低くしなければならない。"
+Pset_ProtectiveDeviceTrippingUnitCurrentAdjustment	調整値の型	調整値のタイプを設定。
+Pset_ProtectiveDeviceTrippingUnitCurrentAdjustment	調整範囲	時間調整の範囲の上限値と下限値を設定。一覧表ではもっていない事を注意。
+Pset_ProtectiveDeviceTrippingUnitCurrentAdjustment	調整範囲のステップ値	時間調整の範囲をステップ値を設定。一覧表ではもっていない事を注意。
+Pset_ProtectiveDeviceTrippingUnitCurrentAdjustment	調整値	時間調整値を１から16で設定。範囲では、ない事を注意。
+Pset_ProtectiveDeviceTrippingUnitCurrentAdjustment	調整の指定	調整する装置の指定。
+Pset_ProtectiveDeviceTrippingUnitTimeAdjustment	調整値の型	調整値のタイプを設定。
+Pset_ProtectiveDeviceTrippingUnitTimeAdjustment	調整範囲	時間調整の範囲の上限値と下限値を設定。一覧表ではもっていない事を注意。
+Pset_ProtectiveDeviceTrippingUnitTimeAdjustment	調整範囲のステップ値	時間調整の範囲をステップ値を設定。一覧表ではもっていない事を注意。
+Pset_ProtectiveDeviceTrippingUnitTimeAdjustment	調整値	時間調整値を１から16で設定。範囲では、ない事を注意。
+Pset_ProtectiveDeviceTrippingUnitTimeAdjustment	調整の指定	調整する装置の指定。
+Pset_ProtectiveDeviceTrippingUnitTimeAdjustment	時延電流	時延[x]ののトリップ電流は、L関数の遅延時間、およびSとG関数のI2tを指定。
+Pset_ProtectiveDeviceTrippingUnitTimeAdjustment	I2Tの適用	トリップ機能の時延を求める時に適用する関数。
+Pset_ProtectiveDeviceTrippingUnitTypeCommon	参照	当該プロジェクトで定義する形式の参照ID（例：A-1)、承認された分類に存在しないときに使用される。
+Pset_ProtectiveDeviceTrippingUnitTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_ProtectiveDeviceTrippingUnitTypeCommon	特性定義	トリッピング装置の特性定義のための標準的な適用の指定。
+Pset_ProtectiveDeviceTrippingUnitTypeCommon	使用方法	トリップ情報を時間か電流かどちらで判断するか。
+Pset_ProtectiveDeviceTrippingUnitTypeCommon	アテックス認証	トリップ装置がEX-環境で適用されるかどうか。
+Pset_ProtectiveDeviceTrippingUnitTypeCommon	販売中止装置	基準に適合されていて販売されているかどうか。
+Pset_ProtectiveDeviceTrippingUnitTypeCommon	接続限界値	装置に接続される最大サイズ。
+Pset_ProtectiveDeviceTrippingUnitTypeElectroMagnetic	電磁トリップ装置タイプ	電磁トリップ装置タイプを選択する。（過電流・配線用・モーター・バイメタル・その他）
+Pset_ProtectiveDeviceTrippingUnitTypeElectroMagnetic	I1	熱動式の低試験電流限界値を [x In]、電流は I1　よりも低い値を示す。トリップ時間は関連する T2 の時間よりも長い。
+Pset_ProtectiveDeviceTrippingUnitTypeElectroMagnetic	I2	熱動式の高試験電流限界値を [x In], 電流は I2 よりも高い値を示す。トリップ時間は関連する T2 の時間よりも短い。
+Pset_ProtectiveDeviceTrippingUnitTypeElectroMagnetic	T2	熱動式の試験時間を [s] , 関連する試験電流を I1 と I2　とする。
+Pset_ProtectiveDeviceTrippingUnitTypeElectroMagnetic	設定温度	この保護装置が定める温度・電流/時間-カーブに関連する周囲温度。
+Pset_ProtectiveDeviceTrippingUnitTypeElectroMagnetic	温度係数	熱の電流/時間を、定義済みの温度によって与えられる値と異なる場合に周囲温度に合わせるための補正係数（%/deg K で計測する）。
+Pset_ProtectiveDeviceTrippingUnitTypeElectroMagnetic	I4	電磁の低試験電流限界値を [x In], 電流は I4 よりも低い値を示す。トリップ時間は関連する T5 と瞬時に遮断する定格使用電流の時間よりも長い。
+Pset_ProtectiveDeviceTrippingUnitTypeElectroMagnetic	I5	電磁の高試験電流限界値を [x In], 電流は I4 よりも低い値を示す。トリップ時間は関連する T5 と瞬時に遮断する定格使用電流の時間よりも長い。
+Pset_ProtectiveDeviceTrippingUnitTypeElectroMagnetic	T5	電磁の試験時間を [s] , 関連する試験電流を I4 と I5　とする。
+Pset_ProtectiveDeviceTrippingUnitTypeElectroMagnetic	曲線指定	メーカーが提供する指定のトリッピングカーブ。MCBのために、指定はIEC 60898に準拠しなければならない。
+Pset_ProtectiveDeviceTrippingUnitTypeElectronic	電磁式の装置タイプ	電磁式の装置タイプをリストから選択。
+Pset_ProtectiveDeviceTrippingUnitTypeElectronic	定格電流	トリップ装置が対応する定格電流。
+Pset_ProtectiveDeviceTrippingUnitTypeElectronic	N_Protection	電磁式トリップ装置がN個の導体を保護するか否かの設定。
+Pset_ProtectiveDeviceTrippingUnitTypeElectronic	N_Protection_50	電磁式トリップ装置がN導体の50％以上で保護するか否かの設定。
+Pset_ProtectiveDeviceTrippingUnitTypeElectronic	N_Protection_100	電磁式トリップ装置がN導体の100％以上で保護するか否かの設定。
+Pset_ProtectiveDeviceTrippingUnitTypeElectronic	N_Protectionの選択	"どのN_Protectionを使うかユーザが設定できるかどうかを指定する。
+N_Protection_50とN_Protection_100の両方が有効な場合は、TRUEにします。"
+Pset_ProtectiveDeviceTrippingUnitTypeResidualCurrent	定格感度電流	漏電ブレーカの感度電流値（mA）。
+Pset_ProtectiveDeviceTrippingUnitTypeThermal	サーマルトリップ装置タイプ	選択を必要とするときのためのサーマルトリップ装置の選択リスト。
+Pset_ProtectiveDeviceTrippingUnitTypeThermal	I1	サーマルの低試験電流限界値を [x In]、電流は I1　よりも低い値を示す。トリップ時間は関連する T2 の時間よりも長い。
+Pset_ProtectiveDeviceTrippingUnitTypeThermal	I2	サーマルの高試験電流限界値を [x In], 電流は I2 よりも高い値を示す。トリップ時間は関連する T2 の時間よりも短い。
+Pset_ProtectiveDeviceTrippingUnitTypeThermal	T2	サーマルの試験時間を [s] , 関連する試験電流を I1 と I2　とする。
+Pset_ProtectiveDeviceTrippingUnitTypeThermal	設定温度	この保護装置が定める温度・電流/時間-カーブに関連する周囲温度
+Pset_ProtectiveDeviceTrippingUnitTypeThermal	温度係数	熱の電流/時間を、定義済みの温度によって与えられる値と異なる場合に周囲温度に合わせるための補正係数（%/deg K で計測する）。
+Pset_ProtectiveDeviceTrippingUnitTypeThermal	曲線指定	メーカーが提供する指定のトリッピングカーブ。MCBのために、指定はIEC 60898に準拠しなければならない。
+Pset_ProtectiveDeviceTypeCircuitBreaker	能力クラス	モータ保護を行う開閉装置は、能力が違う最大7種類がある。名称の例として、B, C, N, S, H, L, Vが含まれる。
+Pset_ProtectiveDeviceTypeCircuitBreaker	電圧レベル	電圧レベルを選択。
+Pset_ProtectiveDeviceTypeCircuitBreaker	定格限界短絡遮断容量	IECの60947シリーズに基づいてテストされた回路遮断機及びモータ保護装置の短絡遮断容量[A]。
+Pset_ProtectiveDeviceTypeCircuitBreaker	定格使用短絡遮断容量	IECの60947シリーズに基づいてテストされた回路遮断機及びモータ保護装置の使用短絡遮断容量[A]。
+Pset_ProtectiveDeviceTypeCircuitBreaker	ICW60947	"IEC60947シリーズに基づいてテストした配線遮断機またはモータ保護装置のための電流[A]に耐える温度。
+ 値は、1sで与えられる。"
+Pset_ProtectiveDeviceTypeCircuitBreaker	ICM60947	IECの60947シリーズに基づいてテストされた回路遮断機またはモータ保護装置の能力[A]。
+Pset_ProtectiveDeviceTypeCommon	参照	このプロジェクト (例． 'A-1'　タイプなど)で指定された参照ID。認められた分類体系の分類参照が存在しない場合に適用される。
+Pset_ProtectiveDeviceTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_ProtectiveDeviceTypeEarthLeakageCircuitBreaker	漏電回路遮断機のタイプ	"以下の中から選択が必要となる場合の遮断機タイプのリスト：
+
+スタンダード：遅延無しで動作する機器
+遅延：一定時間を経た後で動作する機器"
+Pset_ProtectiveDeviceTypeEarthLeakageCircuitBreaker	感度	装置のメイン回路を流れる瞬時電流の合計ベクトルの関連する rms 値、特定の条件になると機器が動作するようになる（IEC 61008-1)。
+Pset_ProtectiveDeviceTypeFuseDisconnector	ヒューズ遮断機のタイプ	"自家用発電連携側：モータや発電機の保護のために設計されているヒューズ。
+ 地絡保護装置：これでヒューズリンクまたはヒューズリンクヒューズキャリアは、可動接点を形成するスイッチ断路器、
+ HRC：標準ヒューズ（高連動破壊容量）
+ 漏電保護装置：電気的に破損して回路の動作条件は、過電流が発生する電源を切断装置
+ 欠相保護付：その特性を具体的にsemが芯デバイスの保護のために設計されているヒューズ。
+ 複合ヒューズ保護装置：その内の1つまたは複数の極は、複合ユニットに直列にヒューズを持っているスイッチ断路器。"
+Pset_ProtectiveDeviceTypeFuseDisconnector	電圧レベル	電圧レベルを選択。
+Pset_ProtectiveDeviceTypeFuseDisconnector	IC60269	IECの60269シリーズに応じたヒューズの遮断容量[A]。
+Pset_ProtectiveDeviceTypeFuseDisconnector	電力損失	定格電流がヒューズに流れる時の電力損失[W]。
+Pset_ProtectiveDeviceTypeResidualCurrentCircuitBreaker	感度	通常操作における望ましくない引き込みパスとの電流鎖交 (IEC 151-14-49)。
+Pset_ProtectiveDeviceTypeResidualCurrentSwitch	感度	通常操作における望ましくない引き込みパスとの電流鎖交 (IEC 151-14-49)。
+Pset_ProtectiveDeviceTypeVaristor	保護タイプ	選択が必要となる、バリスターの一覧リスト。
+Pset_PumpOccurrence	羽根直径	幾何学的に似たポンプの性能を予測するのに使われる。
+Pset_PumpOccurrence	基礎タイプ	ポンプ基礎の一般的な型を定義する(フレーム、(コンクリ)基礎、なし、その他)
+Pset_PumpOccurrence	駆動接続タイプ	ポンプの動力機械がポンプに接続される方法(直動、ベルト、カップリング、その他)
+Pset_PumpPHistory	機械効率	ポンプの稼動時の機械効率
+Pset_PumpPHistory	全効率	ポンプとモーターの運用全効率
+Pset_PumpPHistory	昇圧	上がった圧力
+Pset_PumpPHistory	回転速度	ポンプ回転速度
+Pset_PumpPHistory	流量	実際の運用流量
+Pset_PumpPHistory	動力	ポンプの実動力消費
+Pset_PumpTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_PumpTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_PumpTypeCommon	流量範囲	指定された抵抗に対してポンプでくみ上げ可能な流対量の許容範囲
+Pset_PumpTypeCommon	流体抵抗の範囲	流体をポンプでくみ上げる際の摩擦抵抗の許容範囲
+Pset_PumpTypeCommon	接続サイズ	ポンプの入出の接続サイズ
+Pset_PumpTypeCommon	温度範囲	流体温度の許容範囲
+Pset_PumpTypeCommon	正味吸入側水頭	キャビテーションを防ぐポンプ入口の最小限の流体圧力
+Pset_PumpTypeCommon	通常の回転速度	多目的な状況の下でのポンプの回転速度
+Pset_RailingCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_RailingCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_RailingCommon	高さ	オブジェクトの高さ。床または会談から手すりの上部までの高さ。
+Pset_RailingCommon	直径	オブジェクトの直径。
+Pset_RailingCommon	外部区分	外部の部材かどうかを示すブーリアン値。もしTRUEの場合、外部の部材で建物の外側に面している。
+Pset_RampCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_RampCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_RampCommon	要求頭高余裕	要求される頭高余裕。関連する建築基準法を参照。
+Pset_RampCommon	要求傾斜	要求される傾斜角度。水平を０度とする。
+Pset_RampCommon	ハンディキャップアクセス可能性	この空間がハンディキャップ者向けの空間かどうかを示すブーリアン値。
+Pset_RampCommon	滑り止め表面加工区分	スリップ防止のための表面仕上げをしているかどうかのブーリアン値。
+Pset_RampCommon	非常口区分	このオブジェクトが火災時の非常口として設計されているかどうかを示すブーリアン値。ここでは関連する建築基準法における出口ドアとして定義している。
+Pset_RampCommon	外部区分	外部の部材かどうかを示すブーリアン値。もしTRUEの場合、外部の部材で建物の外側に面している。
+Pset_RampCommon	耐火等級	主要な耐火等級。関連する建築基準法、消防法などの国家基準を参照。
+Pset_RampFlightCommon	参照記号	参照記号でプロジェクトでのタイプとして使用されるもの。
+Pset_RampFlightCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_RampFlightCommon	頭上スペース	"現状の設計に一致した斜路の実際の頭上スペース高
+形状の情報は、内側は使用される形表現および幾何パラメータ学的媒介変数に加えて提供されます。
+幾何パラメータと形状プロパティが矛盾する場合は、付属のプロパティで提供されている、幾何パラメータを優先する。"
+Pset_RampFlightCommon	通路有効寸法	"実際の通路の有効幅
+形情報は、内側は使用される形表現および幾何学的媒介変数に加えて提供されます。幾何学的媒介変数と形特性の間の矛盾の場合では、付属の特性の中で提供されて、幾何学的媒介変数は先行をとります。"""
+Pset_RampFlightCommon	通路の傾斜角度(水平からの角度）	"オブジェクト傾斜角度（水平が0.0度)
+現在の設計による通路のための実際の最大の傾斜。形情報は、内側は使用される形表現および幾何学的媒介変数に加えて提供されます。幾何学的媒介変数と形特性の間の矛盾の場合では、付属の特性の中で提供されて、幾何学的媒介変数は先行をとります。"""
+Pset_RampFlightCommon	通路の傾斜角度(垂直との角度）	"オブジェクトの傾斜角度（垂直との角度）
+通路のための実際の最大の傾斜は、現在の設計による旅行の方向への垂直を測定しました。形情報は、内側は使用される形表現および幾何学的媒介変数に加えて提供されます。幾何学的媒介変数と形特性の間の矛盾の場合では、付属の特性の中で提供されて、幾何学的媒介変数は先行をとります。
+注:IFC2x4の中の新しいプロパティ"
+Pset_ReinforcementBarCountOfIndependentFooting	説明	鉄筋の説明。
+Pset_ReinforcementBarCountOfIndependentFooting	参照記号	一般的な鉄筋タイプの説明ラベル。
+Pset_ReinforcementBarCountOfIndependentFooting	X方向下端筋本数	X方向の下端筋本数。
+Pset_ReinforcementBarCountOfIndependentFooting	Y方向下端筋本数	Y方向の下端筋本数。
+Pset_ReinforcementBarCountOfIndependentFooting	X方向上端筋本数	X方向の上端筋本数。
+Pset_ReinforcementBarCountOfIndependentFooting	Y方向上端筋本数	Y方向の上端筋本数。
+Pset_ReinforcementBarPitchOfBeam	説明	鉄筋の説明。
+Pset_ReinforcementBarPitchOfBeam	参照記号	"一般的な鉄筋タイプの説明ラベル。
+（例えば、梁の両端・中央で肋筋や巾止筋の間隔が異なる場合に、""Start"",""Center"",""End""を記述する）"
+Pset_ReinforcementBarPitchOfBeam	肋筋間隔	肋筋の間隔。
+Pset_ReinforcementBarPitchOfBeam	幅止筋間隔	巾止筋の間隔。
+Pset_ReinforcementBarPitchOfColumn	説明	鉄筋の説明。
+Pset_ReinforcementBarPitchOfColumn	参照記号	"一般的な鉄筋タイプの説明ラベル。
+（例えば、柱の柱頭・柱脚で帯筋や巾止筋の間隔・本数が異なる場合に、""Top"",""Bottom""を記述する）"
+Pset_ReinforcementBarPitchOfColumn	補強筋タイプ	補強筋タイプの定義。
+Pset_ReinforcementBarPitchOfColumn	帯筋間隔	帯筋の間隔。
+Pset_ReinforcementBarPitchOfColumn	Ｘ方向巾止め筋間隔	Ｘ方向巾止筋の間隔。
+Pset_ReinforcementBarPitchOfColumn	Ｘ方向巾止め筋本数	Ｘ方向巾止筋の本数。
+Pset_ReinforcementBarPitchOfColumn	Y方向巾止め筋間隔	Y方向巾止筋の間隔。
+Pset_ReinforcementBarPitchOfColumn	Y方向巾止め筋本数	Y方向巾止筋の本数。
+Pset_ReinforcementBarPitchOfContinuousFooting	説明	鉄筋の説明。
+Pset_ReinforcementBarPitchOfContinuousFooting	参照記号	一般的な鉄筋タイプの説明ラベル。
+Pset_ReinforcementBarPitchOfContinuousFooting	上端筋間隔	交差する上端筋間隔。
+Pset_ReinforcementBarPitchOfContinuousFooting	下端筋間隔	交差する下端筋間隔。
+Pset_ReinforcementBarPitchOfSlab	説明	鉄筋の説明。
+Pset_ReinforcementBarPitchOfSlab	参照記号	一般的な鉄筋タイプの説明ラベル。
+Pset_ReinforcementBarPitchOfSlab	長辺・柱列帯・上端ピッチ	長辺方向・柱列帯・上端の鉄筋間隔。
+Pset_ReinforcementBarPitchOfSlab	長辺・柱列帯・上端中央ピッチ	長辺方向・柱間帯・上端中央の鉄筋間隔。
+Pset_ReinforcementBarPitchOfSlab	長辺・柱列帯・上端端部ピッチ	長辺方向・柱間帯・上端端部の鉄筋間隔。
+Pset_ReinforcementBarPitchOfSlab	短辺・柱列帯・上端ピッチ	短辺方向・柱列帯・上端の鉄筋間隔。
+Pset_ReinforcementBarPitchOfSlab	短辺・柱列帯・上端中央ピッチ	短辺方向・柱間帯・上端中央の鉄筋間隔。
+Pset_ReinforcementBarPitchOfSlab	短辺・柱列帯・上端端部ピッチ	短辺方向・柱間帯・上端端部の鉄筋間隔。
+Pset_ReinforcementBarPitchOfSlab	長辺・柱列帯・下端ピッチ	長辺方向・柱列帯・下端の鉄筋間隔。
+Pset_ReinforcementBarPitchOfSlab	長辺・柱列帯・下端中央ピッチ	長辺方向・柱間帯・下端中央の鉄筋間隔。
+Pset_ReinforcementBarPitchOfSlab	長辺・柱列帯・下端端部ピッチ	長辺方向・柱間帯・下端端部の鉄筋間隔。
+Pset_ReinforcementBarPitchOfSlab	短辺・柱列帯・下端ピッチ	短辺方向・柱列帯・下端の鉄筋間隔。
+Pset_ReinforcementBarPitchOfSlab	短辺・柱列帯・下端中央ピッチ	短辺方向・柱間帯・下端中央の鉄筋間隔。
+Pset_ReinforcementBarPitchOfSlab	短辺・柱列帯・下端端部ピッチ	短辺方向・柱間帯・下端端部の鉄筋間隔。
+Pset_ReinforcementBarPitchOfWall	説明	鉄筋の説明。
+Pset_ReinforcementBarPitchOfWall	参照記号	"一般的な鉄筋タイプの説明ラベル。
+（例えば、壁の外側・内側で鉄筋間隔が異なる場合に、""Outside"",""Inside""を記述する）"
+Pset_ReinforcementBarPitchOfWall	配筋タイプ	配筋タイプの定義。
+Pset_ReinforcementBarPitchOfWall	縦筋ピッチ	鉛直方向の補強筋の間隔。
+Pset_ReinforcementBarPitchOfWall	横筋ピッチ	水平方向の補強筋の間隔。
+Pset_ReinforcementBarPitchOfWall	巾止筋ピッチ	巾止筋の間隔。
+Pset_ReinforcingBarCommon	参照記号	当プロジェクトにおけるこの指定型式のためのリファレンスID。（たとえは、'A-1'型)
+Pset_ReinforcingBarCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_ReinforcingMeshCommon	参照記号	当プロジェクトにおけるこの指定型式のためのリファレンスID。（たとえは、'A-1'型)
+Pset_ReinforcingMeshCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_RoofCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_RoofCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_RoofCommon	遮音等級	遮音等級情報。関連する建築基準法を参照。
+Pset_RoofCommon	外部区分	外部の部材かどうかを示すブーリアン値。もしTRUEの場合、外部の部材で建物の外側に面している。
+Pset_RoofCommon	熱貫流率	"熱貫流率（U値）。
+ここでは（すべての材料を含む）屋根面を通した全体の熱還流率を示す。"
+Pset_RoofCommon	耐火等級	主要な耐火等級。関連する建築基準法、消防法などの国家基準によって指定される。
+Pset_SanitaryTerminalTypeBath	バスタイプ	"列挙するプロパティは、プロパティセット内で指定することができるバスの種類の定義：
+
+家庭用：全身を簡単に浸漬することができる一度に1人の人間が入るバス。
+
+家庭用Corner：浸漬トラフが傾いていて、全身を簡単に浸漬することができる一度に1人の人間が入るバス。
+
+フットバス：足を洗う浅いバス。
+
+ジャグジー：複数の人のための渦のバス
+
+プランジバス：通常は全身を簡単に浸漬することができまる一度に複数の人の入るバス。
+
+座バス：水浴を椅子のように座って行うバス。
+
+治療バス：水浴セラピーの目的に使用されるバス。
+
+渦バス：ポンプによる水の循環や、水や空気の誘引により水を攪拌する統合された装置としてのバス。"
+Pset_SanitaryTerminalTypeBath	ドレインサイズ	排水口の接続のサイズ。
+Pset_SanitaryTerminalTypeBath	手すりの有無	風呂の出入りを補助する手すりが取り付けられているかどうかを示す。
+Pset_SanitaryTerminalTypeBidet	装着	"列挙するプロパティはPset_SanitaryMountingEnumでは（トイレの、洗面台、シンクなど）、衛生配管への装着法で定義される：
+
+床置き壁排水：台座は、カバーの背面の壁にあるフラッシュバルブに接続される。
+
+床置き：床の衛生配管に装着される。
+
+カウンター：水平面に設置された衛生配管に接続します。注：手洗器があると、通常は'化粧'が使用される。手洗器を参照。
+
+壁掛け：衛生配管は壁から出され床には何もなくなる。。
+
+床置き壁排水、床置き、壁掛けは、ビデの許容値であることに注意。"
+Pset_SanitaryTerminalTypeBidet	流出レベル	水がこぼれるレベル。
+Pset_SanitaryTerminalTypeBidet	ドレインサイズ	排水口の接続のサイズ。
+Pset_SanitaryTerminalTypeCistern	貯水タンクの高さ	貯水タンクの高さを示す。小便器がフラッシュバルブを使い貯水タンクを持っていない場合は'None'に設定される。
+Pset_SanitaryTerminalTypeCistern	貯水タンク容量	貯水タンクの体積容量。
+Pset_SanitaryTerminalTypeCistern	単一のフラッシュ	単一フラッシュ= TRUE（各洗浄に同量の水が使用される）、デュアルフラッシュ= FALSE（洗浄する汚物に応じてハイまたはローをユーザが選択することができるフラッシュ使用）の指標を設定する。
+Pset_SanitaryTerminalTypeCistern	タイプフラッシュ	"列挙するプロパティはPset_FlushTypeEnumでは貯水槽や衛生配管の配置による、フラッシュメカニズムのタイプを定義する：
+
+レバー式：洗浄水は、レバーをねじることによって貯水タンクから衛生配管にの所定の流量を流す。
+
+引っ張り式：洗浄水は、ハンドルまたはノブを垂直方向に引くことによって貯水タンクから衛生配管にの所定の流量を流す。
+
+押しボタン式：洗浄水は、ボタンかプレートを押すことによって貯水タンクから衛生配管にの所定の流量を流す。
+
+センサー式：洗浄水は、自動検出機構を介して作動する。"
+Pset_SanitaryTerminalTypeCistern	フラッシュレート	各フラッシュで使用される水量の最小値と最大値。単一フラッシュが使用されている場合、上下限値は同じ。デュアルフラッシュトイレについては、下限が低いフラッシュレート、上限に大きいフラッシュ率を使用する。ここで、洗浄はフラッシュバルブを通した水の水圧を用いて達成されるので、フラッシュレートとフラッシュバルブの上下限値と等しくなければなりません（関連バルブプロパティセットを参照してください）。また、この場合には、フラッシュレートのプロパティを設定しない。フラッシュバルブのフラッシュレートを参照。
+Pset_SanitaryTerminalTypeCistern	自動フラッシュか	貯水タンクは、使用後に自動的または定期的に洗浄する場合（TRUE）、手動で洗浄する場合（FALSE）をブーリアン値で指定する。
+Pset_SanitaryTerminalTypeCommon	参照記号	使用される認識分類システムで分類基準がない場合、プロジェクトで指定された型（タイプ'Ａ-1'など）で提供されるレファレンスID。
+Pset_SanitaryTerminalTypeSanitaryFountain	噴水タイプ	"噴水タイプの選択：
+
+・飲用水：飲用水を低圧で供給するための衛生器具
+・洗眼器：廃水器具で、通常は個体の粒子か危険な液体による眼への障害の危険がある作業場所に設置され、使用者はそれらに触れずに目を洗うことができる。"
+Pset_SanitaryTerminalTypeSanitaryFountain	設置	"設置場所の選択：
+
+・床置き壁排出：接続口の後部に出水口を合わせること。
+・台：床置きの衛生器具には基礎があること。
+・調理台：衛生器具の表層が水平に設置されていること。※手洗い台として設置された場合「化粧台」として扱うこと。また、洗面台種類の規格表を参照のこと。
+・壁掛け型：衛生器具は片側固定がされ床から離れていること。"
+Pset_SanitaryTerminalTypeSanitaryFountain	下水管サイズ	要素から排水溝への下水管サイズ。
+Pset_SanitaryTerminalTypeShower	シャワータイプ	"場所からのシャワータイプの選択：
+
+・水浸性：緊急時には素早く水に浸れるシャワー
+・独立性：一度に一人が使え、区切られているシャワーユニット
+・トンネル：シャワーヘッドの連続で設置されているか長さ方向に同時操作となる水散布機型のシャワー"
+Pset_SanitaryTerminalTypeShower	シャワーヘッド表現	シャワーヘッドが排出する水の放射の表現。
+Pset_SanitaryTerminalTypeShower	管口径	要素の排水口接続口サイズ。
+Pset_SanitaryTerminalTypeSink	シンクの種類	"シンクタイプの選択
+
+・深流し：エッジが平らであふれにくい深いシンク
+ 下流し：先端が保護され、低水位用のシンク
+・掃除流し：先端が保護されたシンク（通常は900mm高さに調整されたもの）
+・左水切り：左側に水切りが付いているシンク
+・右水切り流し：右側に水切りが付いているシンク
+・両水切り流し：両側に水切りが付いているタイプ
+・点滴：蛇口からの流れや滴を捕まえる小さめのシンク
+・実験流し：デスク天板下が簡易的に固定された他耐酸性の材料を使ったシンク
+・ロンドン：オーバーフローなしのエッジが平らの深いシンク
+・石膏流し：廃石膏が排水管中に入ってしまうのをを防ぐため、沈殿物レシーバーが付いているシンク。
+・料理流し：ゴミの廃棄もできる調理用具を洗うためのシンク
+・すすぎ用の流し：高温滅菌ができる乾いた状態を保持できる鉄製のシンク
+・棚付き流し：金具の接続や設置ができる棚を後ろに持つセラミック製のシンク
+・野菜流し：ゴミの廃棄もできる、洗浄や調理の準備をする大きめの鉄製のシンク"
+Pset_SanitaryTerminalTypeSink	設置	"設置場所の選択
+
+・床置き壁排出：接続口の後部に出水口を合わせること。
+・台：床置きの衛生器具には基礎があること。
+・調理台：衛生器具の表層が水平に設置されていること。※手洗い台として設置された場合「化粧台」として扱うこと。また、洗面台種類の規格表を参照のこと。
+・壁掛け型：衛生器具は片側固定がされ床から離れていること。"
+Pset_SanitaryTerminalTypeSink	色	要素の色。
+Pset_SanitaryTerminalTypeSink	管径	要素への接続口径。
+Pset_SanitaryTerminalTypeSink	据付補正	調理台に設置されたシンクに、上端と調理台間で垂直に補正されること。
+Pset_SanitaryTerminalTypeToiletPan	トイレ種類	"トイレ配置は下記に列挙された仕様となります。
+
+便器洗浄機：便器と小便器が空にされ洗浄される周囲が囲まれた電気機器。
+ケミカル：別々の容器で排泄物を受けて、保持し、化学的に扱われる、定期的に空にされる携帯用の容器または土機器。
+ｼｽﾀｰﾝ直結型：ｼｽﾀｰﾝがが便器に直接密着して設置されたタイプ
+ｼｽﾀｰﾝ分離型：ｼｽﾀｰﾝがﾊﾟｲﾌﾟを介して便器につながっているタイプ
+汚物流し：ホッパーは土壌器具にデザイされており、汚物が流され空になります。"
+Pset_SanitaryTerminalTypeToiletPan	便器タイプ	"Pset_SanitaryMountingEnumは下記に列挙された便器タイプとして定義されます。
+
+サイホン式：流水を含むサイホンにより汚物が廃棄される便器
+和式：便器が床面か淵の高さと同じに配置された便器。使用者はしゃがまなければならない。
+ウォッシュダウン式：勢いよく洗い流すことにより便器をきれいにします
+洗浄式便器：まず汚物が落ちその後、便器に水が流れます"
+Pset_SanitaryTerminalTypeToiletPan	取付方法	"Pset_SanitaryMountingEnumは固定された衛生器具の接続点（トイレや洗面器、シンクなど）に取り付けられます。
+
+・床置き壁排出：背面の壁に接続口を合わせること。
+・台：床置きの衛生器具には基礎があること。
+・カウンター：衛生器具の表層が水平に設置されていること。※手洗い台として設置された場合「化粧台」として扱うこと。また、洗面台種類の規格表を参照のこと。
+・壁掛け型：衛生器具は片側固定がされ床から離れていること。"
+Pset_SanitaryTerminalTypeToiletPan	水位	継手からの水位。
+Pset_SanitaryTerminalTypeUrinal	小便器タイプ	"下記のリストより小便器タイプを選択
+
+便器：壁に設置された独立した小便器
+床：壁や床の溝へ流れるように固定されている
+個室：衛生個室の床や壁に楕円形に設置されたフロア
+溝：一人以上の人数が同時に使用できるよう、壁に直角に長く引き伸ばした形"
+Pset_SanitaryTerminalTypeUrinal	設置	"下記の設置方法より選択
+
+
+・床置き壁排出：接続口の後部に出水口を合わせること。
+・台：床置きの衛生器具には基礎があること。
+・カウンター：衛生器具の表層が水平に設置されていること。※手洗い台として設置された場合「化粧台」として扱うこと。また、洗面台種類の規格表を参照のこと。
+・壁掛け型：衛生器具は片側固定がされ床から離れていること。
+
+床置き壁排出型・台座と壁掛け型は便器と同等とされます。"
+Pset_SanitaryTerminalTypeUrinal	水位	継手からの水位。
+Pset_SanitaryTerminalTypeWashHandBasin	手洗い種類	"手洗いの種類は設置される場所で定義されます。
+
+歯科用痰壷：口をゆすぐ際に受けて流す廃水機器
+手洗い：500ｍｍ以下の幅の壁掛け型手洗い
+病院用：サイフォンか氾濫防止弁が付いた衛生が最優先とされる場所で使用される手洗い洗面器
+上げ起こし型：角度調整によって空にできる軸上に設置された手洗い
+化粧台：地平面に設置された手洗い台
+洗浄噴水型：一人以上の人間が同時に使用できる円・半円・多角形の洗面台
+洗浄ボウル：一人以上の人間が同時に使用できる多角形の洗面台"
+Pset_SanitaryTerminalTypeWashHandBasin	設置	"以下のリストから設置方法を選択
+
+
+・床置き壁排出：接続口の後部に出水口を合わせること。
+・台：床置きの衛生器具には基礎があること。
+・カウンター：衛生器具の表層が水平に設置されていること。※手洗い台として設置された場合「化粧台」として扱うこと。また、洗面台種類の規格表を参照のこと。
+・壁掛け型：衛生器具は片側固定がされ床から離れていること。"
+Pset_SanitaryTerminalTypeWashHandBasin	管径	要素への接続口径。
+Pset_SanitaryTerminalTypeWashHandBasin	据付補正	カウンター用途として、カウンターとシンクの間に垂直洗浄に据付される廃水機器。
+Pset_SensorTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_SensorTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_SensorTypeConductanceSensor	電気伝導率設定値	"感知される電気伝導率。
+セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。"
+Pset_SensorTypeContactSensor	接触状態設定値	"感知される接触状態。
+セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。"
+Pset_SensorTypeFireSensor	感知温度	炎の存在を示すために感知される温度値。
+Pset_SensorTypeFireSensor	精度	センサの精度。
+Pset_SensorTypeFireSensor	時定数	センサの時定数。
+Pset_SensorTypeFlowSensor	流量設定値	"感知される流量。
+セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。"
+Pset_SensorTypeGasSensor	対象ガス	検出されているガスの識別。
+Pset_SensorTypeGasSensor	ガス濃度設定値	"感知されるガス濃度。
+セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。"
+Pset_SensorTypeGasSensor	測定範囲	センサでカバーされている床面積。(通常、センターがセンサの位置にある円として測定される)
+Pset_SensorTypeHeatSensor	測定範囲	センサでカバーされている範囲。(通常、センターがセンサの位置にある円として測定される)
+Pset_SensorTypeHeatSensor	温度設定値	"感知される温度。
+セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。"
+Pset_SensorTypeHeatSensor	温度上昇率	危険であるとして感じられることになっている温度上昇率。
+Pset_SensorTypeHumiditySensor	湿度設定値	"感知される湿度。
+セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。"
+Pset_SensorTypeIonConcentrationSensor	対象物質	検出されている物質の識別。
+Pset_SensorTypeIonConcentrationSensor	イオン濃度設定値	"感知されるイオン濃度。
+セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。"
+Pset_SensorTypeLevelSensor	レベル設定値	"感知されるレベル。
+セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。"
+Pset_SensorTypeLightSensor	照度設定値	"感知される照度。
+セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。"
+Pset_SensorTypeMoistureSensor	水分設定値	"感知される水分。
+セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。"
+Pset_SensorTypePHSensor	酸性度設定値	"感知される酸性度。
+セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。"
+Pset_SensorTypePressureSensor	圧力設定値	"感知される圧力。
+セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。"
+Pset_SensorTypePressureSensor	スイッチ機能の有無	センサーが設定値でスイッチとして機能する（TRUE)か、否か（FALSE)を識別する。
+Pset_SensorTypeRadiationSensor	放射線設定値	"感知される放射線量。
+セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。"
+Pset_SensorTypeRadioactivitySensor	放射能設定値	"感知される放射能。
+セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。"
+Pset_SensorTypeSmokeSensor	測定範囲	センサでカバーされている床面積。(通常、センターがセンサの位置にある円として測定される)
+Pset_SensorTypeSmokeSensor	煙濃度設定値	"感知される煙濃度。
+セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。"
+Pset_SensorTypeSmokeSensor	煙警報器に含まれているか	煙センサーが煙警報センサユニットの中に要素として含まれているか(TRUE)、否か(FALSE)を識別する。
+Pset_SensorTypeSoundSensor	音圧設定値	"感知される音圧。
+セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。"
+Pset_SensorTypeTemperatureSensor	温度センサータイプ	明示された温度センサーのタイプを識別する一覧。
+Pset_SensorTypeTemperatureSensor	温度設定値	"感知される温度。
+セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。"
+Pset_SensorTypeWindSensor	風センサータイプ	明示された風センサーのタイプを識別する一覧。
+Pset_SensorTypeWindSensor	風速設定値	"感知される風速。
+セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。"
+Pset_ShadingDeviceCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_ShadingDeviceCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_ShadingDeviceCommon	日除け装置種別	日除け装置の種別を設定する。
+Pset_ShadingDeviceCommon	機械的操作	機械的操作が可能かどうかを示すブーリアン値。可能な場合TRUE、手動の場合FALSE。
+Pset_ShadingDeviceCommon	日射透過率	(Tsol)：日除けシステムを直接透過する日射の率。注： Asol + Rsol + Tsol = 1　という方程式が成り立つ。
+Pset_ShadingDeviceCommon	日射反射率	(Rsol)：日除けシステムにより反射される日射の率。注： Asol + Rsol + Tsol = 1　という方程式が成り立つ。
+Pset_ShadingDeviceCommon	可視光透過率	通常の入射における日除け装置を通過する可視光の比率。単位の無い数値。
+Pset_ShadingDeviceCommon	可視光反射率	通常の入射における日除け装置により反射される可視光の比率。単位の無い数値。
+Pset_ShadingDeviceCommon	熱貫流率	"熱貫流率U値。
+ここでは（すべての材料を含む）梁を通した熱移動の方向における全体の熱還流率を示す。
+注：IFC2x4の新しいプロパティ"
+Pset_ShadingDeviceCommon	外部区分	外部の部材かどうかを示すブーリアン値。もしTRUEの場合、外部の部材で建物の外側に面している。
+Pset_ShadingDeviceCommon	表面粗さ	表面の垂直方向の偏差。
+Pset_ShadingDeviceCommon	表面色	表面の色を示す文字列情報。
+Pset_SiteCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_SiteCommon	建築可能面積	建築基準により建築可能な最大の面積。
+Pset_SiteCommon	建蔽率	建築基準により最大となる、敷地面積(IfcElementQuantity)と建築面積(IfcBuildingのIfcElementQuantity)の比率。
+Pset_SiteCommon	容積率	建築基準により最大となる床面積と敷地面積(IfcElementQuantities)の比率。
+Pset_SiteCommon	建物高さ制限	各地域の建築基準により許可される建物の高さの最大値。
+Pset_SiteCommon	延べ面積	敷地にたいする延べ計画面積。敷地空間の計画に使用。
+Pset_SlabCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_SlabCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_SlabCommon	遮音等級	遮音等級情報。関連する建築基準法を参照。
+Pset_SlabCommon	耐火等級	主要な耐火等級。関連する建築基準法、消防法などの国家基準を参照。
+Pset_SlabCommon	勾配角度	"コンポーネントが屋根として使用される場合の、水平に対するスラブの角度（スラブが屋根として使用されない場合は、0度と指定されるか、定義されない）。
+
+形状情報は形状の表現として追加され、幾何学的なパラメータが使用される。幾何学的なパラメータと追加された形状プロパティが矛盾する場合、幾何学的なパラメータが優先される。CADのような、幾何学操作アプリケーションにとって、この値は、書き込み専用であるべきだ。"
+Pset_SlabCommon	可燃性区分	この部材が可燃性物質で作られているかどうかを示すブーリアン値。
+Pset_SlabCommon	火炎伝播性	炎がどのように材料の表面を広がるかという指標。材料の炎に対する振る舞いについての国家建築規則に従って提供される。
+Pset_SlabCommon	防火区画	部材が防火区画として用いられるかどうかを示すブーリアン値（TRUE or False)。
+Pset_SlabCommon	外部区分	外部の部材かどうかを示すブーリアン値。もしTRUEの場合、外部の部材で建物の外側に面している。
+Pset_SlabCommon	熱貫流率	熱貫流率U値。ここではスラブを通した熱移動の方向における全体の熱還流率を示す。
+Pset_SlabCommon	耐力部材	荷重に関係している部材かどうかを示すブーリアン値。
+Pset_SolarDeviceTypeCommon	参照	このプロジェクト (例． 'A-1'　タイプなど)で指定された参照ID。認められた分類体系の分類参照が存在しない場合に適用される。
+Pset_SolarDeviceTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_SoundAttenuation	騒音の単位	"騒音の単位：
+
+- DBA: dB(A)
+- DBB: dB(B)
+- DBC:dB(C)
+- NC:騒音基準
+- NR:騒音評価"
+Pset_SoundAttenuation	音の周波数	代表的な周波数リスト、時系列音圧値と関連する。（IfcTimeSeriesにリストされた値）
+Pset_SoundAttenuation	音圧	時系列の音圧、単位はデシベル。オクターブバンドの音の強さ20mPaを基準する。IfcTimeSeriesにリストされた各値は同じ場所で、同じ周波数バントでの温の周波数と関連する。
+Pset_SoundGeneration	音響（騒音？）曲線	オクターブバンド1pW（10^(-12)の音の強さを基準とする音の周波数とデシベル単位で計測した音のエネルギーの一覧表。
+Pset_SpaceCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_SpaceCommon	外部区分	外部の部材かどうかを示すブーリアン値。もしTRUEの場合、外部の部材で建物の外側に面している。
+Pset_SpaceCommon	計画グロス面積	計画されたグロス面積。建物計画に際に使用。
+Pset_SpaceCommon	計画ネット面積	計画されたネット面積。建物計画に際に使用。（通常は、柱型等を抜いた面積となる）
+Pset_SpaceCommon	公共アクセス可能性	この部屋（空間）が公共アクセス空間かどうかを示すブーリアン値。例：公共トイレの場合TRUE。
+Pset_SpaceCommon	ハンディキャップアクセス可能性	この部屋（空間）がハンディキャップ者向けの空間かどうかを示すブーリアン値。例：公共トイレの場合TRUE。この情報は、障害者向け利用の必要性や特別なデザインの必要性を示すために利用される。
+Pset_SpaceCoveringRequirements	床仕上げ	部屋の床材質または仕上げに関するラベル（識別情報）。このラベル名は部屋リスト情報や部屋情報表示の際に利用される。
+Pset_SpaceCoveringRequirements	床仕上げ材厚	"部屋の床に関する材質層の厚さ。
+
+形状表現を持つIfcCovering(type=FLOORING)オブジェクトが存在しない場合に与えられる厚さ情報。IfcCoveringの幾何形状パラメータとこのプロパティ値が一致しない場合、幾何形状パラメータの値を優先する。"
+Pset_SpaceCoveringRequirements	壁仕上げ	部屋の壁材質または仕上げに関するラベル（識別情報）。このラベル名は部屋リスト情報や部屋情報表示の際に利用される。
+Pset_SpaceCoveringRequirements	壁仕上げ厚	"部屋の壁に関する材質層の厚さ。
+
+形状表現を持つIfcCovering(type=CLADDING)オブジェクトが存在しない場合に与えられる厚さ情報。IfcCoveringの幾何形状パラメータとこのプロパティ値が一致しない場合、幾何形状パラメータの値を優先する。"
+Pset_SpaceCoveringRequirements	天井仕上げ	部屋の天井材質または仕上げに関するラベル（識別情報）。このラベル名は部屋リスト情報や部屋情報表示の際に利用される。
+Pset_SpaceCoveringRequirements	天井仕上げ厚	"部屋の天井に関する材質層の厚さ。
+
+形状表現を持つIfcCovering(type=CEILING)オブジェクトが存在しない場合に与えられる厚さ情報。IfcCoveringの幾何形状パラメータとこのプロパティ値が一致しない場合、幾何形状パラメータの値を優先する。"
+Pset_SpaceCoveringRequirements	幅木材	"部屋の床の周りにある幅木の材質または施工に関するラベル（識別情報）。ラベル名は部屋リスト情報に使用される。
+
+形状表現を持つIfcCovering (type=SKIRTINGBOARD)オブジェクトが存在しない場合に与えられる材質情報。IfcCoveringの材質情報とこのプロパティ値が一致しない場合、IfcCoveringに与えられている材質情報を優先する。"
+Pset_SpaceCoveringRequirements	幅木材高	"部屋の幅木の高さ。
+
+形状表現を持つIfcCovering(type=SKIRTINGBOARD)オブジェクトが存在しない場合に与えられる厚さ情報。IfcCoveringの幾何形状パラメータとこのプロパティ値が一致しない場合、幾何形状パラメータの値を優先する。"
+Pset_SpaceCoveringRequirements	廻縁	"部屋の廻縁の材質または施工に関するラベル（識別情報）。ラベル名は部屋リスト情報に使用される。
+
+形状表現を持つIfcCovering (type=MOLDING)オブジェクトが存在しない場合に与えられる材質情報。IfcCoveringの材質情報とこのプロパティ値が一致しない場合、IfcCoveringに与えられている材質情報を優先する。"
+Pset_SpaceCoveringRequirements	廻縁高	"部屋の廻縁の高さ。
+
+形状表現を持つIfcCovering(type=MOLDING)オブジェクトが存在しない場合に与えられる厚さ情報。IfcCoveringの幾何形状パラメータとこのプロパティ値が一致しない場合、幾何形状パラメータの値を優先する。"
+Pset_SpaceCoveringRequirements	隠蔽床	この部屋（空間）が隠蔽された床空間を持つように設計されているかどうかを示すブーリアン値。隠蔽された床空間とは、上げ床の下の空間。
+Pset_SpaceCoveringRequirements	隠蔽天井	この部屋（空間）が隠蔽された天井空間を持つように設計されているかどうかを示すブーリアン値。隠蔽された天井空間とは、スラブと天井の間の空間。
+Pset_SpaceFireSafetyRequirements	火災危険度要因	"地域の建築規則に従って空間に割り当てられた火災危険要因
+火災のいくつかのレベルにおける空間の火災危険度を定義する。"
+Pset_SpaceFireSafetyRequirements	可燃物保管区分	空間が可燃物(建築基準を管理することによりそのように考慮される)の倉庫として使われることを意図されているかどうかを示すブーリアン値。(TRUE)はい、(FALSE)いいえ。
+Pset_SpaceFireSafetyRequirements	非常口区分	"このオブジェクトが火災の場合に出口として使われるように設計されているかどうかを示すブーリアン値。(TRUE)はい、(FALSE)いいえ。
+ここに、空間(例えば廊下)は、例えば火災避難目的のために出口空間として使われるよう設計されているかどうか。"
+Pset_SpaceFireSafetyRequirements	スプリンクラー防御	スプリンクラー設備の有無を示すブーリアン値。(TRUE)有、(FALSE)なし。
+Pset_SpaceFireSafetyRequirements	自動スプリンクラー防御	スプリンクラー設備が自動かどうか示すブーリアン値。(TRUE)自動、(FALSE)非自動。「スプリンクラー防御」プロパティがTRUEに設定された場合のみ、与えられる。
+Pset_SpaceFireSafetyRequirements	空気加圧	空間が加圧することを要求されているかどうかを示すブーリアン値。(TRUE)加圧、(FALSE)非加圧。
+Pset_SpaceHeaterPHistory	放射熱移動フラクション	総合熱移動の内放射熱移動とみなされる部分
+Pset_SpaceHeaterPHistory	対流熱移動フラクション	総合熱移動の内対流射熱移動とみなされる部分
+Pset_SpaceHeaterPHistory	効率	最大可能熱移動量に対する実熱移動量の割合
+Pset_SpaceHeaterPHistory	表面温度	構成要素の平均表面温度
+Pset_SpaceHeaterPHistory	室温	部屋の乾球温度
+Pset_SpaceHeaterPHistory	室平均放射温度	部屋の平均放射温度
+Pset_SpaceHeaterPHistory	補助エネルギー源使用量	補助エネルギー源使用量
+Pset_SpaceHeaterPHistory	UA曲線	周囲温度と表面温度との関数のUA曲線
+Pset_SpaceHeaterPHistory	部分的アウトプット能力曲線	部分的アウトプット能力曲線（水温の関数として）
+Pset_SpaceHeaterPHistory	空気抵抗曲線	空気抵抗曲線（送風機のみ）圧力＝ｆ（流速）
+Pset_SpaceHeaterPHistory	指数	特徴的な指数、log(熱出力)log（表面温度マイナス周囲温度）の勾配
+Pset_SpaceHeaterPHistory	熱出力比	総合熱移動率
+Pset_SpaceHeaterTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_SpaceHeaterTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_SpaceHeaterTypeCommon	プレースメントタイプ	暖房用ヒーターが置かれるようにどう設計されているかを示します。
+Pset_SpaceHeaterTypeCommon	温度分類	暖房用ヒーター表面温度の温度分類を定義。低温タイプ-お湯またｈ電気によるものの表面温度は相対的に低い。高温タイプ-ガスまたは蒸気によって熱するタイプの表面温度は比較的高い。
+Pset_SpaceHeaterTypeCommon	熱伝達値	室内暖房機の形に従って熱がどう伝えられるかを示します。
+Pset_SpaceHeaterTypeCommon	熱媒体	列挙体は熱媒体を必要に応じて定義します。
+Pset_SpaceHeaterTypeCommon	エネルギー源	列挙型はエネルギー源や燃料該当する場合は熱を発生させる燃焼定義します。注：温水循環式のヒーターはunsetを使用してはならない。デュアル使用すると、温水循環式の電気ヒーターは電気を使用しなければならない。
+Pset_SpaceHeaterTypeCommon	本体重量	ヒーターの全体的な質量
+Pset_SpaceHeaterTypeCommon	保有熱容量	質量あたりの熱容量
+Pset_SpaceHeaterTypeCommon	出力	メーカーによりリストアップされた公称熱出力
+Pset_SpaceHeaterTypeCommon	熱効率	熱効率：熱伝導装置の総エネルギー出力/エネルギー入力として総合的な熱効率は定義される。
+Pset_SpaceHeaterTypeCommon	パネルの数	パネルの数
+Pset_SpaceHeaterTypeCommon	セクションの数	流れ方向で測定した垂直方向のセクションの数
+Pset_SpaceHeaterTypeConvector	対流タイプ	強制空気(機械的に運転される)か自然な(重力)であることにかかわらず対流式暖房器のタイプを示します。
+Pset_SpaceHeaterTypeRadiator	ラジエータータイプ	ラジエーターの種類
+Pset_SpaceHeaterTypeRadiator	チューブの長さ	構成要素における水管の長さ
+Pset_SpaceHeaterTypeRadiator	水含量	ヒーター内部の水分の重み
+Pset_SpaceLightingRequirements	人工照明	領域が人工照明を必要とするかどうかの表示（自然光が十分でないとして）　（TRUE）の場合、必要。（FALSE）の場合、不必要。
+Pset_SpaceLightingRequirements	照度	領域に対しての必要とされる照度の値の平均値。
+Pset_SpaceOccupancyRequirements	用途	このオブジェクトの用途。統括する国の建築法規により定義される。
+Pset_SpaceOccupancyRequirements	利用人数	この空間に割り当てられた活動を遂行するために必要な人数。
+Pset_SpaceOccupancyRequirements	利用人数ピーク	この空間に割り当てられた活動を遂行するために必要な最大人数。
+Pset_SpaceOccupancyRequirements	日毎利用時間	この空間での活動をするために必要な日中の時間。
+Pset_SpaceOccupancyRequirements	利用者毎面積	この空間に割り当てられた用途に対する想定利用負荷。
+Pset_SpaceOccupancyRequirements	最小頭上あき高	この空間に割り当てられた用途に必要な頭上あき高。
+Pset_SpaceOccupancyRequirements	眺望の善し悪し	外の眺望が望ましいかどうか。
+Pset_SpaceParking	駐車場の用途	どの車両種別の駐車場なのかを識別します。値はあらかじめ定められないが、自動車、小型車、オートバイ、自転車、トラック、バスなどを含んでいるかもしれません。
+Pset_SpaceParking	一区画当たりの駐車台数	車両種別ごとの駐車台数のユニットごとの指定台数。一般に、この値は1台/1ユニットになるべきです。しかしながら、オートバイまたは自転車向けである場合、数台/1ユニット以上なるかもしれません。
+Pset_SpaceParking	通路か駐車スペースの判別	駐車場の通路部分(TRUE)か駐車部部分(FALSE)かを示すフラグ。
+Pset_SpaceParking	一方通行	駐車場通路が一方通行(TRUE)か双方向(FALSE)かを示すフラグ。
+Pset_SpaceThermalDesign	冷房設計吸気量	ピーク時の冷房条件で要求される給気量。
+Pset_SpaceThermalDesign	顕熱負荷の合計	ピーク時の冷房条件で取得した顕熱或いはエネルギー。
+Pset_SpaceThermalDesign	熱取得の合計	ピーク時の室内最大冷房負荷時に取得した顕熱或いはエネルギー。
+Pset_SpaceThermalDesign	熱ロスの合計	ピーク時の室内最大暖房負荷時に取得・損失した熱或いはエネルギー。
+Pset_SpaceThermalDesign	冷房設計温度	冷房設計における室内設計乾球温度。
+Pset_SpaceThermalDesign	冷房設計相対湿度	冷房設計における室内設計相対湿度。
+Pset_SpaceThermalDesign	暖房設計温度	暖房設計における室内設計乾球温度。
+Pset_SpaceThermalDesign	暖房設計相対湿度	暖房設計における室内設計相対湿度。
+Pset_SpaceThermalDesign	外気量	必要外気量。
+Pset_SpaceThermalDesign	排気量	設計排気量。
+Pset_SpaceThermalDesign	天井裏還気	天井裏還気（リタンあり・なし）　TRUE=あり、FALSE=なし。
+Pset_SpaceThermalDesign	周辺関連設備の熱ロス	単位面積ありた周辺関連設備の熱ロス。空調負荷計算値以外の設計設定値。
+Pset_SpaceThermalLoad	人員	人員からの熱取得。
+Pset_SpaceThermalLoad	照明	照明負荷。
+Pset_SpaceThermalLoad	事務機器の顕熱	事務機器からの熱取得と熱ロス。
+Pset_SpaceThermalLoad	室内の換気量	室内の換気による熱負荷。
+Pset_SpaceThermalLoad	外気量	外気による熱負荷。
+Pset_SpaceThermalLoad	循環空気	循環空気による熱負荷。
+Pset_SpaceThermalLoad	排気	排気による熱負荷。
+Pset_SpaceThermalLoad	換気回数	換気による熱負荷。
+Pset_SpaceThermalLoad	乾球温度	乾球温度による熱負荷。
+Pset_SpaceThermalLoad	相対湿度	相対湿度による熱負荷。
+Pset_SpaceThermalLoad	すき間風の顕熱	すき間風からの熱負荷と熱ロス。
+Pset_SpaceThermalLoad	顕熱負荷の合計	空気温度を上昇・下降させる取得・損失の熱量の合計。ゼロより小さい（－）場合、室内が熱損失となる。ゼロより大きい（＋）場合、室内が熱取得となる。
+Pset_SpaceThermalLoad	潜熱負荷の合計	空気湿度（水蒸気量）を上昇・下降させる取得・損失の熱量の合計。ゼロより小さい（－）場合、室内の水蒸気が減少となる。ゼロより大きい（＋）場合、室内の水蒸気が増大となる。
+Pset_SpaceThermalLoad	放射熱負荷の合計	放射や吸収による放射エネルギーの増加、或いは減少の合計。ゼロより小さい（－）場合、放射エネルギーが減少となる。ゼロより大きい（＋）場合、放射エネルギーが増大となる。
+Pset_SpaceThermalLoadPHistory	人員	人員からの熱取得。
+Pset_SpaceThermalLoadPHistory	照明	照明負荷。
+Pset_SpaceThermalLoadPHistory	事務機器の顕熱	事務機器からの熱取得と熱ロス。
+Pset_SpaceThermalLoadPHistory	室内の換気量	室内の換気による熱負荷。
+Pset_SpaceThermalLoadPHistory	外気量	外気による熱負荷。
+Pset_SpaceThermalLoadPHistory	循環空気	循環空気による熱負荷。
+Pset_SpaceThermalLoadPHistory	排気	排気による熱負荷。
+Pset_SpaceThermalLoadPHistory	換気回数	換気による熱負荷。
+Pset_SpaceThermalLoadPHistory	乾球温度	乾球温度による熱負荷。
+Pset_SpaceThermalLoadPHistory	相対湿度	相対湿度による熱負荷。
+Pset_SpaceThermalLoadPHistory	すき間風の顕熱	すき間風からの熱負荷と熱ロス。
+Pset_SpaceThermalLoadPHistory	顕熱負荷の合計	空気温度を上昇・下降させる取得・損失の熱量の合計。ゼロより小さい（－）場合、室内が熱損失となる。ゼロより大きい（＋）場合、室内が熱取得となる。
+Pset_SpaceThermalLoadPHistory	潜熱負荷の合計	空気湿度（水蒸気量）を上昇・下降させる取得・損失の熱量の合計。ゼロより小さい（－）場合、室内の水蒸気が減少となる。ゼロより大きい（＋）場合、室内の水蒸気が増大となる。
+Pset_SpaceThermalLoadPHistory	放射熱負荷の合計	放射や吸収による放射エネルギーの増加、或いは減少の合計。ゼロより小さい（－）場合、放射エネルギーが減少となる。ゼロより大きい（＋）場合、放射エネルギーが増大となる。
+Pset_SpaceThermalPHistory	冷却空気流量	室内の冷却空気流量
+Pset_SpaceThermalPHistory	暖房空気流量	室内の暖房空気流量
+Pset_SpaceThermalPHistory	換気気流速度	室内の換気空気流量
+Pset_SpaceThermalPHistory	排気空気流量	室内の排気流量
+Pset_SpaceThermalPHistory	室内温度	室内の温度
+Pset_SpaceThermalPHistory	室内相対湿度	室内の相対湿度
+Pset_SpaceThermalRequirements	最高室内温度	空間またはゾーンの温度。利用者/設計者の視点から要求される。もし夏季または冬季の室内温度要求が与えられないと、それは通年に、さもなければ中間季に適用される。
+Pset_SpaceThermalRequirements	最高室内温度	空間またはゾーンの最高温度。利用者/設計者の視点から要求される。もし夏季または冬季の室内温度要求が与えられないと、それは通年に、さもなければ中間季に適用される。
+Pset_SpaceThermalRequirements	最低室内温度	空間またはゾーンの最低温度。利用者/設計者の視点から要求される。もし夏季または冬季の室内温度要求が与えられないと、それは通年に、さもなければ中間季に適用される。
+Pset_SpaceThermalRequirements	夏季最高室内温度	空間またはゾーンの暑熱季(夏季)の最高温度。利用者/設計者の視点から要求される。
+Pset_SpaceThermalRequirements	夏季最低室内温度	空間またはゾーンの暑熱季(夏季)の最低温度。利用者/設計者の視点から要求される。
+Pset_SpaceThermalRequirements	冬季最高室内温度	空間またはゾーンの寒冷季(冬季)の最高温度。利用者/設計者の視点から要求される。
+Pset_SpaceThermalRequirements	冬季最低室内温度	空間またはゾーンの寒冷季(冬季)の最低温度。利用者/設計者の視点から要求される。
+Pset_SpaceThermalRequirements	室内湿度	空間またはゾーンの湿度。利用者/設計者の視点から要求される。もし夏季または冬季の室内湿度要求が与えられないと、それは通年に、さもなければ中間季に適用される。
+Pset_SpaceThermalRequirements	最高室内湿度	空間またはゾーンの最高湿度。利用者/設計者の視点から要求される。もし夏季または冬季の室内湿度要求が与えられないと、それは通年に、さもなければ中間季に適用される。
+Pset_SpaceThermalRequirements	最低室内湿度	空間またはゾーンの最低湿度。利用者/設計者の視点から要求される。もし夏季または冬季の室内湿度要求が与えられないと、それは通年に、さもなければ中間季に適用される。
+Pset_SpaceThermalRequirements	夏季室内湿度	空間またはゾーンの暑熱季(夏季)の室内湿度。利用者/設計者の視点から要求される。
+Pset_SpaceThermalRequirements	冬季室内湿度	空間またはゾーンの寒冷季(冬季)の室内湿度。利用者/設計者の視点から要求される。
+Pset_SpaceThermalRequirements	不連続暖房	不連続暖房が利用者/設計者の視点から要求/要望されるかどうかを示すブーリアン値。(TRUE)要、(FALSE)不要。
+Pset_SpaceThermalRequirements	自然換気	空間が自然換気を持つか機械換気を持つかを示すブーリアン値。(TRUE)有、(FALSE)なし。
+Pset_SpaceThermalRequirements	自然換気率	特定の自然換気率の要求指標。1時間あたりの換気回数で与えられる。
+Pset_SpaceThermalRequirements	機械換気率	特定の機械換気率の要求指標。1時間あたりの換気回数で与えられる。
+Pset_SpaceThermalRequirements	空調	この空間が空調を要求するかどうかを示すブーリアン値。(TRUE)要、(FALSE)不要。
+Pset_SpaceThermalRequirements	中央式空調	空間が中央式空調を要求するかどうかを示すブーリアン値。「空調」プロパティがTRUEに設定された場合のみ、与えられる。
+Pset_StackTerminalTypeCommon	参照記号	この規格(例、Ａ－1)で特定のタイプの参照ＩＤが割り当てられ、等級がなければ等級システムを使って割り当てられます。
+Pset_StackTerminalTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_StairCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_StairCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_StairCommon	蹴上げ数	階段の蹴上げ数。
+Pset_StairCommon	踏面数	階段の踏面数。
+Pset_StairCommon	蹴上げ高さ	踏面と踏面の垂直方向の距離。この蹴上げ高さ値は、一連の階段において同じ値と仮定する。
+Pset_StairCommon	踏面長	踏面の前面部分から次の踏面までの水平方向の距離。この踏面長の値は、一連の階段において同じ値と仮定する。
+Pset_StairCommon	要求頭高余裕	要求される頭高余裕。関連する建築基準法を参照。
+Pset_StairCommon	ハンディキャップアクセス可能性	この空間がハンディキャップ者向けの空間かどうかを示すブーリアン値。
+Pset_StairCommon	滑り止め表面加工区分	スリップ防止のための表面仕上げをしているかどうかのブーリアン値。
+Pset_StairCommon	外部区分	外部の部材かどうかを示すブーリアン値。もしTRUEの場合、外部の部材で建物の外側に面している。
+Pset_StairCommon	耐火等級	主要な耐火等級。関連する建築基準法、消防法などの国家基準を参照。
+Pset_StairCommon	非常口区分	このオブジェクトが火災時の非常口として設計されているかどうかを示すブーリアン値。ここでは関連する建築基準法における出口ドアとして定義している。
+Pset_StairFlightCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_StairFlightCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_StairFlightCommon	蹴上げ数	階段の蹴上げ数。
+Pset_StairFlightCommon	踏面数	階段の踏面数。
+Pset_StairFlightCommon	蹴上げ高さ	踏面と踏面の垂直方向の距離。この蹴上げ高さ値は、一連の階段において同じ値と仮定する。
+Pset_StairFlightCommon	踏面長	踏面の前面部分から次の踏面までの水平方向の距離。この踏面長の値は、一連の階段において同じ値と仮定する。
+Pset_SwitchingDeviceTypeCommon	参照	このプロジェクト (例． 'A-1'　タイプなど)で指定された参照ID。認められた分類体系の分類参照が存在しない場合に適用される。
+Pset_SwitchingDeviceTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_SwitchingDeviceTypeCommon	ボタン数	スイッチのボタン数
+Pset_SwitchingDeviceTypeCommon	スイッチタイプ	機能ごとに異なるスイッチのタイプを示す
+Pset_SwitchingDeviceTypeCommon	ロックの可否	スイッチ装置がキー操作でロックする場合は（TRUE)、そうでない場合は（FALSE)を表す。
+Pset_SwitchingDeviceTypeCommon	自照型	イルミネーション型（自照型）表示機でスイッチのオン（TRUE）やオフ（FALSE）を示す。
+Pset_SwitchingDeviceTypeCommon	凡例	目的または機能を示す凡例など、スイッチに適用されるテキスト。
+Pset_SwitchingDeviceTypeCommon	設定ポイント	設定ポイントと範囲を示す。トグルスイッチは2つのポジションがある：0 は オフ(OFF)、1 は オン(ON)。ディマースイッチは、全閉(fully-off) または　全開(fully-on) の他に、その間で取得可能な値をオプションで示す。選択型スイッチは選択可能なポジションの範囲を示す。
+Pset_SwitchingDeviceTypeContactor	接触器タイプ	"以下より選択が必要となる、接触器の一覧リスト：
+
+コンデンサスイッチ：3つのシングルフェーズまたは複数のコンデンサバンクで切り替える。
+低流：低い抵抗接触の使用が必要
+マグネット式：コイルのエネルギーが無くなった時に切替をONポジションにして有効にする
+MechanicalLatching：切替器がONポジションを維持するために機械的な仕組みが必要。
+モジュール式：閉鎖されている自働型切替器。
+リバース：2つの切替器をワイヤーで接続したもの。
+標準：回路で電力潮流をオンまたはオフでコントロールする一般的な装置。"
+Pset_SwitchingDeviceTypeDimmerSwitch	ディマータイプ	選択が必要となる、ディマースイッチの一覧リスト。
+Pset_SwitchingDeviceTypeEmergencyStop	スイッチ操作	緊急停止スイッチの操作を示す。
+Pset_SwitchingDeviceTypeKeypad	キーパッドタイプ	選択が必要となる、キーパッドスイッチの一覧リスト。
+Pset_SwitchingDeviceTypeMomentarySwitch	瞬時スイッチタイプ	選択が必要となる、自動復帰スイッチの一覧リスト。
+Pset_SwitchingDeviceTypeSelectorSwitch	セレクター（スイッチ）タイプ	選択が必要となる、切替えスイッチの一覧リスト。
+Pset_SwitchingDeviceTypeSelectorSwitch	スイッチの使用法	選択が必要となる、切替えスイッチの使用法の一覧リスト。
+Pset_SwitchingDeviceTypeSelectorSwitch	起動方式	選択が必要となる、切替えスイッチの起動方式の一覧リスト。
+Pset_SwitchingDeviceTypeStarter	始動タイプ	"以下より選択が必要となる、始動の一覧リスト：
+
+自動： 自動トランスから引き出された１つ以上の低下した電圧でスタートするために使用する誘導電動機用のスターター (IEC 441-14-45)
+手動： メインのコンタクトから強制的に分離されたところにあり、手動によりエネルギーが供給される (IEC 441-14-39)
+じか入れ: ワンステップでモーター・ターミナル間の線間電圧をつなぐスターター (IEC 441-14-40)
+振動：電源の振動数が通常の操作振動まで次第に増大して行くスターター
+nStep: オフ（OFF)とオン（ON）の間で、（n-1）の中間の加速度的な位置であるスターター。 (IEC 441-14-41)
+抵抗：モータのトルク特性の取得、開始、そして安定する間に、電流を制限するために 1 つまたはいくつかの抵抗を利用したスターター (IEC 441-14-425) 
+スターデルタ：開始位置では固定小巻線（スターターワインディング）が星状で接続され、その後、最終の実行状態ではデルタ状に接続されるという3相誘導モーター用のスターター。（IEC 441-14-44）"
+Pset_SwitchingDeviceTypeSwitchDisconnector	高圧遮断機タイプ	"以下より選択が必要となる、スイッチ断路機の一覧リスト：
+
+センターブレイク： 各極の両方の接点は可動式で、実質的に中間付近を保持する断路器。 (IEC 441-14-08)
+DividedSupport： 各極の固定側と移動側接点が、共通のベースまたはフレームではサポートされない断路器。(IEC 441-14-06)
+二点切り断路器： 2点で回路を開く断路器 (IEC 441-14-09)
+接地開閉器 ： 各極の固定側と移動側接点が、共通のベースまたはフレームではサポートされない断路器。(IEC 441-14-07)
+断路器： 解放位置の分離要件を満たす、断路器。(IEC 441-14-12)"
+Pset_SwitchingDeviceTypeSwitchDisconnector	切断タイプ	選択が必要となる、負荷開閉器タイプの一覧リスト。
+Pset_SwitchingDeviceTypeToggleSwitch	レバースイッチタイプ	選択が必要となる、トグルスイッチの一覧リスト。
+Pset_SwitchingDeviceTypeToggleSwitch	スイッチの使用法	選択が必要となる、トグルスイッチの使用法の一覧リスト。
+Pset_SwitchingDeviceTypeToggleSwitch	起動方式	選択が必要となる、トグルスイッチの起動方式の一覧リスト。
+Pset_TankOccurrence	水槽構成	定義　構成要素のレベル　　　　　　　　　　　　　　　　　　　　　　　複合：A　全般的に要求された目的を達成するために集められた基本ユニットのセット　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　要素：A それ自身あるいは部分的ユニットの集まりとしてある単一基本ユニット　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　部分的：A 部分的な基本単位
+Pset_TankOccurrence	梯子有り	上部を点検するための梯子(TRUEに設定）をタンクに備えているかどうかの表示　もし、梯子が備え付けられていなければ値はFALSEと設定される。　　注：表示がない場合は梯子のタイプが与えられる（グースネック他）
+Pset_TankOccurrence	目視型表示器有り	タンクの水位を示す目視型表示器（TRUEに設定)が備えつけられているかどうかの表示。もし目視型表示器が備えつけられていなければ、値はFALSEと設定される。
+Pset_TankTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_TankTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_TankTypeCommon	点検タイプ	タンクの点検口（又はカバー)のタイプの定義は明示される。カバーは一般的に矩形タンクについて明示されていることに注意。円筒形タンクの点検は通常のマンホールを通る
+Pset_TankTypeCommon	貯蔵タイプ	一般的な材料種別が格納される
+Pset_TankTypeCommon	公称長さ又は直径	公称長さ又は垂直円筒形タンクの場合、タンクの公称直径
+Pset_TankTypeCommon	公称幅又は直径	公称幅又は水平円筒形タンクの場合、タンクの公称直径　　　　　注：垂直円筒形タンクに対しては必須ではない
+Pset_TankTypeCommon	公称深さ	タンクの公称深さ　　注：水平円筒形タンクに対しては必須ではない
+Pset_TankTypeCommon	公称容量	タンクの総公称又は設計容量
+Pset_TankTypeCommon	有効容量	タンクの総有効又は実容量
+Pset_TankTypeCommon	運転重量	中身全部を含んだタンクの運転重量
+Pset_TankTypeCommon	パターンタイプ	定義　パターンのタイプ（又はタンクの形状)が明示される
+Pset_TankTypeCommon	末端形状タイプ	定義　予めタンクに使用することができる端形状の種類を示す。これらの列挙された値を読み取るための規則は、垂直円筒に関しては、最初の値はベースです、そして、2番目は先端です。水平円筒に関しては、値は左から右に読む必要があります。球形タンクの場合、値はUNSETを使用する必要があります。
+Pset_TankTypeCommon	最初の曲率半径	最初の曲率半径は、基本又は曲率の値の左側の半径として定義する必要があります。
+Pset_TankTypeCommon	2番目の曲率半径	2番目の曲率半径は、曲率の値の先頭又は右側の半径として定義する必要があります。
+Pset_TankTypeCommon	セクションの数	タンクの製作に使用されているセクションの数　既定は1つ　　注：全てのセクションは同サイズと考える
+Pset_TankTypeExpansion	加圧力	タンクの公称又は設計運転圧力
+Pset_TankTypeExpansion	圧力調整設定	タンク内で自動的に維持される圧力
+Pset_TankTypeExpansion	安全弁設定	安全弁が作動する圧力
+Pset_TankTypePreformed	パターンタイプ	定義　パターンのタイプ（又はタンクの形状）が明示される。
+Pset_TankTypePreformed	末端形状タイプ	定義　予めタンクに使用することができる端形状の種類を示す。これらの列挙された値を読み取るための規則は、垂直円筒に関しては、最初の値はベースです、そして、2番目は先端です。水平円筒に関しては、値は左から右に読む必要があります。球形タンクの場合、値はUNSETを使用する必要があります。
+Pset_TankTypePreformed	最初の曲率半径	最初の曲率半径は、基本又は曲率の値の左側の半径として定義する必要があります。
+Pset_TankTypePreformed	2番目の曲率半径	2番目の曲率半径は、曲率の値の先頭又は右側の半径として定義する必要があります。
+Pset_TankTypePressureVessel	加圧力	タンクの公称又は設計運転圧力
+Pset_TankTypePressureVessel	圧力調整設定	タンク内で自動的に維持される圧力
+Pset_TankTypePressureVessel	安全弁設定	安全弁が作動する圧力
+Pset_TankTypeSectional	セクションの数	"タンクの製作に使用されているセクションの数
+注：全てのセクションは同サイズと考える"
+Pset_TankTypeSectional	セクションの長さ	タンクの製作に使用されているセクションの長さ
+Pset_TankTypeSectional	セクションの幅	タンクの製作に使用されているセクションの幅
+Pset_TendonAnchorCommon	参照記号	当プロジェクトにおけるこの指定型式のためのリファレンスID。（たとえは、'A-1'型)
+Pset_TendonAnchorCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_TendonCommon	参照記号	当プロジェクトにおけるこの指定型式のためのリファレンスID。（たとえは、'A-1'型)
+Pset_TendonCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_ThermalLoadAggregate	冷房負荷	建物、ゾーン、部屋のピーク時の冷房負荷。
+Pset_ThermalLoadAggregate	暖房負荷	建物、ゾーン、部屋のピーク時の暖房負荷。
+Pset_ThermalLoadAggregate	照明負荷係数	照明負荷係数。
+Pset_ThermalLoadAggregate	夏期すき間換気率	夏期すき間換気率。
+Pset_ThermalLoadAggregate	冬期すき間換気率	冬期すき間換気率。
+Pset_ThermalLoadAggregate	機器の負荷率	機器の負荷率。
+Pset_ThermalLoadAggregate	負荷の安全率	空調負荷計算用の安全率（割増係数）。
+Pset_ThermalLoadDesignCriteria	居住者の在室率	室内居住者の在室率。
+Pset_ThermalLoadDesignCriteria	１人あたりの外気量	１人あたりの外気量の設計値。
+Pset_ThermalLoadDesignCriteria	単位面積あたり事務機器の平均電力消費量	"単位面積あたり事務機器など非空調設備の平均電力消費量。
+（PowerMeasure/IfcAreaMeasure）"
+Pset_ThermalLoadDesignCriteria	放射熱のうち顕熱分の割合	放射熱のうち顕熱分負荷の割合。
+Pset_ThermalLoadDesignCriteria	照明負荷率	"単位面積あたり照明機器の平均電力消費量。
+（PowerMeasure/IfcAreaMeasure）"
+Pset_ThermalLoadDesignCriteria	リタン空気への照明機器の放熱率	照明機器からリタン空気（天井裏）への放熱率。
+Pset_TransformerTypeCommon	参照	このプロジェクト (例． 'A-1'　タイプなど)で指定された参照ID。認められた分類体系の分類参照が存在しない場合に適用される。
+Pset_TransformerTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_TransformerTypeCommon	第1電圧	変圧器の1次側に伝送される電圧。
+Pset_TransformerTypeCommon	第2電圧	変圧器の2次側へ出力される電圧。
+Pset_TransformerTypeCommon	第1電流	変圧器の1次側に伝送される電流。
+Pset_TransformerTypeCommon	第2電流	変圧器の2次側へ出力される電流。
+Pset_TransformerTypeCommon	第１周波数	変圧器の1次側に伝送される周波数。
+Pset_TransformerTypeCommon	第2周波数	変圧器の2次側に出力される周波数。
+Pset_TransformerTypeCommon	第1電力	変圧器の1次側に伝送される電力（VA: アンペア）。
+Pset_TransformerTypeCommon	第2電力	変圧器の2次側へ出力される電力（VA: アンペア）。
+Pset_TransformerTypeCommon	最大電力	皮相電力/容量 の最大値　（VA:アンペア）。
+Pset_TransformerTypeCommon	第2電流タイプ	変圧器より出力される第2電流の種類の一覧。
+Pset_TransformerTypeCommon	短絡電圧	%で与えられる変圧器の定格電流における短絡電圧の実数と虚数を定義する複素数。
+Pset_TransformerTypeCommon	インピーダンス実部比率	零相インピーダンスと正相インピーダンス（例．短絡電圧の実部）の間の比率。N-コンダクターを含む三相トランスのために使用。
+Pset_TransformerTypeCommon	インピーダンス虚部比率	零相インピーダンスと正相インピーダンス（例．短絡電圧の虚部）の間の比率。N-コンダクターを含む三相トランスのために使用。
+Pset_TransformerTypeCommon	中性点第1ターミナルがあるかどうか	一次巻線の中性点がターミナルの場合は（=TRUE）、違う場合は（= FALSE）として表示する
+Pset_TransformerTypeCommon	中性点第2ターミナルがあるかどうか	二次巻線の中性点がターミナルの場合は（=TRUE）、違う場合は（= FALSE）として表示する
+Pset_TransportElementCommon	参照記号	参照するID番号。
+Pset_TransportElementCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_TransportElementCommon	搭乗人数定員	搬送要素の人数に関する容量。
+Pset_TransportElementCommon	搭載重量	搬送要素の重さに関する容量。
+Pset_TransportElementCommon	避難出口	避難出口(TRUE)か、通常の出口(FALSE)かを示すフラグ。
+Pset_TransportElementElevator	消防エレベーター	火災時に消防エレベーターとしての利用を想定して設計されているかどうかを示す。消防エレベーターは火災現場へ消防士を運んだり人を避難させるために使われる。
+Pset_TransportElementElevator	幅員	"オブジェクト（エレベータ）の幅。エレベータ昇降機内部表面の左から右の距離を示す。
+形状表現は、Shape representation（IFCの幾何形状表現）およびそこで設定されている幾何形状パラメータにより与えられる。もし、幾何形状パラメータと形状プロパティ情報が一致しない場合は、形状パラメータの値を優先する。"
+Pset_TransportElementElevator	奥行き	"オブジェクト（エレベータ）の奥行き。エレベータドアの内部表面から、反対側の表面までの距離を示す。
+形状表現は、Shape representation（IFCの幾何形状表現）およびそこで設定されている幾何形状パラメータにより与えられる。もし、幾何形状パラメータと形状プロパティ情報が一致しない場合は、形状パラメータの値を優先する。"
+Pset_TransportElementElevator	高さ	"オブジェクト（エレベータ）の高さ。エレベータドアの内部の床面から天井までの距離を示す。
+形状表現は、Shape representation（IFCの幾何形状表現）およびそこで設定されている幾何形状パラメータにより与えられる。もし、幾何形状パラメータと形状プロパティ情報が一致しない場合は、形状パラメータの値を優先する。"
+Pset_TubeBundleTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_TubeBundleTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_TubeBundleTypeCommon	列数	チューブの集合の組立におけるチューブ列数
+Pset_TubeBundleTypeCommon	互い違いの列間隔	互い違いのチューブ列間隔
+Pset_TubeBundleTypeCommon	インライン列間隔	インラインチューブ列間隔
+Pset_TubeBundleTypeCommon	平行流回路数	平行流チューブ回路数
+Pset_TubeBundleTypeCommon	汚れ係数	チューブ束のチューブ汚れ係数
+Pset_TubeBundleTypeCommon	熱伝導率	チューブの熱伝導率
+Pset_TubeBundleTypeCommon	長さ	チューブ束のチューブ長さ
+Pset_TubeBundleTypeCommon	流量	チューブとヘッダー内の総流量
+Pset_TubeBundleTypeCommon	公称直径	チューブ束内のチューブ公称直径又は幅
+Pset_TubeBundleTypeCommon	外径	チューブ束内のチューブ実外径
+Pset_TubeBundleTypeCommon	内径	チューブ束内のチューブ実内径
+Pset_TubeBundleTypeCommon	水平間隔	チューブ束内のチューブ間水平間隔
+Pset_TubeBundleTypeCommon	垂直間隔	チューブ束内のチューブ間垂直間隔
+Pset_TubeBundleTypeCommon	かくはん器有り	かくはん器有りの時 TRUE、無しの時 FALSE
+Pset_TubeBundleTypeFinned	間隔	チューブ束内のフィン間の距離
+Pset_TubeBundleTypeFinned	厚さ	フィンの厚さ
+Pset_TubeBundleTypeFinned	熱伝導率	フィンの熱伝導率
+Pset_TubeBundleTypeFinned	長さ	気流方向に平行に計られたフィンの長さ
+Pset_TubeBundleTypeFinned	高さ	気流方向に垂直に計られたフィンの長さ
+Pset_TubeBundleTypeFinned	直径	円形フィンのみ、フィンの実直径
+Pset_TubeBundleTypeFinned	コルゲートタイプフィン	コルゲートタイプフィンの実直径
+Pset_TubeBundleTypeFinned	コーティング有り	フィンがコーティング有りの場合 TRUE、無しの場合FALSE
+Pset_UnitaryControlElementTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_UnitaryControlElementTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_UnitaryEquipmentTypeAirConditioningUnit	顕熱冷却能力	顕熱冷却能力
+Pset_UnitaryEquipmentTypeAirConditioningUnit	潜熱冷却能力	潜熱冷却能力
+Pset_UnitaryEquipmentTypeAirConditioningUnit	冷却効率	性能係数全負荷運転状態でのエネルギー入力に対する冷却エネルギー出力の割合
+Pset_UnitaryEquipmentTypeAirConditioningUnit	加熱容量	加熱容量
+Pset_UnitaryEquipmentTypeAirConditioningUnit	加熱効率	全負荷加熱状態での熱効率
+Pset_UnitaryEquipmentTypeAirConditioningUnit	凝縮器流量	凝縮器を通る流体の流量
+Pset_UnitaryEquipmentTypeAirConditioningUnit	凝縮器入口温度	凝縮器入口流体温度
+Pset_UnitaryEquipmentTypeAirConditioningUnit	凝縮器出口温度	凝縮器出口流体温度
+Pset_UnitaryEquipmentTypeAirConditioningUnit	外気流量	ユニットに入る外気流量
+Pset_UnitaryEquipmentTypeAirHandler	空調機製造	空調機の組立方法の定義の列挙
+Pset_UnitaryEquipmentTypeAirHandler	空調機ファン・コイル配列	給気ファンと冷却コイルの配置の定義列挙
+Pset_UnitaryEquipmentTypeAirHandler	2層	"空調機は2層になっているか
+TRUE=はい、FALSE=Iいいえ"
+Pset_UnitaryEquipmentTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_UnitaryEquipmentTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_ValvePHistory	パーセント開度	全開時に対する開度量の比率。
+Pset_ValvePHistory	計測流量	バルブを通過する流体の計測された流量
+Pset_ValvePHistory	計測圧力降下	バルブを通過する際の計測された圧力降下
+Pset_ValveTypeAirRelease	自動	弁が自動(TRUE)で操作されるか手動(FALSE)で操作されるかの表示
+Pset_ValveTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_ValveTypeCommon	弁の形	単一ポートSINGLEPORT()=システムで単一入口ポートを持ち、出口ポートは周囲環境である　2ポート直角型(ANGLED_2_PORT)＝中で流れ方向が完全に90度変わる弁　2ポート直行型(STRAIGHT_2_PORT)＝中で流れが真っ直ぐな弁　3ポート直行型(STRAIGHT_3_PORT)＝3つの別々のポートを持つ　4ポート交差型(CROSSOVER_4_PORT)＝4つの別々のポートを持つ
+Pset_ValveTypeCommon	弁操作	"The method of valve operation where:弁操作方法は以下の通り：
+おもり(DROPWEIGHT)＝おもりを付けられたレバーが外される動作で閉まる弁　浮き(FLOAT)＝水位と共に上下する浮きの動作で開閉する弁。浮きはレバーに付けたボール又は他の機構　水力(HYDRAULIC)＝水力アクチュエータで開閉する弁　レバー(LEVER)＝弁内のゲートを回転させるレバーの動作で開閉する弁　ロックシールド(LOCKSHIELD)＝開閉のために特別のロックシールドキーの使用を要求する弁。操作機構は通常の操作の間は覆いで保護されている　電動化(MOTORIZED)＝アクチュエータに付けられた電動モータの動作で開閉する弁　空気圧(PNEUMATIC)＝圧縮空気で動くアクチュエータで開閉する弁　筒型コイル(SOLENOID)＝ゲートに付けられ作動しているコイルの磁界で通常は開に保たれている弁。しかし、もし磁界を発生している電流が消されたらただちに閉まる　ばね(SPRING)＝板に付けられたばねの圧力で、通常は位置を保たれている弁。しかし、もし流体の圧力が、ばねの圧力より十分大きければ開いてしまう。　自動温度調節(THERMOSTATIC)＝前もって決められた要求温度を維持するために、中のポートが開閉する弁　ハンドル(WHEEL)＝弁内のゲートを動かすハンドルの動作で開閉する弁"
+Pset_ValveTypeCommon	弁機構	"機構により可能な弁機能は以下の通り：
+ボール弁(BALL valve)＝本体のシートポートに関連して回転できるポートボールを持つ弁　バタフライ弁(BUTTERFLY valve)＝直径軸あたりに流線型の円板の旋回軸のある弁　CONFIGUREDスクリュー弁(CONFIGUREDGATE Screwdown valve)＝閉鎖ゲートを持つねじ回し式弁。その弁は、弁を通過する時圧力と流量変更をより正確に制御できる方法で形づけられている　グランド弁(GLAND Valve)＝テーパーのついたシートを持った弁。その中に回転プラグがグランドとグランドパッキンによって保持されている　グローブスクリュー弁(GLOBE Screwdown valve)＝ 球形の本体を持つねじ回し式弁　滑プラグ弁(LUBRICATEDPLUG Plug valve)＝プラグ表面と本体との間の圧力を下げるために潤滑油が注入された弁　ニードル弁(NEEDLE Valve)＝管内外の流量を調節する弁。その中に固定した円錐形のシートを閉止ために、流れの軸に沿って動く細長いコーンを持っている　平行スライドスクリュー弁(PARALLELSLIDE Screwdown valve)＝機械加工されたプレートを持つねじ回し式弁。そのプレートはシールを形成するために溝の中を滑る　プラグ弁(PLUG Valve)＝本体のシートポートと関連して回転できる、ポートしたプラグを持つ弁　くさびゲートスクリュー弁(WEDGEGATE Screwdown valve)＝シールを形成するためにテーパーの付いたガイドの中をくさび状の板部品を持つねじ回し式弁"
+Pset_ValveTypeCommon	サイズ	弁（又は、水栓、混合弁等の接続）接続サイズ
+Pset_ValveTypeCommon	試験圧力	試験の時、掛けられる最高圧力
+Pset_ValveTypeCommon	運転圧力	バルブの通常予想される最高運転圧力
+Pset_ValveTypeCommon	流出係数	流出係数（全開のバルブを通過する単位圧力損失当たりの流体の量）一般的にバルブのKv又はCv値で表される
+Pset_ValveTypeCommon	クローズオフレーティング	クローズオフレーティング
+Pset_ValveTypeDrawOffCock	ホースユニオン付き	排水コックにホースユニオン継手が付いているかの表示．付き(= TRUE)無し (= FALSE)
+Pset_ValveTypeFaucet	水栓タイプ	"水栓タイプの範囲をここに明確に定義する
+Bib = 入口が水平で、下に吐出するノズルの水栓　Globe =浴槽の端に付けられ、入口が水平で、本体が部分的に球形で、ノズルが垂直な水栓　Diverter =シャワーヘッドへの混合水の流れを変えられる弁を持った組合せ水栓　DividedFlowCombination = 共通のノズルから出るまで水と湯が分かれたままになっている組合せ水栓　Pillar =垂直な入口と下へ吐出するノズルを持った水栓　SingleOutletCombination =共通のノズルから出る前に水と湯が混合する組合せ水栓　Spray =スプレー状の吐出口を持った水栓　SprayMixing =使用中決められた温度で供給する給水と給湯に接続されたスプレー水栓"
+Pset_ValveTypeFaucet	水栓操作	"水栓の操作方法の範囲をここで明確に定義する：
+CeramicDisc = 口を開閉するセラミックシールを持った急操作水栓　LeverHandle = レバーハンドルで操作される急操作水栓　SelfClosing =サージ圧をもたらさない自閉水栓　QuarterTurn =90度、操作機構を回すことで全開又は全閉できる急操作水栓　QuickAction =操作機構の一つの小さな動きで全開又は全閉できる水栓　ScrewDown =口を開閉するためにねじの主軸を回して中の板又は円板を動かす水栓　SelfClosing = 操作主軸の頂部の圧力で開けられ、圧力が開放された時は、ばね又は錘の動作で閉められる水栓　TimedSelfClosing =前もって決められた時間、吐出する自閉水栓"
+Pset_ValveTypeFaucet	水栓機能	水栓の作動温度を明確に定義する。
+Pset_ValveTypeFaucet	仕上げ	水栓に適用される仕上げの説明
+Pset_ValveTypeFaucet	水栓の頂部	操作機構/水栓の頂部の説明
+Pset_ValveTypeFlushing	フラッシュ率	予め決められた流される水量
+Pset_ValveTypeFlushing	全体閉止装置がついているかどうか	フラッシュ弁に全体閉止装置がついているかどうかの表示（付きTRUE）又は（無しFALSE）
+Pset_ValveTypeFlushing	高圧給水の有無	フラッシュ弁の高圧給水主管への使用が適当かどうかの表示（適 TRUE）又は（不適 FALSE）
+Pset_ValveTypeGasTap	ホースユニオン付き	"排水コックにホースユニオン継手が付いているかの表示．付き
+(= TRUE)無し (= FALSE)"
+Pset_ValveTypeIsolating	ノーマルオープン	もし、TRUEなら弁はノーマルオープン、もし、FALSEならノーマルクローズ
+Pset_ValveTypeIsolating	遮断目的	"その使用の前後関係から遮断弁として使われる弁があるようであれば、遮断弁が使われている理由を定義します。
+注：燃え上がる火の上のランディング弁のように、遮断弁に前後関係から別な名前がつく場合は別です。このようなとき値は定まらない。"
+Pset_ValveTypeMixing	混合制御	混合弁の制御形式の定義
+Pset_ValveTypeMixing	出力側接続口径	混合弁の配管接続サイズ
+Pset_ValveTypePressureReducing	上流圧力	減圧弁の上流の流体運転圧力
+Pset_ValveTypePressureReducing	下流圧力	減圧弁の下流の流体運転圧力
+Pset_ValveTypePressureRelief	リリーフ圧力	バルブのバネやおもりが流体を放出する作動するときの圧力。
+Pset_VibrationIsolatorTypeCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_VibrationIsolatorTypeCommon	振動伝達	振動伝達割合
+Pset_VibrationIsolatorTypeCommon	振動絶縁材静的たわみ	振動絶縁材の静的たわみ
+Pset_VibrationIsolatorTypeCommon	振動絶縁材の圧縮率	振動絶縁材の圧縮率の圧縮率
+Pset_VibrationIsolatorTypeCommon	最高支持重量	振動絶縁材で支えられる最高重量
+Pset_VibrationIsolatorTypeCommon	高さ	負荷を掛ける前の振動絶縁材の高さ
+Pset_WallCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_WallCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_WallCommon	遮音等級	遮音等級情報。関連する建築基準法を参照。
+Pset_WallCommon	耐火等級	主要な耐火等級。関連する建築基準法、消防法などの国家基準を参照。
+Pset_WallCommon	可燃性区分	この部材が可燃性物質で作られているかどうかを示すブーリアン値。
+Pset_WallCommon	熱貫流率	熱貫流率U値。ここでは壁を通した熱移動の方向における全体の熱還流率を示す。
+Pset_WallCommon	外部区分	外部の部材かどうかを示すブーリアン値。もしTRUEの場合、外部の部材で建物の外側に面している。
+Pset_WallCommon	耐力部材	荷重に関係している部材かどうかを示すブーリアン値。
+Pset_WallCommon	防火区画	防火区画を考慮した部材かどうかを示すブーリアン値
+Pset_WasteTerminalTypeCommon	参照記号	この規格(例、Ａ－1)で特定のタイプの参照ＩＤが割り当てられ、等級がなければ等級システムを使って割り当てられます。
+Pset_WasteTerminalTypeCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_WasteTerminalTypeFloorTrap	呼称躯体長	防臭弁の区画の半径か局所座標系のＸ軸に沿って測定された呼称もしくは積算された長さ。
+Pset_WasteTerminalTypeFloorTrap	呼称躯体幅	防臭弁の区画の半径か局所座標系のＹ軸に沿って測定された呼称もしくは積算された長さ。
+Pset_WasteTerminalTypeFloorTrap	呼称躯体深さ	防臭弁の区画の半径か局所座標系のZ軸に沿って測定された呼称もしくは積算された長さ。
+Pset_WasteTerminalTypeFloorTrap	汚水用	"床排水防臭弁の目的が、汚水を受けることの可（=true)否(=false)を示す。
+注意：TRUEの場合、水の流入を防ぐための床防臭弁の周りに直立壁か縁石が配置され、このプロパティセットにおいては直立壁や縁石の提供は処理されない。"
+Pset_WasteTerminalTypeFloorTrap	水位	継手からの水位。
+Pset_WasteTerminalTypeFloorTrap	防臭弁の種類	セットされる予定の床の防臭弁と組み合わせて使われる廃棄物の防臭弁のあらかじめ定義されたタイプの識別情報。
+Pset_WasteTerminalTypeFloorTrap	ろ過装置	溝の防臭弁がろ過装置を備えているかどうか指示する。
+Pset_WasteTerminalTypeFloorTrap	接続口口径	要素からの接続口口径。
+Pset_WasteTerminalTypeFloorTrap	吸気口種類	"防臭弁の吸気口接続口の識別情報。
+
+一つの防臭弁に0.1.2.3.4.の吸気口接続口とパターンがあるときは変化する可能性があります。羅列されるとき、接続口が垂直である様子か、防臭弁の底（南）におかれます。位置1は左(西)に、位置2は上方(北)に、位置3は右(東)に、位置4は下方(南）になる。"
+Pset_WasteTerminalTypeFloorTrap	吸気口サイズ	"吸気口接続口のサイズ
+
+注意：同サイズの吸気口接続口がないものとする。"
+Pset_WasteTerminalTypeFloorTrap	カバー長さ	局所座標系のX軸に沿うか、半径（円状の形の場合）で測定された防臭弁カバーの長さ。
+Pset_WasteTerminalTypeFloorTrap	カバー幅	局所座標系のY軸で測定された防臭弁カバーの長さ。
+Pset_WasteTerminalTypeFloorTrap	カバー材質	カバーか格子の材質。
+Pset_WasteTerminalTypeFloorWaste	呼称躯体長	廃棄物の区画の半径か局所座標系のＸ軸に沿って測定された呼称もしくは積算された長さ。
+Pset_WasteTerminalTypeFloorWaste	呼称躯体幅	廃棄物の半径か局所座標系のＹ軸に沿って測定された呼称もしくは積算された長さ。
+Pset_WasteTerminalTypeFloorWaste	呼称躯体深さ	廃棄物の半径か局所座標系のZ軸に沿って測定された呼称もしくは積算された長さ。
+Pset_WasteTerminalTypeFloorWaste	排気口サイズ	要素からの排気口サイズ。
+Pset_WasteTerminalTypeFloorWaste	カバー長さ	局所座標系のX軸に沿うか、半径（円状の形の場合）で測定された防臭弁カバーの長さ。
+Pset_WasteTerminalTypeFloorWaste	カバー幅	局所座標系のY軸で測定された防臭弁カバーの長さ。
+Pset_WasteTerminalTypeGullySump	汚水槽長さ	局所座標系のX軸に沿うか半径（円状の形の場合）で測定された、汚水槽の長さ。
+Pset_WasteTerminalTypeGullySump	汚水槽幅	局所座標系のY軸に沿う形で測定され汚水槽の長さ。
+Pset_WasteTerminalTypeGullySump	汚水槽深さ	局所座標系のZ軸に沿う形で測定され汚水槽の長さ。
+Pset_WasteTerminalTypeGullySump	溝種類	必要とされるタイプがセットされる溝の定義されたタイプを確認してください。
+Pset_WasteTerminalTypeGullySump	防臭弁種類	必要とされるタイプがセットされる防臭弁の定義されたタイプを確認してください。
+Pset_WasteTerminalTypeGullySump	排気口接続口	要素からの排気口接続口のサイズ。
+Pset_WasteTerminalTypeGullySump	背部接続口種類	"溝防臭弁の吸気口パターンを確認してください。
+
+一つの溝防臭弁に0.1.2.3.4.の吸気口接続口とパターンがあるときは変化する可能性があります。表記されるときは、接続口が垂直である様子か、防臭弁の底（南）におかれます。位置1は左(西)に、位置2は上方(北)に、位置3は右(東)に、位置4は下方(南）になります。"
+Pset_WasteTerminalTypeGullySump	吸気口接続口サイズ	"吸気口接続口のサイズ。
+
+注意：同サイズの吸気口接続口がないものとします。"
+Pset_WasteTerminalTypeGullySump	カバーの長さ	局所座標系のX軸に沿うか、半径（円状の形の場合）で測定された溝防臭弁カバーの長さ。
+Pset_WasteTerminalTypeGullySump	カバーの幅	局所座標系のY軸で測定された溝防臭弁カバーの長さ。
+Pset_WasteTerminalTypeGullyTrap	呼称躯体長	溝防臭弁の半径か局所座標系のＸ軸に沿って測定された呼称もしくは積算された長さ。
+Pset_WasteTerminalTypeGullyTrap	呼称躯体幅	溝防臭弁の半径か局所座標系のＹ軸に沿って測定された呼称もしくは積算された長さ。
+Pset_WasteTerminalTypeGullyTrap	呼称躯体深さ	溝防臭弁の半径か局所座標系のZ軸に沿って測定された呼称もしくは積算された長さ。
+Pset_WasteTerminalTypeGullyTrap	防臭弁の種類	設置する予定の溝をあらかじめ定義でタイプを確認します。
+Pset_WasteTerminalTypeGullyTrap	ろ過装置	溝の防臭弁がろ過装置を備えているかどうかの指示。
+Pset_WasteTerminalTypeGullyTrap	防臭弁の種類	セットされる予定の防臭弁のあらかじめ定義されたタイプを確認します。
+Pset_WasteTerminalTypeGullyTrap	排気口接続口サイズ	要素からの接続口サイズ。
+Pset_WasteTerminalTypeGullyTrap	吸気口接続口サイズ	"吸気口接続口のサイズ。
+
+注意：同サイズの吸気接続口がないものとします。"
+Pset_WasteTerminalTypeGullyTrap	カバーの長さ	局所座標系のX軸に沿うか、半径（円状の形の場合）で測定された溝防臭弁カバーの長さ。
+Pset_WasteTerminalTypeGullyTrap	カバーの幅	局所座標系のY軸で測定された溝防臭弁カバーの長さ。
+Pset_WasteTerminalTypeRoofDrain	呼称躯体長	半径か局所座標系のＸ軸に沿って測定された呼称もしくは積算された配管の長さ。
+Pset_WasteTerminalTypeRoofDrain	呼称躯体幅	半径か局所座標系のＹ軸に沿って測定された呼称もしくは積算された配管の長さ。
+Pset_WasteTerminalTypeRoofDrain	呼称躯体深さ	半径か局所座標系のZ軸に沿って測定された呼称もしくは積算された配管の長さ。
+Pset_WasteTerminalTypeRoofDrain	排気口接続口サイズ	要素からの接続口口径。
+Pset_WasteTerminalTypeRoofDrain	カバーの長さ	局所座標系のX軸に沿うか、半径（円状の形の場合）で測定された配管カバーの長さ。
+Pset_WasteTerminalTypeRoofDrain	カバーの幅	局所座標系のY軸で測定された配管カバーの長さ。
+Pset_WasteTerminalTypeWasteDisposalUnit	配管接続口サイズ	ゴミ処理装置の吸入口配管接続口サイズ。
+Pset_WasteTerminalTypeWasteDisposalUnit	排出口接続口サイズ	ゴミ処理装置の排出口接続口サイズ。
+Pset_WasteTerminalTypeWasteDisposalUnit	深さ	装置の基礎に配管吸入口から測定した深さ。
+Pset_WasteTerminalTypeWasteTrap	廃棄物防臭弁種類	必要とされるタイプがセットされる防臭弁の定義されたタイプを確認してください。
+Pset_WasteTerminalTypeWasteTrap	排出口接続口サイズ	要素からの接続口サイズ。
+Pset_WasteTerminalTypeWasteTrap	吸気口接続口サイズ	"吸気口接続口のサイズ。
+
+注意：同サイズの吸気口接続口がないものとします。"
+Pset_WindowCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_WindowCommon	状態	要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+Pset_WindowCommon	遮音等級	遮音等級情報。関連する建築基準法を参照。
+Pset_WindowCommon	耐火等級	主要な耐火等級。関連する建築基準法、消防法などの国家基準を参照。
+Pset_WindowCommon	防犯等級	防犯等級情報。関連する基準を参照。
+Pset_WindowCommon	外部区分	外部の部材かどうかを示すブーリアン値。もしTRUEの場合、外部の部材で建物の外側に面している。
+Pset_WindowCommon	隙間風	隙間風の流量値。
+Pset_WindowCommon	熱貫流率	熱貫流率U値。ここでは窓を通した熱移動の方向における全体の熱還流率を示す。
+Pset_WindowCommon	ガラス率	"外壁の総面積に対するガラスの面積の比率。
+ガラスの面積が外壁に含まれる全てのパネルと分離されていないときに、使用されます。"
+Pset_WorkControlCommon	作業開始時間	仕事開始予定のデフォルト時刻。プレゼンテーション目的のために、仕事の開始時間がWorkStartTimeと一致するならば、アプリケーションは日付だけを表示するほうを選ぶことが出来る。逆に、時間を指定することなく日付を入力した際、アプリケーションはWorkStartTimeを自動的に追加することが出来る。
+Pset_WorkControlCommon	作業終了時間	作業が終了するスケジュールのデフォルト時刻。
+Pset_WorkControlCommon	作業日数	作業時間を基にした、経過時間の日数。
+Pset_WorkControlCommon	作業週数	作業時間を基にした経過時間の週数。
+Pset_WorkControlCommon	作業月数	作業時間を基にした経過時間の週数の月数。
+Pset_ZoneCommon	参照記号	このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+Pset_ZoneCommon	外部区分	外部の部材かどうかを示すブーリアン値。もしTRUEの場合、外部の部材で建物の外側に面している。
+Pset_ZoneCommon	計画グロス面積	計画されたグロス面積。建物計画に際に使用。
+Pset_ZoneCommon	計画ネット面積	計画されたネット面積。建物計画に際に使用。（通常は、柱型等を抜いた面積となる）
+Pset_ZoneCommon	公共アクセス可能性	この空間が公共アクセス空間かどうかを示すブーリアン値。例：公共トイレの場合（TRUE）。そうでなければ（FALSE）。
+Pset_ZoneCommon	ハンディキャップアクセス可能性	この空間がハンディキャップ者向けの空間かどうかを示す（TRUE）。例：公共トイレの場合。そうでなければ（FALSE）。この情報は、障害者向け利用の必要性や特別なデザインの必要性を示すために利用される。
