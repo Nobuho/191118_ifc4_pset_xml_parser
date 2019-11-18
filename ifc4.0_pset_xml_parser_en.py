@@ -25,8 +25,6 @@ for f in glob("psd/*.xml"):
         row.append(name_pset[0].text)
         row.append(names_en[i].text)
         row.append(note_en[i].text)
-        # row.append(names_jp[i].text)
-        # row.append(note_jp[i].text)
         pset_list.append(row)
 
     print(pset_list)
