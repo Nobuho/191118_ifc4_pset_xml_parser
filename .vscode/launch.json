@@ -10,10 +10,9 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "python.venvFolders": [
-                ".pyenv"
-            ],
-            "python.pythonPath": ".pyenv\\Scripts\\python.exe"
+            "env": {
+                "PYTHONIOENCODING": "UTF-8"
+        }
         }
     ]
 }
