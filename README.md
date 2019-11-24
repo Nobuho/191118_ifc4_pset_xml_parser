@@ -1,21 +1,37 @@
-# 191118_ifc4_pset_xml_parser
+# ifc4-pset-xml-csv-converter
 
-## IFC4.0 TC1のPSETのXMLから、項目を抽出する
+convert IFC4.0 TC1 Pset (default set of propaties and quantities) xml to csv.
 
-psdフォルダ内に対象となるxmlファイルが格納されている。
+## Description
 
-ダウンロード先
+IFC4.0 TC1 has default Pset for property and quantity.This script extract the [name] and [discription] from the XMLs as csv.
 
-https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/
+### Note
 
-4.0.2.1	IFC4 ADD2 TC1　の　HTML ZIPをダウンロードするとxmlファイルが中に入っている。
+These XML fields have some language for each, in this script extract EN and JP. But some of field are not translated, so if you need all of properties you should use EN ver.
 
-直リンク
+## Requirement
 
-https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD2_TC1/ifc4-add2-tc1.zip
+### Library
 
-日本語と英語で項目名と項目説明が書かれているが、一部日本語訳されていないものもあったので、pythonスクリプトは英語csv出力用と日本語csv出力用に分けている。
+lxml
 
-# TODO
+## Install
 
-qtoフォルダのQuantityについてはまだスクリプト作成していない。
+1. Download the pset xml file from official BuildingSMART website.
+
+    Download (select : 4.0.2.1 IFC4 ADD2 TC1 -> HTML ZIP ) 
+
+    https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/
+
+1. Unzip the file and pick up folder [psd] and [qto]
+
+1. Copy them inside of [pset_xml] folder
+
+## Usage
+
+1. Run the scripts then you will get .csv file.
+
+## TODO
+
+- Make a script for qto xml

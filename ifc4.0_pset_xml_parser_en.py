@@ -3,7 +3,7 @@ import csv
 from glob import glob
 import codecs
 
-for f in glob("psd/*.xml"):
+for f in glob("pset_xml/psd/*.xml"):
 
     tree = etree.parse(f)
 
