@@ -5,16 +5,20 @@ import codecs
 
 for f in glob("pset_xml/psd/*.xml"):
 
-    tree = etree.parse(f)
+    tree = etree.parse("pset_xml/qto/Qto_DoorBaseQuantities.xml")
+    root = tree.getroot()
 
-    name_pset = tree.xpath('//PropertySetDef/Name')
+    mynsmap = {}
+    mynsmap = root.nsmap
 
-    names_prop = tree.xpath('//PropertyDef/Name')
+    name_pset = tree.xpath('/QtoSetDef/Name')
+
+    names_prop = tree.xpath('/QtoDef/Name')
 
     names_en = tree.xpath(
-        '//PropertySetDef/PropertyDefs/PropertyDef/NameAliases/NameAlias[@lang="en"]')
+        '/QtoSetDef/QtoDefs/QtoDef/NameAliases/NameAlias[@lang="en"]')
     note_en = tree.xpath(
-        '//PropertySetDef/PropertyDefs/PropertyDef/Definition')
+        '/QtoSetDef/QtoDefs/QtoDef/Definition')
 
     list_names_prop = []
 
