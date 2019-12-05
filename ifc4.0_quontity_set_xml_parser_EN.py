@@ -25,8 +25,6 @@ for f in glob("pset_xml\qto\*.xml"):
 
     # print(set_list)
 
-    
-
     for i in range(len(QtoDef_Names)):
         row = []
         row.append(QtoSet_Name[0])
